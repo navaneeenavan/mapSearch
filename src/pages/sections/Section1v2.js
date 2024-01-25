@@ -92,7 +92,7 @@ function Section1v2({ scrollByVH }) {
     <React.Fragment>
 
       <div
-        className={`lg:hidden pt-12 flex flex-row w-screen ${isOpen && "shadow-lg"
+        className={`lg:hidden pt-12 bg-white flex flex-row w-screen ${isOpen && "shadow-lg"
           } h-auto absolute`}
       >
         <div className={`px-4 ${isOpen ? "h-full pb-[110%]" : "h-fit"} z-40 bg-white`}>
@@ -101,12 +101,12 @@ function Section1v2({ scrollByVH }) {
         </div>
         <div
           className={`w-screen divide-y divide-gray-600 ${isOpen ? "h-auto overflow-hidden z-60" : "hidden h-0 overflow-hidden"
-            } transition-all ease-in-out duration-300 w-3/4 bg-white`}
+            } transition-all ease-in-out duration-300 w-5/6 bg-white`}
         >
 
 
           <div
-            className={`w-screen flex flex-col font-poppins absolute ${isOpen ? "z-40 h-full" : "-z-20"
+            className={`w-5/6 flex flex-col font-poppins absolute ${isOpen ? "z-70 h-[50%]" : "-z-20"
               } transition-all ease-in-out duration-300 bg-white`}
           >
             <button
@@ -116,7 +116,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Events
             </button>
@@ -127,7 +127,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Paper Presentations
             </button>
@@ -138,7 +138,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Workshops
             </button>
@@ -149,7 +149,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Sponsors
             </button>
@@ -160,7 +160,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Our Team
             </button>
@@ -171,7 +171,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               FAQs
             </button>
@@ -182,7 +182,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2 mb-8`}
+              className={`w-full text-gray-600 text-left text-base py-2 mb-8`}
             >
               Contact Us
             </button>
@@ -258,16 +258,16 @@ function Section1v2({ scrollByVH }) {
         </div>
       </div>
 
-      <div className="flex justify-center items-center lg:hidden pb-8">
+      <div className="flex justify-center items-center lg:hidden py-16">
       <img src="/assets/Logo/Kriya_KLA_Logo_Final.png" />
 
       </div>
 
       <h1
         id="tagline"
-        className="uppercase lg:hidden delay-500 font-poppins text-3xl lg:text-[2.5rem] font-semibold ml-8 -mt-24 lg:-ml-40 lg:-mt-0 lg:mb-8"
+        className="uppercase lg:hidden delay-500 font-poppins text-3xl lg:text-[2.5rem] font-semibold ml-8 -mt-24 mb-6 lg:-ml-40 lg:-mt-0 lg:mb-8"
       >
-        <span className="bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] text-white leading-[3.25rem] lg:leading-[4rem] relative font-poppins">
+        <span className="bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] text-white leading-[3rem] lg:leading-[4rem] relative font-poppins">
           The Global Clash of Techno Talents.
         </span>
       </h1>

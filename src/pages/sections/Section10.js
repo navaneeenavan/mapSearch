@@ -66,7 +66,7 @@ const Section10 = ({ scrollYByVH }) => {
                         : ""
                 } relative`}
               style={{
-                background: "url(/assets/EventGrid/robo.png)",
+                background: "url(/assets/EventGrid/speed_drift.jpg)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -78,10 +78,10 @@ const Section10 = ({ scrollYByVH }) => {
                   : "opacity-0 -tracking-[0.2em]"
                   }`}
               >
-                Robo Rush
+                Speed Drifters
               </p>
               <Link
-                to="/portal/event/EVNT0024"
+                to="/portal/event/EVNT0034"
                 className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-4 ${hoverState !== -2 && "hidden"
                   }`}
               >
@@ -100,7 +100,9 @@ const Section10 = ({ scrollYByVH }) => {
                       ? "w-[75%] z-30 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.6))] h-24"
                       : hoverState === 2
                         ? "w-[50%] z-20 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.8))] h-20"
-                        : ""
+                        : hoverState === 3
+                          ? "w-[25%] z-10 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.85))] h-16"
+                          : ""
                 } relative`}
               style={{
                 background: "url(/assets/EventGrid/openquiz.jpg)",
@@ -118,7 +120,7 @@ const Section10 = ({ scrollYByVH }) => {
                 Open Quiz
               </p>
               <Link
-                to="/portal/event/EVNT0038"
+                to="/portal/event/EVNT0020"
                 className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-4 ${hoverState !== -1 && "hidden"
                   }`}
               >
@@ -137,10 +139,12 @@ const Section10 = ({ scrollYByVH }) => {
                       ? "w-[90%] z-40 [filter:drop-shadow(0px_0px_2rem_rgba(0,0,0,0.4))] h-36"
                       : hoverState === 2
                         ? "w-[75%] z-30 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.6))] h-24"
-                        : ""
+                        : hoverState === 3
+                          ? "w-[50%] z-20 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.8))] h-16"
+                          : ""
                 } relative`}
               style={{
-                background: "url(/assets/EventGrid/maze.jpg)",
+                background: "url(/assets/EventGrid/nextech.jpg)",
                 backgroundSize: "cover",
                 backgroundPosition: "50% 10%",
                 backgroundRepeat: "no-repeat",
@@ -152,10 +156,10 @@ const Section10 = ({ scrollYByVH }) => {
                   : "opacity-0 -tracking-[0.2em]"
                   }`}
               >
-                Maze Runner
+                Nex Tech
               </p>
               <Link
-                to="/portal/event/EVNT0009"
+                to="/portal/event/EVNT0026"
                 className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-4 ${hoverState !== 0 && "hidden"
                   }`}
               >
@@ -174,7 +178,9 @@ const Section10 = ({ scrollYByVH }) => {
                       ? "w-full z-50 [filter:drop-shadow(0px_0px_4rem_rgba(0,0,0,0.3))] h-56"
                       : hoverState === 2
                         ? "w-[90%] z-40 [filter:drop-shadow(0px_0px_2rem_rgba(0,0,0,0.4))] h-36"
-                        : ""
+                        : hoverState === 3
+                          ? "w-[75%] z-30 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.6))] h-24"
+                          : ""
                 } relative`}
               style={{
                 background: "url(/assets/EventGrid/aquajet.jpg)",
@@ -192,7 +198,7 @@ const Section10 = ({ scrollYByVH }) => {
                 Aqua Jet
               </p>
               <Link
-                to="/portal/event/EVNT0023"
+                to="/portal/event/EVNT0001"
                 className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-4 ${hoverState !== 1 && "hidden"
                   }`}
               >
@@ -211,10 +217,12 @@ const Section10 = ({ scrollYByVH }) => {
                       ? "w-[90%] z-40 [filter:drop-shadow(0px_0px_2rem_rgba(0,0,0,0.4))] h-36"
                       : hoverState === 2
                         ? "w-full z-50 [filter:drop-shadow(0px_0px_4rem_rgba(0,0,0,0.3))] h-56"
-                        : ""
+                        : hoverState === 3
+                          ? "w-[90%] z-40 [filter:drop-shadow(0px_0px_2rem_rgba(0,0,0,0.4))] h-36"
+                          : ""
                 } relative`}
               style={{
-                background: "url(/assets/EventGrid/drones.jpeg)",
+                background: "url(/assets/EventGrid/robot.png)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -226,11 +234,56 @@ const Section10 = ({ scrollYByVH }) => {
                   : "opacity-0 -tracking-[0.2em]"
                   }`}
               >
-                League of Drones
+                RC Grand Prix
               </p>
               <Link
-                to="/portal/event/EVNT0039"
+                to="/portal/event/EVNT0030"
                 className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-4 ${hoverState !== 2 && "hidden"
+                  }`}
+              >
+                Know More
+              </Link>
+            </div>
+            <div
+              onClick={() => {
+                if (hoverState === 3) {
+                  navigate("/portal/event/EVNT0031");
+                } else {
+                  setHoverState(3)
+                }
+              }}
+              className={`transition-all rounded-2xl flex flex-col items-center justify-center -mt-8 ${hoverState === -2
+                ? "w-[20%] z-5 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,1))] h-16"
+                : hoverState === -1
+                  ? "w-[25%] z-15 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.8))] h-20"
+                  : hoverState === 0
+                    ? "w-[50%] z-25 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.6))] h-24"
+                    : hoverState === 1
+                      ? "w-[75%] z-35 [filter:drop-shadow(0px_0px_2rem_rgba(0,0,0,0.4))] h-36"
+                      : hoverState === 2
+                        ? "w-[90%] z-45 [filter:drop-shadow(0px_0px_4rem_rgba(0,0,0,0.3))] h-56"
+                        : hoverState === 3
+                          ? "w-full z-50 [filter:drop-shadow(0px_0px_4rem_rgba(0,0,0,0.2))] h-60"
+                          : ""
+                } relative`}
+              style={{
+                background: "url(/assets/EventGrid/robo_prix.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+              <p
+                className={`text-3xl uppercase text-white duration-500 delay-200 transition-all font-bold font-poppins ${hoverState === 3
+                  ? "opacity-100 tracking-widest"
+                  : "opacity-0 -tracking-[0.2em]"
+                  }`}
+              >
+                Robot Grand Prix
+              </p>
+              <Link
+                to="/portal/event/EVNT0031"
+                className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-4 ${hoverState !== 3 && "hidden"
                   }`}
               >
                 Know More
@@ -356,7 +409,7 @@ const Section10 = ({ scrollYByVH }) => {
           </button>
           <button
             onClick={() => {
-              hoverState < 2 && setHoverState(hoverState + 1);
+              hoverState < 3 && setHoverState(hoverState + 1);
             }}
           >
             <MdOutlineArrowDownward />
