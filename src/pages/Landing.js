@@ -75,7 +75,7 @@ const Landing = () => {
   }, [searchParams]);
 
   const condition =
-    parseFloat(consolee) + 0.25 >= 0.50 && parseFloat(consolee) + 0.25 <= 2.75;
+    parseFloat(consolee) + 0.25 >= 1 && parseFloat(consolee) + 0.25 <= 3;
 
   return (
     <React.Fragment>
@@ -321,7 +321,7 @@ const NavBarForMobile = ({ consolee }) => {
         }  lg:hidden z-50 w-screen lg:w-1/4 ${!condition ? "bg-white" : "bg-black"
         } fixed lg:relative top-0 max-h-screen lg:h-screen overflow-y-scroll px-4 font-poppins shadow-md`}
     >
-      <div className="flex w-screen justify-between items-center sticky top-0 h-[3.25rem]">
+      <div className="flex w-full justify-between items-center sticky top-0 h-[3.25rem]">
         <MenuToggle isOpen={isOpen} setIsOpen={setIsOpen} />
         <button
           onClick={(e) => {
@@ -361,7 +361,7 @@ const NavBarForMobile = ({ consolee }) => {
           } transition-all w-5/6 ease-in-out duration-300`}
         id="landingNavOpen"
       >
-        <div className="py-8 pl-4 w-3/4 flex flex-col"
+        <div className="py-8 pl-4 w-full flex flex-col"
           id="landingNavElements"
         >
           <button
