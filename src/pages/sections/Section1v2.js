@@ -440,7 +440,7 @@ function Section1v2({ scrollByVH }) {
       {/* MOB SECTION */}
       
 
-      <video ref={videoRef} muted width='100%' height='100%' className="absolute z-[0]">
+      <video ref={videoRef} muted width='100%' className="hidden md:hidden lg:block absolute z-[0] object-cover">
 
         <source src="/assets/kriya_logo.mp4" type="video/mp4"/>
       </video>

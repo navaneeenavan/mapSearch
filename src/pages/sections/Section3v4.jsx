@@ -22,11 +22,11 @@ const Section3v4 = () => {
 
   return (
 
-    <div id='section3' className='flex justify-center text-white items-center py-28 '>
+    <div id='section3' className='flex justify-center bg-white text-white items-center py-28 '>
       <div className='grid grid-cols-1 lg:grid-cols-6 gap-4 px-[15%]'>
 
         <motion.div variants={variant1} initial='initial' whileHover='hover' className='hover:shadow-2xl flex flex-col space-y-4 lg:col-span-3 justify-between bg-1 bg-cover rounded-xl py-8 px-6'>
-          <h1 className='text-3xl sm:text-5xl font-poppins font-bold'>
+          <h1 className='text-3xl sm:text-[2.25rem] font-poppins font-bold'>
             Kriyative
           </h1>
 
@@ -51,7 +51,7 @@ const Section3v4 = () => {
         </motion.div>
 
         <motion.div variants={variant1} initial='initial' whileHover='hover' className='bg-2 bg-cover hover:shadow-2xl flex flex-col space-y-4 lg:col-span-3 justify-between rounded-xl bg-[#8f3ccf] py-8 px-6'>
-          <h1 className='text-3xl sm:text-5xl font-poppins font-bold'>
+          <h1 className='text-3xl sm:text-[2.25rem] font-poppins font-bold'>
             Brainiac
           </h1>
 
@@ -77,8 +77,8 @@ const Section3v4 = () => {
 
         </motion.div>
 
-        <motion.div variants={variant1} initial='initial' whileHover='hover' className='bg-3 bg-cover hover:shadow-2xl flex flex-col space-y-4 lg:col-span-4 justify-between rounded-xl bg-[#dc4fab] py-8 px-6'>
-          <h1 className='text-3xl sm:text-5xl font-poppins font-bold'>
+        <motion.div variants={variant1} initial='initial' whileHover='hover' className='bg-3 bg-cover hover:shadow-2xl flex flex-col space-y-4 lg:col-span-3 justify-between rounded-xl bg-[#dc4fab] py-8 px-6'>
+          <h1 className='text-3xl sm:text-[2.25rem] font-poppins font-bold'>
             Coding
           </h1>
 
@@ -103,8 +103,8 @@ const Section3v4 = () => {
 
         </motion.div>
 
-        <motion.div variants={variant1} initial='initial' whileHover='hover' className='bg-4 bg-cover hover:shadow-2xl flex flex-col space-y-4 lg:col-span-2 justify-between rounded-xl bg-[#e8567c] py-8 px-6'>
-          <h1 className='text-3xl sm:text-5xl font-poppins font-bold'>
+        <motion.div variants={variant1} initial='initial' whileHover='hover' className='bg-4 bg-cover hover:shadow-2xl flex flex-col space-y-4 lg:col-span-3 justify-between rounded-xl bg-[#e8567c] py-8 px-6'>
+          <h1 className='text-3xl sm:text-[2.25rem] font-poppins font-bold'>
             Amuse
           </h1>
 
@@ -128,7 +128,7 @@ const Section3v4 = () => {
         </motion.div>
 
         <motion.div variants={variant1} initial='initial' whileHover='hover' className='bg-5 bg-right-bottom bg-cover hover:shadow-2xl flex flex-col space-y-4 lg:col-span-2 justify-between rounded-xl bg-[#eac64a] py-8 px-6'>
-          <h1 className='text-3xl sm:text-5xl font-poppins font-bold'>
+          <h1 className='text-3xl sm:text-[2.25rem] font-poppins font-bold'>
             Core Engineering
           </h1>
 
@@ -154,7 +154,7 @@ const Section3v4 = () => {
 
         <motion.div variants={variant1} initial='initial' whileHover='hover' className='bg-2 bg-right-bottom bg-cover hover:shadow-2xl flex flex-col space-y-4 lg:col-span-2 justify-between rounded-xl bg-[#e8567c] py-8 px-6'>
           <h1
-            className={`text-3xl sm:text-5xl font-poppins font-bold events-text text-white opacity-100 lg:text-left`}
+            className={`text-3xl sm:text-[2.25rem] font-poppins font-bold events-text text-white opacity-100 lg:text-left`}
           >
             Unleash your
             <span>
@@ -178,7 +178,7 @@ const Section3v4 = () => {
         <motion.div variants={variant1} initial='initial' whileHover='hover' className='bg-1 bg-right-bottom bg-cover hover:shadow-2xl flex flex-col space-y-4 lg:col-span-2  rounded-xl bg-[#02b7e6] py-8 px-6 overflow-hidden'>
 
 
-          <h1 className='text-3xl sm:text-5xl font-poppins font-bold'>
+          <h1 className='text-3xl lg:text-[2.25rem] font-poppins font-bold'>
             Management
           </h1>
 

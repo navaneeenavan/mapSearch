@@ -40,7 +40,7 @@ const Section11 = () => {
 
   function Number({ n }) {
     const props = useSpring({
-      from: { number: 499900 },
+      from: { number: 559990 },
       number: n,
       delay: 200,
       config: { mass: 1, tension: 20, friction: 10 },
@@ -51,17 +51,16 @@ const Section11 = () => {
   }
 
   return (
-    <div className="w-full relative mb-16 lg:mb-0"
-      style={{
+      <section
+        id="section11"
+        className="w-full relative lg:px-[calc(100vw/12)] lg:p-16 flex flex-col-reverse lg:flex-row items-center justify-center"
+        style={{
         background: `linear-gradient(${condition_direction}, rgba(${condition_bg},0.8), rgba(${condition_bg},0.9)), url(/assets/Design/prizebg.png)`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         transition:'background 0.3s ease',
         backgroundSize: "cover"
-      }}>
-      <section
-        id="section11"
-        className="w-full relative lg:px-[calc(100vw/12)] lg:p-16 flex flex-col-reverse lg:flex-row items-center justify-center"
+      }}
       >
         <div className="w-full px-12 py-20 lg:py-40">
           <h1
@@ -71,17 +70,17 @@ const Section11 = () => {
               Register now to win from an exciting prize pool worth
             </p>
             <span className="text-5xl lg:text-[10rem] tracking-wide lg:tracking-wider bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] drop-shadow-xl font-poppins">
-              <span className="font-oswald">₹ {" "}</span>{<Number n={550000} />}
+              <span className="font-oswald">₹ {" "}</span>{<Number n={559999} />}
             </span>
           </h1>
         </div>
-      </section>
-      <a
+        <a
         id="anchor11"
-        className="absolute top-[40%] lg:top-[75%] w-full h-20 -z-10"
+        className="hidden top-[40%] lg:top-[75%] w-full h-20 -z-10"
       ></a>
-      <div className="absolute top-[100%] w-full h-10"></div>
-    </div>
+      <div className="hidden top-[100%] w-full h-10"></div>
+      </section>
+      
   );
 };
 

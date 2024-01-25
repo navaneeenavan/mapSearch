@@ -53,7 +53,7 @@ const Section12 = ({ scrollYByVH }) => {
         <img src={bgUrl} className="hidden lg:block w-full  h-full " alt="Syed Subahan"/>
         <img src={mobBgUrl} className=" mt-20 w-full lg:hidden" alt="Syed Subahan"/>
 
-        {/* <div className="flex-1 h-full flex flex-col items-center lg:items-end justify-center px-12 lg:pl-0">
+        <div className=" lg:hidden flex-1 h-full flex flex-col items-center lg:items-end justify-center px-12 lg:pl-0">
           <h1
             className={`mt-8 lg:mt-0 text-4xl lg:text-4xl font-poppins font-semibold ${condition} transition-colors duration-300 ease-in-out text-center lg:text-right`}
           >
@@ -146,7 +146,7 @@ const Section12 = ({ scrollYByVH }) => {
               </button>
             </div>
           </div>
-        </div> */}
+        </div>
       </section>
       <a id="anchor2" className="absolute top-[35%] w-full h-20 -z-10"></a>
     </div>
