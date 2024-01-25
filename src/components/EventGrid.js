@@ -95,7 +95,7 @@ const EventGrid = ({
         <div className="lg:hidden shadow-lg w-full bg-gray-200 rounded-b-xl px-4 font-poppins">
           <div className="flex flex-row justify-evenly py-2 text-gray-700 text-base">
             <div className="pt-2">
-              <p className="font-poppins font-semibold text-center">{date}<sup>th</sup> March</p>
+              <p className="font-poppins font-semibold text-center">{date}<sup>th</sup> Feb</p>
               <p className="font-poppins text-center">Date</p>
             </div>
 

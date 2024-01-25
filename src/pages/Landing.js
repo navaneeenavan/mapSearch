@@ -98,7 +98,7 @@ const Landing = () => {
         }}
       >
         {!paid && popup && (
-          <div className={`fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 z-\[100\] flex items-center justify-center`}>
+          <div className={`fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 z-\[100\] hidden items-center justify-center`}>
             <div className="bg-gradient-to-l from-[#eccdde] to-[#cfbaea] w-[20rem] lg:w-[36rem] h-[24rem] p-8 rounded-2xl flex items-center justify-center relative">
               <button
                 className="absolute right-4 top-4 text-2xl text-black"

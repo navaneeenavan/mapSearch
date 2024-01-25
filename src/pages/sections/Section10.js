@@ -52,7 +52,13 @@ const Section10 = ({ scrollYByVH }) => {
         <div className="hidden lg:w-[60%] h-full lg:flex items-center justify-center">
           <div className="w-full flex flex-col items-center">
             <div
-              onClick={() => setHoverState(-2)}
+              onClick={() => {
+                if (hoverState === -2) {
+                  navigate("/portal/event/EVNT0034");
+                } else {
+                  setHoverState(-2)
+                }
+              }}
               className={`transition-all rounded-2xl flex flex-col items-center justify-center -mt-0 ${hoverState === -2
                 ? "w-full z-50 [filter:drop-shadow(0px_0px_4rem_rgba(0,0,0,0.3))] h-56"
                 : hoverState === -1
@@ -89,7 +95,13 @@ const Section10 = ({ scrollYByVH }) => {
               </Link>
             </div>
             <div
-              onClick={() => setHoverState(-1)}
+              onClick={() => {
+                if (hoverState === -1) {
+                  navigate("/portal/event/EVNT0020");
+                } else {
+                  setHoverState(-1)
+                }
+              }}
               className={`transition-all rounded-2xl flex flex-col items-center justify-center -mt-8 ${hoverState === -2
                 ? "w-[90%] z-40 [filter:drop-shadow(0px_0px_2rem_rgba(0,0,0,0.4))] h-36"
                 : hoverState === -1
@@ -128,7 +140,13 @@ const Section10 = ({ scrollYByVH }) => {
               </Link>
             </div>
             <div
-              onClick={() => setHoverState(0)}
+              onClick={() => {
+                if (hoverState === 0) {
+                  navigate("/portal/event/EVNT0026");
+                } else {
+                  setHoverState(0)
+                }
+              }}
               className={`transition-all rounded-2xl flex flex-col items-center justify-center -mt-8 ${hoverState === -2
                 ? "w-[75%] z-30 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.6))] h-24"
                 : hoverState === -1
@@ -167,7 +185,13 @@ const Section10 = ({ scrollYByVH }) => {
               </Link>
             </div>
             <div
-              onClick={() => setHoverState(1)}
+              onClick={() => {
+                if (hoverState === 1) {
+                  navigate("/portal/event/EVNT0001");
+                } else {
+                  setHoverState(1)
+                }
+              }}
               className={`transition-all rounded-2xl flex flex-col items-center justify-center -mt-8 ${hoverState === -2
                 ? "w-[50%] z-20 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,0.8))] h-20"
                 : hoverState === -1
@@ -206,7 +230,13 @@ const Section10 = ({ scrollYByVH }) => {
               </Link>
             </div>
             <div
-              onClick={() => setHoverState(2)}
+              onClick={() => {
+                if (hoverState === 2) {
+                  navigate("/portal/event/EVNT0030");
+                } else {
+                  setHoverState(2)
+                }
+              }}
               className={`transition-all rounded-2xl flex flex-col items-center justify-center -mt-8 ${hoverState === -2
                 ? "w-[25%] z-10 [filter:drop-shadow(0px_0px_1rem_rgba(0,0,0,1))] h-16"
                 : hoverState === -1
@@ -294,9 +324,9 @@ const Section10 = ({ scrollYByVH }) => {
         <div className="w-full flex flex-col items-center space-y-4 lg:hidden px-4 mt-16">
           <Link
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
-            to="/portal/event/EVNT0024"
+            to="/portal/event/EVNT0034"
             style={{
-              background: "url(/assets/EventGrid/robo.png)",
+              background: "url(/assets/EventGrid/speed_drift.jpg)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -305,7 +335,7 @@ const Section10 = ({ scrollYByVH }) => {
             <p
               className={`text-3xl uppercase text-white font-bold font-poppins backdrop-blur-sm`}
             >
-              Robo Rush
+              Speed Drifters
             </p>
             <p
               className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-2 backdrop-blur-sm`}
@@ -315,7 +345,7 @@ const Section10 = ({ scrollYByVH }) => {
           </Link>
           <Link
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
-            to="/portal/event/EVNT0038"
+            to="/portal/event/EVNT0020"
             style={{
               background: "url(/assets/EventGrid/openquiz.jpg)",
               backgroundSize: "cover",
@@ -336,9 +366,9 @@ const Section10 = ({ scrollYByVH }) => {
           </Link>
           <Link
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
-            to="/portal/event/EVNT0009"
+            to="/portal/event/EVNT0026"
             style={{
-              background: "url(/assets/EventGrid/maze.jpg)",
+              background: "url(/assets/EventGrid/nextech.jpg)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -347,7 +377,7 @@ const Section10 = ({ scrollYByVH }) => {
             <p
               className={`text-3xl uppercase text-white font-bold font-poppins backdrop-blur-sm`}
             >
-              Maze Runner
+              Nex Tech
             </p>
             <p
               className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-2 backdrop-blur-sm`}
@@ -357,7 +387,7 @@ const Section10 = ({ scrollYByVH }) => {
           </Link>
           <Link
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
-            to="/portal/event/EVNT0023"
+            to="/portal/event/EVNT0001"
             style={{
               background: "url(/assets/EventGrid/aquajet.jpg)",
               backgroundSize: "cover",
@@ -378,9 +408,9 @@ const Section10 = ({ scrollYByVH }) => {
           </Link>
           <Link
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
-            to="/portal/event/EVNT0039"
+            to="/portal/event/EVNT0030"
             style={{
-              background: "url(/assets/EventGrid/drones.jpeg)",
+              background: "url(/assets/EventGrid/robot.png)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -389,7 +419,28 @@ const Section10 = ({ scrollYByVH }) => {
             <p
               className={`text-3xl uppercase text-white font-bold font-poppins backdrop-blur-sm`}
             >
-              League of Drones
+              RC Grand Prix
+            </p>
+            <p
+              className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-2 backdrop-blur-sm`}
+            >
+              Know More
+            </p>
+          </Link>
+          <Link
+            className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
+            to="/portal/event/EVNT0031"
+            style={{
+              background: "url(/assets/EventGrid/robo_prix.jpg)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <p
+              className={`text-3xl uppercase text-white font-bold font-poppins backdrop-blur-sm`}
+            >
+              Robot Grand Prix
             </p>
             <p
               className={`text-gray-200 hover:text-white uppercase tracking-wider text-sm mt-2 backdrop-blur-sm`}
