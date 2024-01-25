@@ -76,9 +76,9 @@ const Section7 = () => {
             We bring our creativity and attention to detail to every event we
             plan, ensuring a seamless and unforgettable experience for you all.
           </p>
-          {/* <ImageGrid vertical="Overall Coordinators" /> */}
+          <ImageGrid vertical="Overall Coordinators" />
           <ImageGrid vertical="Ambience and Creativity" />
-          {/* <ImageGrid vertical="App and Web Development" /> */}
+          <ImageGrid vertical="App and Web Development" />
           <ImageGrid vertical="Design & Photography" />
           <ImageGrid vertical="Events Resource Management" />
           <ImageGrid vertical="PR and Sponsorship" />
@@ -160,7 +160,7 @@ const ImageGrid = ({ vertical }) => {
         {TeamDetails.filter((i) => i.vertical === vertical).map((item, i) => {
           return (
             <div
-              className="w-24 h-24 lg:w-36 lg:h-36 aspect-square overflow-hidden rounded-full"
+              className="w-24 h-24 lg:w-36 lg:h-36 aspect-square overflow-hidden rounded-full "
               id="flip-card"
             >
               <div className="w-full h-full" id="flip-card-inner">
@@ -169,8 +169,8 @@ const ImageGrid = ({ vertical }) => {
                   className="w-full h-full "
                   style={{
                     background: `url(${item.image_url}), #f5f5f5`,
-                    backgroundPosition: "top",
-                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundSize: "contain",
                     backgroundRepeat: "no-repeat",
                     // filter: "grayscale(100%)",
                   }}
