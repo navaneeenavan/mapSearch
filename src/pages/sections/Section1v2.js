@@ -93,20 +93,20 @@ function Section1v2({ scrollByVH }) {
 
       <div
         className={`lg:hidden pt-12 flex flex-row w-screen ${isOpen && "shadow-lg"
-          } h-[50vh]`}
+          } h-auto absolute`}
       >
-        <div className={`px-4 ${isOpen ? "h-full pb-[110%]" : "h-fit"} z-10 bg-white`}>
+        <div className={`px-4 ${isOpen ? "h-full pb-[110%]" : "h-fit"} z-40 bg-white`}>
           <MenuToggle isOpen={isOpen} setIsOpen={setIsOpen} />
 
         </div>
         <div
-          className={`divide-y divide-gray-600 ${isOpen ? "h-full overflow-hidden" : "h-0 overflow-hidden"
+          className={`w-screen divide-y divide-gray-600 ${isOpen ? "h-auto overflow-hidden z-60" : "hidden h-0 overflow-hidden"
             } transition-all ease-in-out duration-300 w-3/4 bg-white`}
         >
 
 
           <div
-            className={`w-5/6 flex flex-col font-poppins absolute ${isOpen ? "z-20 h-[50%]" : "-z-20"
+            className={`w-5/6 flex flex-col font-poppins absolute ${isOpen ? "z-70 h-[50%]" : "-z-20"
               } transition-all ease-in-out duration-300 bg-white`}
           >
             <button
@@ -116,7 +116,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Events
             </button>
@@ -127,7 +127,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Paper Presentations
             </button>
@@ -138,7 +138,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Workshops
             </button>
@@ -149,7 +149,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Sponsors
             </button>
@@ -160,7 +160,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Our Team
             </button>
@@ -171,7 +171,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               FAQs
             </button>
@@ -182,11 +182,11 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2 mb-8`}
             >
               Contact Us
             </button>
-            <div className="flex-1"></div>
+            
             <div className="flex flex-row space-x-8 pb-8">
               <button
                 className="hover:-translate-y-2 transition-all duration-500 ease-in-out"
@@ -258,15 +258,20 @@ function Section1v2({ scrollByVH }) {
         </div>
       </div>
 
+      <div className="flex justify-center items-center lg:hidden pb-8">
+      <img src="/assets/Logo/Kriya_KLA_Logo_Final.png" />
+
+      </div>
+
       <h1
         id="tagline"
         className="uppercase lg:hidden delay-500 font-poppins text-3xl lg:text-[2.5rem] font-semibold ml-8 -mt-24 lg:-ml-40 lg:-mt-0 lg:mb-8"
       >
-        <span className="bg-gradient-to-r from-[#C80067] to-[#7300fe] text-white leading-[3.25rem] lg:leading-[4rem] relative font-poppins">
+        <span className="bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] text-white leading-[3.25rem] lg:leading-[4rem] relative font-poppins">
           The Global Clash of Techno Talents.
         </span>
       </h1>
-      <div className="w-full flex flex-col items-center">
+      <div className="w-screen flex flex-col items-center">
         <div className="lg:hidden flex flex-row w-full text-[#3c4043] font-poppins font-semibold justify-between">
           <div className="w-1/3 flex flex-col items-center justify-between space-y-2">
             <div className="text-5xl">
@@ -297,7 +302,7 @@ function Section1v2({ scrollByVH }) {
           <div className="flex flex-row space-x-6 lg:hidden mt-8 items-center justify-center lg:px-12 w-full px-16 z-10">
             <button
               id="registration-prompt"
-              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#3b82f6] border-2 border-[#3b82f6] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
               onClick={() => {
                 navigate("/portal/profile");
               }}
@@ -306,7 +311,7 @@ function Section1v2({ scrollByVH }) {
             </button>
             <button
               id="registration-prompt"
-              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#3b82f6] border-2 border-[#3b82f6] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
               onClick={() => {
                 localStorage.clear();
                 window.location.reload();
@@ -319,7 +324,7 @@ function Section1v2({ scrollByVH }) {
           <div className="flex flex-row space-x-6 lg:hidden mt-8 items-center justify-center lg:px-12 w-full px-16 z-10">
             <button
               id="registration-prompt"
-              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#3b82f6] border-2 border-[#3b82f6] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
               onClick={() => {
                 navigate("/auth?type=signup");
               }}
@@ -328,7 +333,7 @@ function Section1v2({ scrollByVH }) {
             </button>
             <button
               id="registration-prompt"
-              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#3b82f6] border-2 border-[#3b82f6] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
               onClick={() => {
                 navigate("/auth?type=login");
               }}
@@ -483,7 +488,7 @@ function Section1v2({ scrollByVH }) {
                     const element = document.getElementById("section8");
                     element.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className="mt-5 text-sm text-gray-600 font-poppins uppercase  tracking-wide  hover:text-black mx-4"
+                  className="mt-5 text-sm text-gray-600 font-poppins uppercase hover:cursor-pointer tracking-wide  hover:text-black mx-4"
                 >
                   FAQ
                 </li>
@@ -492,22 +497,12 @@ function Section1v2({ scrollByVH }) {
                     const element = document.getElementById("section9");
                     element.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className="mt-5 text-sm text-gray-600 font-poppins uppercase tracking-wide  hover:text-black mx-4"
+                  className="mt-5 text-sm text-gray-600 font-poppins uppercase hover:cursor-pointer tracking-wide hover:text-black mx-4"
                 >
                   Contact Us
                 </li>
-                <li
-                  onClick={() =>
-                    window.open(
-                      "https://www.instagram.com/kriya_psgtech/",
-                      "_blank"
-                    )
-                  }
-                  className="mt-5 text-sm text-gray-600 font-poppins uppercase  tracking-wide  hover:text-black mx-4"
-                >
-                  Admin
-                </li>
-                <div className="flex ml-5 items-start justify-start h-full">
+               
+                <div className="flex ml-10 items-end justify-start h-full">
                   <button
                     className="h-16 w-16 bg-black rounded-full flex justify-center items-center"
                     onClick={toggleSection}
@@ -525,7 +520,7 @@ function Section1v2({ scrollByVH }) {
             <div className="flex flex-col justify-end h-full items-start  right-10 mt-28">
               <div className="flex justify-start items-start">
                 <div className="w-full font-poppins text-2xl font-semibold tracking-wider text-gray-600 ">
-                  <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#C80067] to-[#5451B6]">
+                  <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6]">
                     February <br></br>
                   </span>{" "}
                   23<sup>rd</sup>, 24<sup>th</sup> & 25<sup>th</sup> 2024
@@ -541,7 +536,7 @@ function Section1v2({ scrollByVH }) {
                     </span>{" "}
                   </h1>
                   TECHNO TALENTS
-                  <div className="w-[60%] lg:w-[80%] ml-8 lg:ml-0  h-[4px] bg-gradient-to-r rounded-[2px] from-[#C80067] to-[#7470ff]"></div>
+                  <div className="w-[60%] lg:w-[80%] ml-8 lg:ml-0  h-[4px] bg-gradient-to-r rounded-[2px] from-[#3b82f6] to-[#8b5cf6]"></div>
                 </div>
                 <div className="flex">
                   <div className="hidden lg:flex flex-row w-full text-[#3c4043] font-poppins font-semibold justify-between mt-10 space-x-10">
@@ -654,7 +649,7 @@ function Section1v2({ scrollByVH }) {
                 <div className="flex flex-row space-x-6 lg:items-center justify-center lg:px-12 w-full px-16 z-10">
                   <button
                     id="registration-prompt"
-                    className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+                    className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#3b82f6] border-2 border-[#3b82f6] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
                     onClick={() => {
                       navigate("/portal/profile");
                     }}
@@ -663,7 +658,7 @@ function Section1v2({ scrollByVH }) {
                   </button>
                   <button
                     id="registration-prompt"
-                    className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+                    className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#3b82f6] border-2 border-[#3b82f6] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
                     onClick={() => {
                       localStorage.clear();
                       window.location.reload();
@@ -676,7 +671,7 @@ function Section1v2({ scrollByVH }) {
                 <div className="flex flex-row space-x-6 lg:items-center justify-center lg: pl-10 w-full  z-10">
                   <button
                     id="registration-prompt"
-                    className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+                    className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#3b82f6] border-2 border-[#3b82f6] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
                     onClick={() => {
                       navigate("/auth?type=signup");
                     }}
@@ -685,7 +680,7 @@ function Section1v2({ scrollByVH }) {
                   </button>
                   <button
                     id="registration-prompt"
-                    className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+                    className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#3b82f6] border-2 border-[#3b82f6] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
                     onClick={() => {
                       navigate("/auth?type=login");
                     }}

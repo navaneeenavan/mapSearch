@@ -197,7 +197,7 @@ const particlesLoaded = (container) => {
 
 
       <div className = "flex flex-col lg:flex-row space-x-5">
-            <div className="bg-[#ffffff] w-full lg:rounded-3xl p-8 lg:p-12 space-y-4 mr-10">
+            <div className="bg-[#ffffff] w-full lg:rounded-3xl p-8 lg:p-12 space-y-4 ">
               <p className="text-2xl font-semibold tracking-wide text-[#3c4043] pb-4">
                 Presentation Details
               </p>
@@ -251,7 +251,7 @@ const particlesLoaded = (container) => {
 
 
 
-          <div className="lg:bg-[#ffffff] w-full  lg:rounded-3xl p-8 lg:m-12 space-y-6">
+          <div className="lg:bg-[#ffffff] w-full h-max lg:rounded-3xl p-8 space-y-5">
             <p className="text-3xl lg:text-3xl font-semibold tracking-wide text-white lg:text-[#3c4043]">
               Contact
             </p>

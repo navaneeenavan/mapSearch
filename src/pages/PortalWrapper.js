@@ -385,7 +385,7 @@ const NavBarForMobile = () => {
           <EventNav
             openState={[isOpen, setIsOpen]}
             isMobile
-            category="Circuit"
+            category="Amuse"
             events={events}
           />
           <EventNav

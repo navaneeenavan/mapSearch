@@ -155,11 +155,12 @@ const ImageGrid = ({ vertical }) => {
   return (
     <React.Fragment>
       <h2 className="text-[#181818] text-2xl mt-8 mb-4">{vertical}</h2>
-      <div className="flex flex-wrap gap-2 w-full bg-gray-100 shadow-xl rounded-lg p-4">
+      {/* <div className="flex flex-wrap justify-evenly  gap-2 w-full bg-gray-100 shadow-xl rounded-lg px-auto py-4"> */}
+      <div className="flex flex-wrap justify-evenly  gap-2 w-full">
         {TeamDetails.filter((i) => i.vertical === vertical).map((item, i) => {
           return (
             <div
-              className="w-24 h-24 lg:w-36 lg:h-36 aspect-square overflow-hidden"
+              className="w-24 h-24 lg:w-36 lg:h-36 aspect-square overflow-hidden rounded-full"
               id="flip-card"
             >
               <div className="w-full h-full" id="flip-card-inner">

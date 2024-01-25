@@ -98,8 +98,8 @@ const Landing = () => {
         }}
       >
         {!paid && popup && (
-          <div className={`fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 z-50 flex items-center justify-center`}>
-            <div className="bg-gradient-to-l from-[#eccdde] to-[#cfbaea] w-[20rem] lg:w-[36rem] h-[24rem] p-8 rounded-2xl flex items-center relative">
+          <div className={`fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 z-\[100\] flex items-center justify-center`}>
+            <div className="bg-gradient-to-l from-[#eccdde] to-[#cfbaea] w-[20rem] lg:w-[36rem] h-[24rem] p-8 rounded-2xl flex items-center justify-center relative">
               <button
                 className="absolute right-4 top-4 text-2xl text-black"
                 onClick={() => {
@@ -108,14 +108,14 @@ const Landing = () => {
               >
                 <IoMdClose />
               </button>
-              <div className="flex flex-col items-center justify-center space-y-6 lg:space-y-8 w-full lg:w-[60%] z-10">
-                <h1 className={`text-3xl lg:text-4xl font-semibold font-poppins text-center lg:text-left`}>
+              <div className="flex flex-col items-center justify-center space-y-6 lg:space-y-8 w-full lg:w-[60%] z-10 ml-20 ">
+                <h1 className={`text-3xl lg:text-4xl font-semibold font-poppins text-center lg:text-center`}>
                   Unlock the full{" "}
                   <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#C80067] to-[#5451B6]">
                     experience.
                   </span>
                 </h1>
-                <p className="text-lg font-poppins text-center lg:text-left">
+                <p className="text-lg font-poppins text-center lg:text-center">
                   Pay the general registration fee and gain access to the <b className="font-[500]">pro show</b> plus the chance to participate in <b className="font-[500]">all the exciting events</b>!
                 </p>
                 <button className="bg-[#5451B6] text-white font-poppins font-semibold text-lg px-4 py-2 rounded-lg shadow-lg hover:scale-105 transition-all"
@@ -321,7 +321,7 @@ const NavBarForMobile = ({ consolee }) => {
         }  lg:hidden z-50 w-screen lg:w-1/4 ${!condition ? "bg-white" : "bg-black"
         } fixed lg:relative top-0 max-h-screen lg:h-screen overflow-y-scroll px-4 font-poppins shadow-md`}
     >
-      <div className="flex w-full justify-between items-center sticky top-0 h-[3.25rem]">
+      <div className="flex w-screen justify-between items-center sticky top-0 h-[3.25rem]">
         <MenuToggle isOpen={isOpen} setIsOpen={setIsOpen} />
         <button
           onClick={(e) => {
