@@ -458,7 +458,7 @@ function Section1v2({ scrollByVH }) {
 
       <video ref={videoRef} muted width='100%' className="hidden md:hidden lg:block absolute z-[0] object-cover">
 
-        <source src="/assets/kriya_logo.mp4" type="video/mp4" />
+        <source src="/assets/website.webm" type="video/webm" />
       </video>
 
       <motion.div variants={variant1} initial='initial' animate='visible' className="hidden lg:grid grid-rows-5 px-20 min-h-screen w-auto bg-transparent relative z-10">
