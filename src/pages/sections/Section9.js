@@ -1,5 +1,7 @@
 import React from "react";
 import { BsInstagram, BsLinkedin, BsTelephone } from "react-icons/bs";
+import { SiLinktree } from "react-icons/si";
+import { TbBrandLinktree } from "react-icons/tb";
 import { SiGmail } from "react-icons/si";
 
 // Contact Us
@@ -64,6 +66,18 @@ const Section9 = () => {
             <button
               className="flex items-center space-x-4"
               onClick={() =>
+                window.open(
+                  "https://linktr.ee/su.psgtech",
+                  "_blank"
+                )
+              }
+            >
+              <SiLinktree size={24} className="text-white" />
+              <p className="text-lg">Linktree</p>
+            </button>
+            {/* <button
+              className="flex items-center space-x-4"
+              onClick={() =>
                 window.open("https://linktr.ee/su.psgtech", "_blank")
               }
             >
@@ -77,7 +91,7 @@ const Section9 = () => {
                 className="w-8 h-8 -mx-1"
               />
               <p className="text-lg">Linktree SU</p>
-            </button>
+            </button> */}
           </div>
           <div className="flex-1 flex flex-col lg:flex-wrap gap-8 lg:gap-6 lg:gap-y-12 lg:flex-row items-center lg:justify-between">
             <div className="w-full lg:w-56">
@@ -111,9 +125,9 @@ const Section9 = () => {
               <h5 className="text-xs tracking-widest">Tech Support</h5>
               <ContactItem name="Mithilesh E N" phone="+91 88839 12299" />
               <ContactItem
-                name="Navaneetha Krishnan"
+                name="Navaneetha Krishnan KS"
                 phone="+91 93445 00118"
-                className="mt-4 lg:mt-14"
+                className="mt-2 lg:mt-10 whitespace-nowrap"
               />
             </div>
 

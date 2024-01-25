@@ -472,7 +472,7 @@ function Section1v2({ scrollByVH }) {
                     const element = document.getElementById("section8");
                     element.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className="mt-5 text-sm text-gray-600 font-poppins uppercase  tracking-wide  hover:text-black mx-4"
+                  className="mt-5 text-sm text-gray-600 font-poppins uppercase hover:cursor-pointer tracking-wide  hover:text-black mx-4"
                 >
                   FAQ
                 </li>
@@ -481,22 +481,12 @@ function Section1v2({ scrollByVH }) {
                     const element = document.getElementById("section9");
                     element.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className="mt-5 text-sm text-gray-600 font-poppins uppercase tracking-wide  hover:text-black mx-4"
+                  className="mt-5 text-sm text-gray-600 font-poppins uppercase hover:cursor-pointer tracking-wide hover:text-black mx-4"
                 >
                   Contact Us
                 </li>
-                <li
-                  onClick={() =>
-                    window.open(
-                      "https://www.instagram.com/kriya_psgtech/",
-                      "_blank"
-                    )
-                  }
-                  className="mt-5 text-sm text-gray-600 font-poppins uppercase  tracking-wide  hover:text-black mx-4"
-                >
-                  Admin
-                </li>
-                <div className="flex ml-5 items-start justify-start h-full">
+               
+                <div className="flex ml-10 items-end justify-start h-full">
                   <button
                     className="h-16 w-16 bg-black rounded-full flex justify-center items-center"
                     onClick={toggleSection}

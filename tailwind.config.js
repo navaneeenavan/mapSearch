@@ -16,8 +16,16 @@ module.exports = {
         '4':"url('../../public/assets/images/Event_Cards/4.png')",
         '5':"url('../../public/assets/images/Event_Cards/5.png')",
         'register':"url('../../public/assets/images/Event_Cards/register.png')"
-      }
-    }
+      },
+      zIndex: {
+        '60': 60,
+        '70': 70,
+        '80': 80,
+        '90': 90,
+        '100': 100,
+      },
+    },
+    
   },
   variants: {
     extend: {
