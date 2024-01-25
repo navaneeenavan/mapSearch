@@ -1,0 +1,62 @@
+[
+    {
+      "ppid": "PRPN0003",
+      "image": "/assets/Paper/prezenta.png",
+      "eventName": "COMPUTER APPLICATION'S PAPER PRESENTATION",
+      "contact1": ["Raj Kumar B", 9842216369],
+      "contact2": ["Kavin Rathinam ", 8870834420],
+      "eventMail": ["Psg.caa.secretary@gmail.com"],
+      "topic": "This event encourages students to delve into the critical realm of cyber security within cloud computing. Participants will have the opportunity to prepare and present methodologies and approaches aimed at bolstering the security of cloud environments against evolving cyber threats. Data Encryption in Cloud Computing Vulnerability Management in Cloud Environments Blockchain Technology for Cloud Security Ransomware Defense Strategies for Cloud Securing Cloud Infrastructures with AI/ML",
+      "rules": "Participants can form teams of 2 from the same college The Participants must select a problem statement from the provided topics Participants must not indulge in any plagiarism The Shortlisted teams will present their paper on Campus",
+      "date": "25",
+      "time": "9:30 AM - 12.30 PM",
+      "deadline": "17",
+      "teamSize": "2",
+      "hall": "K504"
+    },
+    {
+      "ppid": "PRPN0002",
+      "image": "/assets/Paper/textrivia.png",
+      "eventName": "GREEN GALA",
+      "contact1": ["Lokeshwaran P R ", 8903715578],
+      "contact2": ["Sree Ram", 8870565017],
+      "eventMail": ["igbc.psgtech2024@gmail.com"],
+      "topic": "Carbon-Neutral Construction Students are allowed to prepare and discuss any methodologies and approaches to achieve carbon neutrality in construction projects and carbon reduction strategies.",
+      "rules": "Students are allowed to pick any topic on the given domain for the presentation. It is an individual event. Initial abstract should not be more than 10 pages including the title page. Model format shall be provided for reference. Students should submit their proposals before 17th Feb 2023. Only 10 participants will be selected for round 2 by scrutinizing the submitted proposals.",
+      "date": "26",
+      "time": "9:30 AM - 12.30 PM",
+      "deadline": "17",
+      "teamSize": "1",
+      "hall": "G-403"
+    },
+    {
+      "ppid": "PRPN0001",
+      "image": "/assets/Paper/technoration.png",
+      "eventName": "TECHNORATION",
+      "contact1": ["Pradeep P", 9944831339],
+      "contact2": ["Priyanka S", 8072651148],
+      "eventMail": ["assn.ece@psgtech.ac.in"],
+      "topic": "Internet of Things Microelectromechanical Systems (MEMS) Embedded Systems Applications of nanotechnology in Electronics SOC Design 3D Integrated Circuits Low-Power VLSI Quantum Computing",
+      "rules": "Participants can form teams of 1 to 3 from the same college The Participants must select a problem statement from the provided topics Participants must not indulge in any plagiarism The Shortlisted teams will present their paper on Campus",
+      "date": "24",
+      "time": "9:30 AM - 12.30 PM",
+      "deadline": "17",
+      "teamSize": "1 - 3",
+      "hall": "J-313,314"
+    },
+    {
+      "ppid": "PRPN0004",
+      "image": "/assets/Paper/tamil.png",
+      "eventName": "அறிந்தமிழ் கூடல்",
+      "contact1": ["VVS Nitish Aravindh", 8838294094],
+      "contact2": ["Vetrivelan", 9360098414],
+      "eventMail": ["kanithamilperavai@gmail.com"],
+      "topic": "பூ.சா.கோ தொழில்நுட்பக் கல்லூரியில் நடக்கவிருக்கும் Kriya 2k24 இல் இயல், இசை, நாடகம் எனப் பல்வேறு வடிவங்களில் இனிக்கும் தமிழைக் காலத்தின் தேவைக்கேற்ப அடுத்த பரிமாணம் நோக்கிக் கொண்டுச் செல்லும் ஓர் முயற்சி அறிந்தமிழ் கூடல் என்னும் நிகழ்ச்சியை நடத்த உள்ளோம். இது தமிழ் வழியே தொழில்நுட்பத்தைப் பரவச்செய்யும் ஒரு அரங்கமாகும். செயற்கை நுண்ணறிவு (Artificial Intelligence) கலப்பினவாகனங்கள் (Hybrid Vehicles) மெட்டாவெர்ஸ் (Metaverse) முப்பரிமாண அச்சாக்கம் (3D Printing) பெருந்தரவு (Big data) மேகக்கணிமை (Cloud Computing) மெய்நிகர் (Virtual Reality) பொருட்களின் இணையம் (IoT) தலைப்புகளில் ஒன்றைக் குறித்த ஆய்வுக்கட்டுரையின் விளக்கப்படத்தை (PPT) மாணவர்கள் தமிழில் விளக்கவேண்டும்.",
+      "rules": "ஒரு அணிக்கு 1- 3 நபர் வரை பங்குப்பெறலாம் ஒரு அணி ஒரு தலைப்பு மட்டுமே தேர்வுச்செய்ய வேண்டும். ஒவ்வொரு அணிக்கும் தலா 15 நிமிடங்கள் மட்டுமே வழங்கப்படும் உங்கள் தலைப்பின் சுருக்க உரையை (ABSTRACT) குறிப்பிட்ட நாளிற்குள் அனுப்புதல் வேண்டும் நடுவரின் தீர்ப்பே இறுதியானது.",
+      "date": "24",
+      "time": "9:30 AM - 12.30 PM ",
+      "deadline": "17",
+      "teamSize": "1 - 3",
+      "hall": "J-315"
+    }
+  ]

@@ -1,0 +1,62 @@
+[
+  {
+    "ppid": "PRPN0001",
+    "image": "/assets/Paper/prezenta.png",
+    "eventName": "PREZENTA",
+    "contact1": ["Arjun K", 9489122550],
+    "contact2": ["Arthik A Riju", 9842695165],
+    "eventMail": ["ame.mech@psgtech.ac.in"],
+    "topic": "Fluid & Thermal:\nFluid power\nEnergy efficiency\nRenewable energy\nComputational Fluid Dynamics\nDesign:\nMachine/Product design\nAdvanced Materials\nGreen design\nManufacturing:\nNon traditional machining\nManufacturing of composites\nAdditive Manufacturing\nLean Six Sigma\nIoT for Mechanical:\nCondition monitoring\nFleet tracking\nAutonomous vehicles.",
+    "rules": "The abstract must be submitted within the specified deadline (19-03-2023)\nThe abstract must be of about 250-300 words.\nThe selected participants must make themselves available on the day of the event on time.\nEach presentation must be of ppt or pdf format and must not exceed 12 slides.\nThe font size for the headings is 24 and 20 for other details.\nThe time limit for each presentation is 10 minutes and 2 minutes will be given for doubt clarification.\nThe participants are asked to present their own work or the work in which they have part contribution.\nIf plagiarism is found, then the paper will be immediately disqualified from the event.\nDecision of the judges is final.",
+    "date": "26",
+    "time": "9:30 AM - 3.30 PM",
+    "deadline": "17",
+    "teamSize": "1 - 3",
+    "hall": "K-Block (Seminar Hall)"
+  },
+  {
+    "ppid": "PRPN0002",
+    "image": "/assets/Paper/textrivia.png",
+    "eventName": "TEXTRIVIA",
+    "contact1": ["R. K. BHARATRAJ ", 9488504312],
+    "contact2": ["N. NITHYASHRI", 9080307184],
+    "eventMail": ["20t102@psgtech.ac.in"],
+    "topic": "Digital Printing Technology in Textiles\nMedical textiles\nFuture in spinning technology\nAuxtic Textiles\nPreservation of Handlooms\nSustainability in Textile processing\nNanotechnology in Textile processing\n3D weaving\nSports textiles\nProtective textiles",
+    "rules": "Abstract should not exceed more than 250 words.\nPresentation should not exceed more than 7 - 8 minutes.\nThe deadline for submitting an abstract is one week before the competition.\nEach team consists of maximum 2 members.",
+    "date": "26",
+    "time": "9:30 AM - 4.30 PM",
+    "deadline": "17",
+    "teamSize": "1 - 2",
+    "hall": "G-308"
+  },
+  {
+    "ppid": "PRPN0003",
+    "image": "/assets/Paper/technoration.png",
+    "eventName": "TECHNORATION",
+    "contact1": ["Sharan S", 7305731610],
+    "contact2": ["K. Jagad Narayana ", 9655637069],
+    "eventMail": ["assn.ece@psgtech.ac.in"],
+    "topic": "Internet of Things  \nMicroelectromechanical Systems (MEMS) \nEmbedded Systems \nApplications of nanotechnology in Electronics \nSOC Design \n3D Integrated Circuits \nLow-Power VLSI  \nQuantum Computing",
+    "rules": "Participants can form teams of 1 to 3 from the same college\nThe Participants must select a problem statement from the provided topics\nParticipants must not indulge in any plagiarism\nThe Shortlisted teams will present their paper on Campus ",
+    "date": "25",
+    "time": "9:30 AM - 12.30 PM",
+    "deadline": "17",
+    "teamSize": "1 - 3",
+    "hall": "G-506, 507"
+  },
+  {
+    "ppid": "PRPN0004",
+    "image": "/assets/Paper/excellencia.png",
+    "eventName": "EXCELLENCIA",
+    "contact1": ["KEERTHIVASSAN S", 9489010302],
+    "contact2": ["JANARANJAN B S", 9344968646],
+    "eventMail": ["ramanujanassociationofmaths@gmail.com"],
+    "topic": "Application of Mathematics in - Present day Engineering\nApplications of Differential Equations in real life\nThe use of Fractal Geometry in various fields\nThe study of Graph theory and its applications\nRecent developments in the field of mathematical modeling. ",
+    "rules": "Participants can form teams of 1 to 3 from the same college\nThe Participants must select a problem statement from the provided topics\nParticipants must not indulge in any plagiarism\nThe Shortlisted teams will present their paper on Campus",
+    "date": "25",
+    "time": "9:30 AM - 12.30 PM",
+    "deadline": "17",
+    "teamSize": "1 - 3",
+    "hall": "J-310, 311"
+  }
+]

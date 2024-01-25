@@ -1,0 +1,497 @@
+[
+  {
+    "wid": "WKSP0011",
+    "image": "/assets/Workshops/Workshop11.jpg",
+    "alteredFee": 699,
+    "actualFee": 849,
+    "assnName": "American Society of Mechanical Engineers",
+    "workName": "Sensor Interface and Integration",
+    "date": "24",
+    "hall": "Sensorics Lab (1st Floor, G-Block)",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "Tarun Kumar K",
+    "c1Num": "7200083054",
+    "c2Name": "Somesh S",
+    "c2Num": "9445230494",
+    "maxCount": "70",
+    "desc": "We provide opportunity for the budding engineers to explore the future work environment. This workshop introduces the participants into the world of sensorics and sensor integration using Virtual Instrumentation (VI) software. The participants will be provided with hands-on-training sessions. They will be exposed to acquiring data and taking control actions using VI software (LabVIEW) and Data acquisition cards. Apart from this, training on development of Robots using LEGO kits and sensors will also be offered.",
+    "agenda": [
+      [
+        {
+          "time": "9:45 AM - 11:15 AM",
+          "description": [
+            "Introduction to Sensorics and Virtual Instrumentation "
+          ]
+        },
+        {
+          "time": "11:30 AM TO 12:30 PM",
+          "description": ["Hands-on Training I"]
+        },
+        {
+          "time": "1:30 PM - 2:30 PM",
+          "description": ["Hands-on Training II"]
+        },
+        {
+          "time": "3:00 PM - 4:30 PM",
+          "description": ["Hands-on Training III"]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0001",
+    "image": "/assets/Workshops/Workshop1.jpg",
+    "alteredFee": 299,
+    "actualFee": 399,
+    "assnName": "IEEE EMBS Students Branch",
+    "workName": "Immersive Reality - AR",
+    "date": "25",
+    "hall": "MI Lab (A Block)",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "Manu Dhanu Sri R A ",
+    "c1Num": "6379029343",
+    "c2Name": "Abina Sree S J",
+    "c2Num": "9514230992",
+    "maxCount": "50",
+    "desc": "The theme of the workshop is to enlighten participants with knowledge on perception, stacks and devices, particularly in the context of autonomous navigation, with special emphasis on Atman series robots. Atman series robots offer effortless material handling and transportation with fully automated intelligence systems that deliver high efficiency in terms of productivity. These robots are compact, durable, and safe, featuring various payload capacities and security features. They are optimized in various ways, making them very affordable. The platform is easily integrable with various open-source robots and modules available globally. It can function as an industrial robot as well as an educational research platform, providing a great learning experience and knowledge in any of the platforms such as ROS, OpenCV, Nvidia Jetson Nano, and Arduino, including 2D and 3D AI-based stereo vision systems. During the workshop, participants will be educated on the above-mentioned topics by a demonstration using a mobile robot brought by the speaker in real-time and will get a chance to work with mobile robot lively. use.",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 10:30 AM",
+          "description": [
+            "Augmented Reality - Theoritical Background and Applications"
+          ]
+        },
+        {
+          "time": "10:45 AM - 11:30 AM",
+          "description": [
+            "Google AR - Examples (Surface)"
+          ]
+        },
+        {
+          "time": "11:30 AM - 12:30 PM",
+          "description": [
+            "Augmented Reality - Theoritical Background and Applications"
+          ]
+        },
+        {
+          "time": "1:30 PM - 3:30 PM",
+          "description": [
+            "Types of Marker Creation Based on Surface Marker"
+          ]
+        },
+        {
+          "time": "3:45 PM - 4:30 PM",
+          "description": [
+            "Demo of Created AR Examples and other Software Tools"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0005",
+    "image": "/assets/Workshops/Workshop5.jpg",
+    "alteredFee": 500,
+    "actualFee": 600,
+    "assnName": "Institute of Electrical & Electronics Engg. (IEEE) (Students Chapter)",
+    "workName": "Spatial AI in Mobile Robotics",
+    "date": "24",
+    "hall": "Y-301",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "Santhya S",
+    "c1Num": "8056595086",
+    "c2Name": "S Sakthisree",
+    "c2Num": "7200696604",
+    "maxCount": "80",
+    "desc": "The theme of the workshop is to enlighten participants with knowledge on perception stacks and devices, particularly in the context of autonomous navigation, with special emphasis on Atman series robots. Atman series robots offer effortless material handling and transportation with fully automated intelligence systems that deliver high efficiency in terms of productivity. These robots are compact, durable, and safe, featuring various payload capacities and security features. They are optimized in various ways, making them very affordable. The platform is easily integrable with various open-source robots and modules available globally. It can function as an industrial robot as well as an educational research platform, providing a great learning experience an knowledge in any of the platforms such as ROS, OpenCV, Nvidia Jetson Nano, and Arduino including 2D and 3D AI-based stereo vision systems. During the workshop, participants will be educated on the above-mentioned topics by a demonstration using a mobile robot brought by the speaker in real-time and will get a chance to work with mobile robot lively. At the workshop's conclusion, participants will grasp autonomous navigation concepts, emphasizing the features of Atman series robots. Knowledge on fully automated intelligence systems and optimization strategies will be acquired. Participants will learn to integrate the platform with open-source robots, gaining versatility for industrial and educational use.",
+    "prerequisites": "Laptops has to be brought by the participants",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 12:30 PM",
+          "description": [
+            "Intorduction, Perception and Sensing, Spatial Mapping "
+          ]
+        },
+        {
+          "time": "1:15 PM - 2:15 PM",
+          "description": [
+            "Simultaneous Localization and Mapping (SLAM)"
+          ]
+        },
+        {
+          "time": "2:15 PM - 4:00 PM",
+          "description": [
+            "Path Planning and Autonomous Navigation"
+          ]
+        },
+        {
+          "time": "4:10 PM - 4:30 PM",
+          "description": [
+            "Final Demonstration"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0002",
+    "image": "/assets/Workshops/Workshop2.jpg",
+    "alteredFee": 400,
+    "actualFee": 500,
+    "assnName": "Biotechnology Association",
+    "workName": "Digital Forensics",
+    "date": "25",
+    "hall": "CC Lab (E-Block 4th Floor)",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "Janani PS",
+    "c1Num": "8870314034",
+    "c2Name": "Pooja Shree M",
+    "c2Num": "93455 51741",
+    "maxCount": "80",
+    "desc": "Forensic science involves the analysis of DNA data from crime scenes, suspects, victims, and other sources to provide evidence for legal cases. The workshop will include practical exercises and case studies to demonstrate the application of  DNA analysis tools to real-world scenarios. The workshop will help the participants to develop the skills and knowledge to use tools for forensic purposes.",
+    "agenda": [
+      [
+        {
+          "time": "9:00 AM - 10:30 AM",
+          "description": [
+            "SESSION 1 – Bioinformatics introduction and DNA Structure"
+          ]
+        },
+        {
+          "time": "10:45 AM - 12:00 PM",
+          "description": ["SESSION 2 - Understanding Sequencing Techniques, Bioinformatic tools and techniques,NGS"]
+        },
+        {
+          "time": "1:00 PM - 3:20 PM",
+          "description": [
+            "SESSION 3 - Bioinformatics with Python"
+          ]
+        },
+        {
+          "time": "3:30 PM - 4:30 PM",
+          "description": [
+            "SESSION 4 - Rosalind - Tips and Tricks"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0009",
+    "image": "/assets/Workshops/Workshop9.jpg",
+    "alteredFee": 501,
+    "actualFee": 601,
+    "assnName": "Information Technology Association",
+    "workName": "Bitflow Fiesta",
+    "date": "24",
+    "hall": "IT Main Lab",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "Sreenitti S",
+    "c1Num": "8122020985",
+    "c2Name": "S Shakthi",
+    "c2Num": "9677843335",
+    "maxCount": "50",
+    "desc": "This workshop combines theoretical insights with hands-on exploration to provide participants with a well-rounded understanding of key artificial intelligence (AI) concepts and tools. The agenda covers an introduction to AI, followed by an in-depth discussion on OneAPI. Participants will gain practical insights into utilizing the Intel Developer Cloud through a demonstration. The workshop delves into GenAI and prompt engineering, offering practical examples in image-to-image and text-to-image processing. Additionally, it explores machine learning (ML) with OneAPI, ensuring participants acquire both theoretical knowledge and practical skills in diverse AI applications.",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 12:30 PM",
+          "description": ["AI Introduction, OneAPI - an exploratory discussion, Intel developer cloud - usage and demo. GenAI "]
+        },
+        {
+          "time": "1:30 PM - 4:30 PM",
+          "description": ["Prompt engineering, Image to image, text to image examples, ML with oneAPI "]
+        }
+    
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0007",
+    "image": "/assets/Workshops/Workshop7.jpg",
+    "alteredFee": 399,
+    "actualFee": 499,
+    "assnName": "Indian Institution of Industrial Engineering (Students Chapter)",
+    "workName": "IOT for Mechanical Applications",
+    "date": "24",
+    "hall": "G-Block (G-405)",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "Subash C",
+    "c1Num": "8046508335",
+    "c2Name": "Sriganesan G C ",
+    "c2Num": "8838307678",
+    "maxCount": "50",
+    "desc": "The workshop focuses on the basic conceptual ideas behind the characteristics, challenges and network configurations of IoT along with Data Collection, Data Processing and Data Analytics including Cloud Computing and Big data. It also focuses on the MQTT usage of various embedded systems (Aurdino, Raspberry Pi). The final part of the workshop will be the hands-on training with embedded systems which will be provided to the participants.",
+    "prerequisites": "Laptops has to be brought by the participants",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 10:30 AM",
+          "description": [
+            "Introduction to the basic concepts of IOT, its features and implementations"
+          ]
+        },
+        {
+          "time": "10:45 AM - 12:15 PM",
+          "description": [
+            "A brief description on Data Collection(Sensor Module)"
+          ]
+        },
+        {
+          "time": "01:15 PM - 02:15 PM",
+          "description": [
+            "About the MQTT protocol using Data Processing followed by the Data Analytics techniques"
+          ]
+        },
+        {
+          "time": "02:30 PM - 04:30 PM",
+          "description": ["An interactive hands-on training with IoT kits"]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0004",
+    "image": "/assets/Workshops/Workshop4.jpg",
+    "alteredFee": 349,
+    "actualFee": 449,
+    "assnName": "COMPUTER APPLICATIONS ASSOCIATION",
+    "workName": "Data Analytics using R",
+    "date": "24",
+    "hall": "IS Lab (K Block 4th Floor)",
+    "time": "9.30 AM - 02.30 PM",
+    "c1Name": "Anu Varshini T",
+    "c1Num": "9360041156",
+    "c2Name": "Kavin",
+    "c2Num": "9384397477",
+    "maxCount": "50",
+    "desc": "R is a simple programming language and one of the most preferred open-source languages for data analytics. R has become the first choice for many statisticians and data scientists around the world. It is used for simple calculations, matrix calculations, differential equations, optimization, statistical analysis, plotting graphs, etc. The power of R Language has made it an instrumental tool for data analysts throughout the world. Also, it is useful for anybody who wishes to undertake extensive statistical computations and data visualization. This one day hands-on workshop will introduce participants to use R programming tools for data analytics.",
+    "agenda": [
+      [
+        {
+          "time": "9.30 AM - 10.30 AM",
+          "description": [
+            "Introduction to R, R Basics"
+          ]
+        },
+        {
+          "time": "10.45 AM - 12.30 PM",
+          "description": ["Data Structures and Operands in R, Control Structures & Functions"]
+        },
+        {
+          "time": "1:30 PM - 2.30 PM",
+          "description": ["Statistical Computations"]
+        }
+      ]
+    ]
+  },
+
+  {
+    "wid": "WKSP0003",
+    "image": "/assets/Workshops/Workshop3.jpg",
+    "alteredFee": 250,
+    "actualFee": 350,
+    "assnName": "Industrial(Alumni) Interaction Forum",
+    "workName": "5G Wireless Technologies for various applications",
+    "date": "25",
+    "hall": "SKAVA Lab",
+    "time": "10:30 AM - 03:00 PM",
+    "c1Name": "Vibin Nagaraj",
+    "c1Num": "9597307683",
+    "c2Name": "Hasmithraa V P",
+    "c2Num": "8270110008",
+    "maxCount": "50",
+    "desc": "Join us for an enlightening exploration into the world of 5G Wireless Technology, where we delve into its myriad applications transforming industries and reshaping the way we connect, communicate, and collaborate. This cutting-edge event will showcase the revolutionary potential of 5G across various sectors, promising unprecedented speed, reliability, and low latency.",
+    "prerequisites": "Basic knowledge of wireless systems",
+    "agenda": [
+      [
+        {
+          "time": "10:30 AM - 12:00 PM",
+          "description": [
+            "SESSION 1 – Theory on 5G wireless technologies"
+          ]
+        },
+        {
+          "time": "1:30 PM - 3:00 PM",
+          "description": [
+            "SESSION 2 - Practical session on 5G networks "
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0006",
+    "image": "/assets/Workshops/Workshop6.jpg",
+    "alteredFee": 499,
+    "actualFee": 599,
+    "assnName": "Fashion Technology",
+    "workName": "Fashion Communication",
+    "date": "24",
+    "hall": "FT CAD Lab (K Block 3rd Floor)",
+    "time": "9.30 AM - 12.30 PM & 1:30 PM - 4:30 PM",
+    "c1Name": "Sibin V",
+    "c1Num": "8189926657",
+    "c2Name": "Vibin Kumar S V",
+    "c2Num": "9025636682",
+    "maxCount": "80",
+    "desc": "In the first half of this exclusive event, we will expertly guide participants through the intricacies of fashion styling, creative direction, shoot curation, and conceptualization, offering valuable insights into editing and photography for a comprehensive understanding of the multifaceted world of fashion communication. The second half introduces an exciting challenge, where teams of four put their knowledge into action by styling a person from head to toe. This hands-on experience covers styling, photography, editing, makeup, and hairdo, allowing each team to showcase their creativity. Teams will submit their work in a designated folder, demonstrating the practical application of the workshop principles.",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 11:00 pM",
+          "description": [
+            "Fashion communication-lecture about styling, photography and editing."
+          ]
+        },
+        {
+          "time": "11:00 AM - 12:30 PM",
+          "description": ["Practical implementation -the participants will be practically implementing the things learned during the lecture session using the material provided by us."]
+        }
+    
+      ]
+    ]
+  },  
+  {
+    "wid": "WKSP0008",
+    "image": "/assets/Workshops/Workshop8.jpg",
+    "alteredFee": 350,
+    "actualFee": 450,
+    "assnName": "Astronomy Club",
+    "workName": "Orionize",
+    "date": "24",
+    "hall": "Y-201, Y-202",
+    "time": "9.30 AM - 04.30 PM & 6.00 PM - 8.00 PM",
+    "c1Name": "Dharun V S",
+    "c1Num": "8778630200",
+    "c2Name": "Sreevana T P",
+    "c2Num": "6380588041",
+    "maxCount": "100",
+    "desc": "The workshop commences with an intriguing 'Cloud Chamber Experiment,' immersing participants in the exploration of the unseen world of sub-atomic particles. They observe the trails left by charged particles in a cloud chamber, unraveling the mysteries of cosmic rays. Following this engaging start, the session shifts to an introduction to exoplanets, featuring a hands-on 'Exoplanet Physics' segment that guides participants through the physics of planets beyond our solar system and the methods astronomers use for their study. In the interactive segment that follows, the focus turns to SAOImage DS9 (SAODS9) software, providing participants with a comprehensive understanding of its diverse functionalities for astronomical image analysis and manipulation. The goal is to equip attendees with practical skills to maximize the software's potential in interpreting astronomical data. Later in the workshop, Obuli Chandran Sir engages participants with an enlightening lecture on 'Recent Advancements in Astronomy,' unraveling the latest discoveries and technological breakthroughs from space exploration missions. Nearing its conclusion, participants are invited to a skywatch, allowing them to marvel at the celestial wonders of the night sky. An open exhibition beckons everyone on a visual odyssey, showcasing the universe's timeline and various astronomy-related masterpieces.",
+    "prerequisites": "Laptops has to be brought by the participants",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 12:10 PM",
+          "description": [
+            "Hands on experiment with diffusion cloud chamber experiment and detection of exo-planets and theory"
+          ]
+        },
+        {
+          "time": "1:40 PM - 4:30 PM",
+          "description": [
+            "Tutorial on SAODS9 software and guest lecture by the speaker"
+          ]
+        },
+        {
+          "time": "6:00 PM - 8:00 PM",
+          "description": [
+            "Skywatch and hands on sessions on how to handle the telescopes"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0010",
+    "image": "/assets/Workshops/Workshop10.jpg",
+    "alteredFee": 300,
+    "actualFee": 400,
+    "assnName": "Metallurgical Engineering Association",
+    "workName": "Physical Simulation of Manufacturing procedures and Welding Simulations",
+    "date": "24",
+    "hall": "Centre of Excellence in Welding",
+    "time": "10:00 AM - 4:00 PM",
+    "c1Name": "Kavya Maha Lakshmi S ",
+    "c1Num": "6379532308",
+    "c2Name": "Kavin Kumar ",
+    "c2Num": "8838269364",
+    "maxCount": "52",
+    "desc": "The Gleeble 3500 is a fully integrated digital closed loop control thermal and mechanical testing system. Easy-to-use Windows based computer software, combined with an array of powerful processors, provides an extremely user-friendly interface to create, run and analyse data. This workshop aims to provide an introduction on material testing and thermo-mechanical simulation. It is the exact replication of the of the thermal and mechanical processes that material is subjected to during the manufacturing process in a laboratory.",
+    "agenda": [
+      [
+        {
+          "time": "10:00 AM - 12:00 PM",
+          "description": [
+            "Lecture on the basics of Gleeble 3500, material testing and thermo-mechanical simulation "
+          ]
+        },
+        {
+          "time": "1:30 PM - 4:00 PM",
+          "description": ["Live demonstration of Gleeble 3500"]
+        }
+      ]
+    ]
+  },
+  {
+    "wid":"WKSP0012",
+    "image": "/assets/Workshops/Workshop12.png",
+    "alteredFee": 401,
+    "actualFee": 501,
+    "assnName": "Society of Manufacturing Engineers - Students' chapter",
+    "workName": "Transformational Manufacturing - 4.0",
+    "date": "23",
+    "hall": "D-Block conference hall (Ground floor)",
+    "time": "10:30 AM - 4:30 PM",
+    "c1Name": "Arun K",
+    "c1Num": "9003585358",
+    "c2Name": "Shanmugam S",
+    "c2Num": "6383261299",
+    "maxCount": "150",
+    "desc": "Embark on a dynamic workshop on Transformational Manufacturing 4.0, featuring experts from the leading industries Larsen & Toubro (L&T), BMW-Chennai and Flipkart. This exclusive workshop is tailored for Core engineering students, providing invaluable insights into cutting-edge topics such as Digital lean manufacturing from BMW, Digital design from L&T and digital Operations Management from Flipkart. Attendees will have the unique opportunity to learn directly from industry leaders, gaining practical knowledge and a deeper understanding of the latest advancements in manufacturing technology and how the manufacturing, Production areas are getting transformed into more and more digital. The workshop aims to bridge the gap between academia and industry experts, fostering a collaborative environment that prepares students for the evolving landscape of digital manufacturing in the future era. Participants are encouraged to showcase their valuable ideas during the workshop. They are instructed to prepare their own ideas on how the manufacturing field is changing from conventional to a digitalized area. This can be presented in the form of a flow chart or through catchy content related to the workshop. The ideas or content can be created in a poster format and printed on an A3 sheet. These will be showcased in front of the industrial speaker.",
+    "prerequisites":"Participants are encouraged to showcase their valuable ideas during the workshop. They are instructed to prepare their own ideas on how the manufacturing field is changing from conventional to a digitalized area. This can be presented in the form of a flow chart or through catchy content related to the workshop. The ideas or content can be created in a poster format and printed on an A3 sheet. These will be showcased in front of the industrial speaker.",
+    "agenda": [
+      [
+        {
+          "time": "10.30 AM - 12.30 PM",
+          "description": ["Digital Lean Manufacturing. In this initiative, the BMW Chennai industry is set to explore how to implement Lean principles in the manufacturing area, transitioning from conventional methods to digital processes."]
+        },
+        {
+          "time": "1.30 PM - 2.45 PM",
+          "description": ["Digital Design in Manufacturing. The industry expert from L&T is going to demonstrate how the design field in all manufacturing sectors is getting updated through digitalization, aiming to make the work smarter."]
+        },
+        {
+          "time": "3.20 PM - 4.30 PM",
+          "description": ["Digital Operations management. In this session, the speaker from Flipkart-Bangalore is going to explain operations management and how it can be transitioned into the digital realm. This may bridge the gap in problem-solving skills within digital operations management, thereby linking it to Production and Operations Management (POM)."]
+        }
+      ]
+    ]
+  },
+  {
+    "wid":"WKSP0013",
+    "image": "/assets/Workshops/Workshop13.png",
+    "alteredFee": 550,
+    "actualFee": 650,
+    "assnName": "Artificial Intelligence and Robotics Club",
+    "workName": "AR and VR Workshop",
+    "date": "25",
+    "hall": "Y - 202",
+    "time": "9:30 AM - 3:45 PM",
+    "c1Name": "Aswin C",
+    "c1Num": "7200052823",
+    "c2Name": "Mahizha N S",
+    "c2Num": "9629666039",
+    "maxCount": "75",
+    "desc": "A kick-starter session on Reality technologies such as Augmented Reality, Virtual Reality and Mixed Reality. Session includes integration of reality technologies into multi-disciplinary fields such as Robotics and IoT. Hands-on Virtual Reality headset can be experienced.  Attendees will be developing an AR app during the workshop.",
+    "prerequisites": " Hardware requisites: Laptop with NVIDIA GTX 1060 / AMD Radeon RX 480 or greater with 8GB+ RAM. (Integrated webcam will be appreciated.\nAndroid Mobile phone with respective charging cable (recommended)\nSoftware Prerequisties:\nUnity 2022.3.16f1\nVuforia SDK",
+    "agenda": [
+      [
+        {
+          "time": "9.30 AM - 11.00 AM",
+          "description": ["Introduction to Reality technologies (Augmented Reality, Virtual Reality, Mixed Reality)"]
+        },
+        {
+          "time": "11.00 AM - 1.30 PM",
+          "description": ["Real-world usages of AR, VR technologies in various industries and Development Stages"]
+        },
+        {
+          "time": "1.30 PM - 3.45 PM",
+          "description": ["AR App development"]
+        }
+      ]
+    ]
+  }
+]
+  

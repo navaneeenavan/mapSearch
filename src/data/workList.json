@@ -1,0 +1,560 @@
+[
+  {
+    "wid": "WKSP0006",
+    "image": "/assets/Workshops/Workshop6.png",
+    "alteredFee": 800,
+    "assnName": "American Society of Mechanical Engineers",
+    "workName": "Sensor Interface and Integration",
+    "date": "25",
+    "hall": "Sensorics Lab (1st Floor, G-Block)",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "Harivardhan S V",
+    "c1Num": "9626386882",
+    "c2Name": "Logesh K",
+    "c2Num": "6384544377",
+    "maxCount": "70",
+    "desc": "We provide opportunity for the budding engineers to explore the future work environment. This workshop introduces the participants into the world of sensorics and sensor integration using Virtual Instrumentation (VI) software. The participants will be provided with hands-on-training sessions. They will be exposed to acquiring data and taking control actions using VI software (LabVIEW) and Data acquisition cards. Apart from this, training on development of Robots using LEGO kits and sensors will also be offered.",
+    "agenda": [
+      [
+        {
+          "time": "9:45 AM - 11:15 AM",
+          "description": [
+            "Introduction to Sensorics and Virtual Instrumentation "
+          ]
+        },
+        {
+          "time": "11:30 AM TO 12:30 PM",
+          "description": ["Hands-on Training I"]
+        },
+        {
+          "time": "1:30 PM - 2:30 PM",
+          "description": ["Hands-on Training II"]
+        },
+        {
+          "time": "2:45 PM - 3:45 PM",
+          "description": ["Hands-on Training III"]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0012",
+    "image": "/assets/Workshops/Workshop12.png",
+    "alteredFee": 400,
+    "assnName": "Electrical and Communication Engineering Association",
+    "workName": "FPGA Based System Design",
+    "date": "26",
+    "hall": "GRD LAB, E-BLOCK Second floor",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "Lokesh Krishnakumar ",
+    "c1Num": "9003033373",
+    "c2Name": "Praveenbabu R S",
+    "c2Num": "9994542649",
+    "maxCount": "56",
+    "desc": "The objective of this workshop is to give an overview of the FPGA design flow, Hardware description languages (HDLs) programming, and provide experience with Xilinx Vivado Platform. Implementation of digital logic designs, including finite state machines and data path circuits. Use of IP cores and embedded processors in FGPA based System on Chips(SOC) Design, techniques for debugging and testing FGPA based systems. At last, the participants will be able to design, simulate, implement and test their own FGPA-based designs by the end of the workshop.",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 12:30 PM",
+          "description": [
+            "SESSION 1 – Introduction to Simple Digital Circuits Implementation and Basic Knowledge of Xilinx Platform"
+          ]
+        },
+        {
+          "time": "1:30 PM - 4:30 PM",
+          "description": [
+            "SESSION 2 - Simulation in Xilinx Vivado and implementation of combinational and sequential circuits"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0008",
+    "image": "/assets/Workshops/Workshop8.png",
+    "alteredFee": 250,
+    "assnName": "Production Engineering Association",
+    "workName": "Nuts and Bots with Naveen",
+    "date": "26",
+    "hall": "Y-202",
+    "time": "2.00 PM - 05.00 PM",
+    "c1Name": "DUVARAKESH D",
+    "c1Num": "7397057322",
+    "c2Name": "ARUN K",
+    "c2Num": "9003585358",
+    "maxCount": "60",
+    "desc": " We provide workshop on IoT, bots, automation and electric vehicle and their batteries. The session will be conducted by Mr. Naveen Ganesan , an independent researcher and a famous YouTuber who bagged the young science enthusiast and confidence award for the year 2022. The session will cover topics such as house automation, bots, 3d printers, Powerwall, cloud-based systems and sensors, etc.",
+    "agenda": [
+      [
+        {
+          "time": "2:00 PM - 2:30 PM",
+          "description": [
+            "Self-introduction and information about the companies he founded."
+          ]
+        },
+        {
+          "time": "2:30 PM - 3:00 PM",
+          "description": ["Real-world demands and problems."]
+        },
+        {
+          "time": "3:00 PM - 4:00 PM",
+          "description": ["All about 3D printing with a live demonstration"]
+        },
+        {
+          "time": "4:00 PM - 4:15 PM",
+          "description": ["Powerwall technology"]
+        },
+        {
+          "time": "4:15 PM - 4:30 PM",
+          "description": ["Bots that assist humans"]
+        },
+        {
+          "time": "4:30 PM - 5:00 PM",
+          "description": ["All about EVs and their future."]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0014",
+    "image": "/assets/Workshops/Workshop14.png",
+    "alteredFee": 350,
+    "assnName": "Biotechnology Association",
+    "workName": "Tensorflow Application In Biotechnology",
+    "date": "26",
+    "hall": "G-401",
+    "time": "9.00 AM - 05.30 PM",
+    "c1Name": "KRUTHI HARIHARAN",
+    "c1Num": "9003763704",
+    "c2Name": "ILAKKIA V K",
+    "c2Num": "6383233795",
+    "maxCount": "64",
+    "desc": "Tensorflow is an end to end machine learning platform. This workshop teaches you how to build deep learning models from scratch, using real world datasets with the tensorflow framework. This workshop also gives you an insight on how tensorflow is useful in the field of biotechnology. ",
+    "agenda": [
+      [
+        {
+          "time": "9:00 AM - 12:00 PM",
+          "description": [
+            "SESSION 1 – Introduction on basic concepts of tensorflow and followed by a coding session"
+          ]
+        },
+        {
+          "time": "1:30 PM - 3:00 PM",
+          "description": ["SESSION 2 - MRI analysis using tensorflow"]
+        },
+        {
+          "time": "3:30 PM - 5:30 PM",
+          "description": [
+            "SESSION 3 - Talk on research in (Biotechnology Field) using tensorflow and question & answer session"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0009",
+    "image": "/assets/Workshops/Workshop9.png",
+    "alteredFee": 500,
+    "assnName": "Robotics & Automation Engineering Association",
+    "workName": "Build your Custom Robot in ROS",
+    "date": "25",
+    "hall": "K-Block (CC Lab) - Second floor.",
+    "time": "9.00 AM - 05.00 PM",
+    "c1Name": "KISHORE S",
+    "c1Num": "9894268704",
+    "c2Name": "VIMAL V K",
+    "c2Num": "9597555927",
+    "maxCount": "51",
+    "desc": "The Robot Operating System (ROS) is an open-source framework that helps researchers and developers build and reuse code between robotics applications. It is also a global open-source community of engineers, developers, and hobbyists who contribute to making robots better, more accessible, and available to everyone. This workshop will provide an in-depth understanding of the framework and its various tools and libraries. Participants will learn about the ecosystem and how to use ROS to program and control their custom robots. They will also gain hands-on experience integrating packages and tools to build robotic systems. The participants will be taught how to interface Lidar, Arduino- development board and various high-grade sensors to the framework. This will be a valuable learning opportunity for anyone interested in robotics and ROS.",
+    "agenda": [
+      [
+        {
+          "time": "9:00 AM - 11:00 PM",
+          "description": ["Introduction to ROS Framework and Prerequisites"]
+        },
+        {
+          "time": "11:15 PM - 1:00 PM",
+          "description": ["ROS Ecosystem "]
+        },
+        {
+          "time": "2:00 PM - 3:30 PM",
+          "description": ["ROS Tools and Utilities (Mobile robot)"]
+        },
+        {
+          "time": "3:45 PM - 5:00 PM",
+          "description": [
+            "Robot Tele-Operation ROS Gazebo full simulation, Knowledge required to develop a real robot"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0007",
+    "image": "/assets/Workshops/Workshop7.png",
+    "alteredFee": 500,
+    "assnName": "Indian Institution of Industrial Engineering (Students Chapter)",
+    "workName": "IOT for Mechanical Applications",
+    "date": "24",
+    "hall": "G-Block (G-509)",
+    "time": "9.00 AM - 05.00 PM",
+    "c1Name": "SANJAY S",
+    "c1Num": "9789348224",
+    "c2Name": "YOGENDRAA S N",
+    "c2Num": "8608782082",
+    "maxCount": "50",
+    "desc": "The workshop focuses on the basic conceptual ideas behind the characteristics, challenges and network configurations of IoT along with Data Collection, Data Processing and Data Analytics including Cloud Computing and Big data. It also focuses on the MQTT usage of various embedded systems (Aurdino, Raspberry Pi). The final part of the workshop will be the hands-on training with embedded systems which will be provided to the participants.",
+    "agenda": [
+      [
+        {
+          "time": "9:00 AM - 10:30 AM",
+          "description": [
+            "Introduction to the basic concepts of IOT, its features and implementations"
+          ]
+        },
+        {
+          "time": "10:45 AM - 12:15 PM",
+          "description": [
+            "A brief description on Data Collection(Sensor Module)"
+          ]
+        },
+        {
+          "time": "01:15 PM - 02:15 PM",
+          "description": [
+            "About the MQTT protocol using Data Processing followed by the Data Analytics techniques"
+          ]
+        },
+        {
+          "time": "02:30 PM - 04:30 PM",
+          "description": ["An interactive hands-on training with IoT kits"]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0013",
+    "image": "/assets/Workshops/Workshop13.png",
+    "alteredFee": 300,
+    "assnName": "Astronomy Club",
+    "workName": "Solaris (Workshop + Skywatch)",
+    "date": "25",
+    "hall": "Y-201",
+    "time": "Workshop:9:00 AM - 04:00 PM\nSky Watch:6:00 PM - 8:00 PM",
+    "c1Name": "BHAVANI K",
+    "c1Num": "7402876123",
+    "c2Name": "HYAGREEV RETHINAVEL",
+    "c2Num": "9940922937",
+    "maxCount": "52",
+    "desc": "This event consist of a workshop followed by sky watch. A lecture on astronomical topics such as telescopes, astronomical events and breakthroughs will be explained. Tutorial on Python programming on Processing celestial images will be taught and Participants are encouraged to work hands-on to produce filtered images in this Session. Model building of satellites and telescopes is held for the participants, followed by a guest lecture by renowned astronomy enthusiasts from Coimbatore Astronomy club. The workshop is followed by sky watch for the participants where telescope handling is also taught .",
+    "agenda": [
+      [
+        {
+          "time": "9:00 AM - 12:00 PM",
+          "description": [
+            "SESSION 1 – A lecture on recent advancements and technology in the astronomy field and Hands-on workshop in SAO ds9 software"
+          ]
+        },
+        {
+          "time": "1:30 PM - 2:30 PM",
+          "description": [
+            "SESSION 2 - Astronomy Image Stacking with open source softwares  "
+          ]
+        },
+        {
+          "time": "2:40 PM - 4:00 PM",
+          "description": [
+            "SESSION 3 - Particpants are taught model buidling of satelites and telescopes followed by a guest lecture"
+          ]
+        },
+        {
+          "time": "6:30 PM - 8:00 PM",
+          "description": [
+            "SESSION 4 - Particpants will be taught how to use telescopes to view stars and constellations in the final Sky Watch session"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0004",
+    "image": "/assets/Workshops/Workshop4.png",
+    "alteredFee": 600,
+    "assnName": "COMPUTER APPLICATIONS ASSOCIATION",
+    "workName": "R Programming in Data Analytics",
+    "date": "26",
+    "hall": "IS Lab (K Block 4th Floor)",
+    "time": "9.30 AM - 04.30 PM",
+    "c1Name": "BALAKUMARAN A",
+    "c1Num": "6381854033",
+    "c2Name": "SYED ABUTAHIR S",
+    "c2Num": "9080310803",
+    "maxCount": "57",
+    "desc": "R is a simple programming environment that enables the effective handling of data, while providing  excellent graphical support. R is used for simple calculations, matrix calculations, differential equations,  optimization, statistical analysis, plotting graphs, etc. Also, it is useful for anybody who wishes to  undertake extensive statistical computations and data visualization. This one day hands-on workshop will introduce participants to use R programming tools for data analytics.",
+    "agenda": [
+      [
+        {
+          "time": "9.30 AM - 10.30 AM",
+          "description": [
+            "Introduction to R programming – Datatypes, variables, I/O functions, operators, till control structures"
+          ]
+        },
+        {
+          "time": "10.45 AM - 11.45 PM",
+          "description": ["Functions, Graphs, statistical functions"]
+        },
+        {
+          "time": "12.00 PM - 01.00 PM",
+          "description": ["Hands-on Session"]
+        },
+        {
+          "time": "1.45 PM - 2.30 PM",
+          "description": ["Data Analytics and Visualizations"]
+        },
+        {
+          "time": "2.45 PM TO 4.30 PM",
+          "description": ["Hands-on Session"]
+        }
+      ]
+    ]
+  },
+
+  {
+    "wid": "WKSP0003",
+    "image": "/assets/Workshops/Workshop3.png",
+    "alteredFee": 600,
+    "assnName": "Institute of Electrical & Electronics Engg. (IEEE) (Students Chapter)",
+    "workName": "Deep Learning: Unlocking the Full Potential",
+    "date": "24",
+    "hall": "CS LAB (GRD LAB, E-BLOCK First floor)",
+    "time": "9.30 AM - 05.00 PM",
+    "c1Name": "Darshan R J",
+    "c1Num": "9952549553",
+    "c2Name": "Priyanka G S",
+    "c2Num": "93455 44874",
+    "maxCount": "70",
+    "desc": "Join us for a deep dive into the world of deep learning! During this intensive workshop, you'll  learn the concepts and principles of deep learning, as well as how to implement and apply deep learning  algorithms using tools such as Python and TensorFlow. You'll also get hands-on experience building and  training deep learning models, and learn how to use them to solve real-world problems. Whether you're a  beginner looking to get started with deep learning or an experienced professional looking to expand your  skills, this workshop is for you. Don't miss out on this opportunity to master the art of deep learning and  unlock the full potential of this powerful technology!\"",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 11:00 AM",
+          "description": [
+            "Introduction to AI and Recent Trends, Artificial Neural Networks and The Mechanics of DeepLearning\n"
+          ]
+        },
+        {
+          "time": "11:00 AM - 1:00 PM",
+          "description": ["Convolutional Neural Networks\n"]
+        },
+        {
+          "time": "2:00 PM - 3:30 PM",
+          "description": ["Language Modelling and Recurrent Neural Networks"]
+        },
+        {
+          "time": "3:45 PM - 5:00 PM",
+          "description": [
+            "CNN Application to Classification and Detection problems"
+          ]
+        }
+      ]
+    ]
+  },  
+  {
+    "wid": "WKSP0010",
+    "image": "/assets/Workshops/Workshop10.png",
+    "alteredFee": 400,
+    "assnName": "Radio Hub",
+    "workName": "Creative Fusion",
+    "date": "24",
+    "hall": "Y-202",
+    "time": "9.00 AM - 04.00 PM",
+    "c1Name": "DANISH",
+    "c1Num": "9080533862",
+    "c2Name": "THANISH",
+    "c2Num": "9944032407",
+    "maxCount": "66",
+    "desc": "Unleash your creativity with \"Creative Fusion,\" a dynamic workshop that combines the power of Adobe Photoshop, Blender, Video Editing and Poster Designing. With hands-on instruction from experienced professionals, you will learn the skills to bring your ideas to life. Enhance your photography, create stunning 3D graphics, or edit professional-looking videos with this workshop. Get ready to delve into the exciting world of digital media and unleash your full creative potential!\"",
+    "agenda": [
+      [
+        {
+          "time": "9:00 AM - 12:00 PM",
+          "description": [
+            "Introduction to Adobe Photoshop, Poster Designing using Photoshop, Video Editing basics."
+          ]
+        },
+        {
+          "time": "1:00 AM - 4:00 PM",
+          "description": [
+            "Advanced Techniques in Adobe Photoshop, Blender for 3D Animation and Visual Effects, Video Editing with Adobe Premiere Pro."
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0011",
+    "image": "/assets/Workshops/Workshop11.png",
+    "alteredFee": 300,
+    "assnName": "Metallurgical Engineering Association",
+    "workName": "Non-Destructive Testing",
+    "date": "25",
+    "hall": "Metallurgy Seminar Hall",
+    "time": "9:30 AM - 3:00 PM",
+    "c1Name": "Yogeshwaraa R",
+    "c1Num": "9629089852",
+    "c2Name": "Surya Krishnaa P",
+    "c2Num": "9043346699",
+    "maxCount": "52",
+    "desc": "Non destructive testing is a testing and analysis technique used in industry to evaluate the properties of a material, component, structure or system for characteristic differences or welding defects and discontinuities without causing damage to the original part. Why use NDT instead of conventional evaluation techniques? It is an effective technique via which the article can be tested without permanently altering its physical and chemical properties. It is a highly valuable technique that can save both money and time in product evaluation, troubleshooting and research. It is also a very safe testing method for operators with most techniques being harmless to humans with high accuracy.",
+    "agenda": [
+      [
+        {
+          "time": "9:30 AM - 11:00 AM",
+          "description": [
+            "SESSION 1 – Introduction to NDT and its various techniques"
+          ]
+        },
+        {
+          "time": "11:10 AM - 12:30 PM",
+          "description": ["SESSION 2 - Visual Testing, Penetration Testing "]
+        },
+        {
+          "time": "1:30 PM - 3:00 PM",
+          "description": ["SESSION 3 - Hands-on Session "]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0001",
+    "image": "/assets/Workshops/Workshop1.png",
+    "alteredFee": 600,
+    "assnName": "IEEE EMBS Students Branch",
+    "workName": "IoT system design using Embedded C and Python",
+    "date": "25",
+    "hall": "Medical Informatics Lab, Ground floor, BME Dept.",
+    "time": "9.00 AM - 05.30 PM",
+    "c1Name": "PREETHI S ",
+    "c1Num": "9361277079",
+    "c2Name": "P M HARISHREE",
+    "c2Num": "9385561379",
+    "maxCount": "61",
+    "desc": "The new era of imagination and deployment for a connected world is opened through Internet of Things with edge sensor nodes getting more and more intelligent and able to transmit directly to cloud and also get controlled. This workshop will provide a good understanding of Internet of Things and its exploding applications. The interactive lectures and hands-on exercises will provide attendees with a deep understanding of the technical aspects of IoT and inbuilt network processors.",
+    "agenda": [
+      [
+        {
+          "time": "9.00 - 10.00",
+          "description": [
+            "Overview on Iot technology and its application",
+            "Introduction to STEPS Iot Development kit (will be provided) with built in network processor, IDE Platform"
+          ]
+        },
+        {
+          "time": "10.00 - 12.00",
+          "description": [
+            "Preparing Sensor Node (Things) Embedded C Arduino API Programming",
+            "Sensor and actuators ",
+            "Creating own webserver using HTTP protocol"
+          ]
+        },
+        {
+          "time": "12.00 - 1.00",
+          "description": ["Iot communication models – HTTP & MQTT protocol"]
+        },
+        {
+          "time": "2.00 - 5.30",
+          "description": [
+            "Implementation of Iot system – sending date to cloud, data analysis and visualization using Think Speak cloud server  ",
+            "Dash board creation",
+            "Python programming implementation in microcontroller"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0002",
+    "image": "/assets/Workshops/Workshop2.png",
+    "alteredFee": 800,
+    "assnName": "CAA(Computer Applications Association)",
+    "workName": "Mobile App Development",
+    "date": "25",
+    "hall": "CC Lab (K Block 4th Floor)",
+    "time": "9.00 AM - 05.00 PM",
+    "c1Name": "MANOHARAN R ",
+    "c1Num": "6369969599",
+    "c2Name": "RAJKUMAR B",
+    "c2Num": "9842216369",
+    "maxCount": "60",
+    "desc": "Learn essential Android programming concepts and build a variety of apps using Java/Kotlin and XML based architecture. Become a native mobile app developer with proficiency in all aspects of mobile applications from design to build for Android via this app development workshop. This workshop also covers the learning scope of Flutter which is a cross-platform framework for both IOS and Android. It provides an eye opener for the modern way of app development using Jetpack compose. The technologies used to create these apps are expanding and improving quickly, so it’s an exciting time to start learning Mobile Development and undertake extensive statistical computations and data visualization. This one day hands-on workshop will introduce participants to use R programming tools for data analytics.",
+    "agenda": [
+      [
+        {
+          "time": "09:00 - 10:00",
+          "description": [
+            "Latest Trends in Native/Cross Platform Mobile App Development"
+          ]
+        },
+        {
+          "time": "10:00 - 10:30",
+          "description": ["Android Studio, Framework, Basic widgets"]
+        },
+        {
+          "time": "10:30 - 10:45",
+          "description": ["Short Recess"]
+        },
+        {
+          "time": "10:45 - 11:30",
+          "description": ["View Based Architecture - XML and Java/Kotlin"]
+        },
+        {
+          "time": "11:30 - 12:30",
+          "description": ["Building User Interfaces"]
+        },
+        {
+          "time": "01:30 - 02:30",
+          "description": ["Using Resources, Media and Menus to build apps"]
+        },
+        {
+          "time": "02:30 - 03:30",
+          "description": ["Jetpack Compose – Modern way of App Development"]
+        },
+        {
+          "time": "03:45 - 04:45",
+          "description": ["Cross platform app development using Flutter"]
+        }
+      ]
+    ]
+  },
+  {
+    "wid": "WKSP0005",
+    "image": "/assets/Workshops/Workshop5.png",
+    "alteredFee": 500,
+    "assnName": "Information Technology Association",
+    "workName": "Game Development",
+    "date": "26",
+    "hall": "IT Main Lab",
+    "time": "10.00 AM - 03.30 PM",
+    "c1Name": "RAHUL GUNASEELAN",
+    "c1Num": "9176717108",
+    "c2Name": "VARUNIKA D",
+    "c2Num": "9994097426",
+    "maxCount": "71",
+    "desc": "Video games have undeniably become an imperative part of our life,either as a form of entertainment or as a hobby. Video games are electronic games that require a user interface, input device that generates visual feedback for the  players, an output device that is either a two or three-dimensional display device. This workshop allows the students to gain more knowledge on gaming using softwares – unity3d & unreal.",
+    "agenda": [
+      [
+        {
+          "time": "10.15 AM - 12.30 PM",
+          "description": [
+            "Introduction to game development softwares such as Unity and Unreal engine and its hands-on implementation methods."
+          ]
+        },
+        {
+          "time": "1.30 PM - 3.30 PM",
+          "description": [
+            "Participants will be taught on how to develop a sample game from scratch game using various components and tools,followed by deployment methods on various platforms  "
+          ]
+        }
+      ]
+    ]
+  }
+]
