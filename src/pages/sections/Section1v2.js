@@ -1,20 +1,20 @@
-import React, { useEffect,useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiGmail, SiYoutube } from "react-icons/si";
 import { CgScrollV } from "react-icons/cg";
 import { useSpring, animated } from "react-spring";
 import { useNavigate } from "react-router-dom";
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const variant1 = {
   initial: {
-    opacity:0
+    opacity: 0
   },
   visible: {
-    opacity:1,
+    opacity: 1,
     transition: {
-      delay:7.1,
+      delay: 7.1,
       duration: 0.5,
     },
   },
@@ -28,8 +28,8 @@ function Section1v2({ scrollByVH }) {
   useEffect(() => {
 
     const hasVideoPlayed = localStorage.getItem('hasVideoPlayed');
-    console.log('Has video played: '+hasVideoPlayed);
-    if (hasVideoPlayed==='false') {
+    console.log('Has video played: ' + hasVideoPlayed);
+    if (hasVideoPlayed === 'false') {
       console.log("Hello");
       videoRef.current.play();
       localStorage.setItem('hasVideoPlayed', 'true');
@@ -47,15 +47,29 @@ function Section1v2({ scrollByVH }) {
   }, []);
 
   function Number({ n }) {
+    const [animate, setAnimate] = useState(true);
+  
     const props = useSpring({
       from: { number: 0 },
       number: n,
-      delay: 200,
+      immediate: !animate,
+      onRest: () => setAnimate(false),
       config: { mass: 1, tension: 20, friction: 10 },
     });
-    return (
-      <animated.span>{props.number.to((n) => n.toFixed(0))}</animated.span>
-    );
+
+    useEffect(() => {
+      const handleScroll = (e) => {
+        e.preventDefault();
+      };
+
+      window.addEventListener('scroll', handleScroll);
+
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+  
+    return <animated.span>{props.number.to((n) => n.toFixed(0))}</animated.span>;
   }
 
   const toggleSection = (e) => {
@@ -76,27 +90,24 @@ function Section1v2({ scrollByVH }) {
 
   return (
     <React.Fragment>
-    
+
       <div
-        className={`lg:hidden flex flex-row w-screen ${
-          isOpen && "shadow-lg"
-        } h-[50vh]`}
+        className={`lg:hidden pt-12 flex flex-row w-screen ${isOpen && "shadow-lg"
+          } h-[50vh]`}
       >
-        <div className={`px-4 ${isOpen ? "h-full" : "h-fit"} z-10 bg-white`}>
+        <div className={`px-4 ${isOpen ? "h-full pb-[110%]" : "h-fit"} z-10 bg-white`}>
           <MenuToggle isOpen={isOpen} setIsOpen={setIsOpen} />
 
         </div>
         <div
-          className={`divide-y divide-gray-600 ${
-            isOpen ? "h-full overflow-hidden" : "h-0 overflow-hidden"
-          } transition-all ease-in-out duration-300`}
+          className={`divide-y divide-gray-600 ${isOpen ? "h-full overflow-hidden" : "h-0 overflow-hidden"
+            } transition-all ease-in-out duration-300 w-3/4 bg-white`}
         >
 
 
           <div
-            className={`w-screen flex flex-col font-poppins absolute bg-white ${
-              isOpen ? "z-20 h-[50%]" : "-z-20"
-            } transition-all ease-in-out duration-300`}
+            className={`w-full flex flex-col font-poppins absolute ${isOpen ? "z-20 h-[50%]" : "-z-20"
+              } transition-all ease-in-out duration-300 bg-white`}
           >
             <button
               onClick={() => {
@@ -105,7 +116,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Events
             </button>
@@ -116,7 +127,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Paper Presentations
             </button>
@@ -127,7 +138,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Workshops
             </button>
@@ -138,7 +149,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Sponsors
             </button>
@@ -149,7 +160,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Our Team
             </button>
@@ -160,7 +171,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               FAQs
             </button>
@@ -171,7 +182,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-screen text-gray-600 text-left text-base py-2`}
+              className={`w-full text-gray-600 text-left text-base py-2`}
             >
               Contact Us
             </button>
@@ -247,114 +258,114 @@ function Section1v2({ scrollByVH }) {
         </div>
       </div>
 
-        <h1
-          id="tagline"
-          className="uppercase lg:hidden delay-500 font-poppins text-3xl lg:text-[2.5rem] font-semibold ml-8 -mt-24 lg:-ml-40 lg:-mt-0 lg:mb-8"
-        >
-          <span className="bg-gradient-to-r from-[#C80067] to-[#7300fe] text-white leading-[3.25rem] lg:leading-[4rem] relative ">
-            The Global Clash of Techno Talents.
-          </span>
-        </h1>
-        <div className="w-full flex flex-col items-center">
-          <div className="lg:hidden flex flex-row w-full text-[#3c4043] font-poppins font-semibold justify-between">
-            <div className="w-1/3 flex flex-col items-center justify-between space-y-2">
-              <div className="text-5xl">
-                <Number n={40} />+
-              </div>
-              <h1 className="text-sm text-center tracking-wide uppercase">
-                Events
-              </h1>
+      <h1
+        id="tagline"
+        className="uppercase lg:hidden delay-500 font-poppins text-3xl lg:text-[2.5rem] font-semibold ml-8 -mt-24 lg:-ml-40 lg:-mt-0 lg:mb-8"
+      >
+        <span className="bg-gradient-to-r from-[#C80067] to-[#7300fe] text-white leading-[3.25rem] lg:leading-[4rem] relative font-poppins">
+          The Global Clash of Techno Talents.
+        </span>
+      </h1>
+      <div className="w-full flex flex-col items-center">
+        <div className="lg:hidden flex flex-row w-full text-[#3c4043] font-poppins font-semibold justify-between">
+          <div className="w-1/3 flex flex-col items-center justify-between space-y-2">
+            <div className="text-5xl">
+              <Number n={40} />+
             </div>
-            <div className="w-1/3 flex flex-col items-center justify-between space-y-2">
-              <div className="text-5xl">
-                <Number n={10} />+
-              </div>
-              <h1 className="text-sm text-center tracking-wide uppercase">
-                Workshops
-              </h1>
-            </div>
-            <div className="w-1/3 flex flex-col items-center justify-between space-y-2">
-              <div className="text-5xl">
-                <Number n={4} />
-              </div>
-              <h1 className="text-xs text-center tracking-wide uppercase">
-                Paper Presentations
-              </h1>
-            </div>
+            <h1 className="text-sm text-center tracking-wide uppercase">
+              Events
+            </h1>
           </div>
-          {localStorage.getItem("token") ? (
-            <div className="flex flex-row space-x-6 lg:hidden mt-8 items-center justify-center lg:px-12 w-full px-16 z-10">
-              <button
-                id="registration-prompt"
-                className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
-                onClick={() => {
-                  navigate("/portal/profile");
-                }}
-              >
-                Dashboard
-              </button>
-              <button
-                id="registration-prompt"
-                className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
-                onClick={() => {
-                  localStorage.clear();
-                  window.location.reload();
-                }}
-              >
-                Logout
-              </button>
+          <div className="w-1/3 flex flex-col items-center justify-between space-y-2">
+            <div className="text-5xl">
+              <Number n={10} />+
             </div>
-          ) : (
-            <div className="flex flex-row space-x-6 lg:hidden mt-8 items-center justify-center lg:px-12 w-full px-16 z-10">
-              <button
-                id="registration-prompt"
-                className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
-                onClick={() => {
-                  navigate("/auth?type=signup");
-                }}
-              >
-                Register
-              </button>
-              <button
-                id="registration-prompt"
-                className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
-                onClick={() => {
-                  navigate("/auth?type=login");
-                }}
-              >
-                Login
-              </button>
+            <h1 className="text-sm text-center tracking-wide uppercase">
+              Workshops
+            </h1>
+          </div>
+          <div className="w-1/3 flex flex-col items-center justify-between space-y-2">
+            <div className="text-5xl">
+              <Number n={4} />
             </div>
-          )}
+            <h1 className="text-xs text-center tracking-wide uppercase">
+              Paper Presentations
+            </h1>
+          </div>
         </div>
+        {localStorage.getItem("token") ? (
+          <div className="flex flex-row space-x-6 lg:hidden mt-8 items-center justify-center lg:px-12 w-full px-16 z-10">
+            <button
+              id="registration-prompt"
+              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+              onClick={() => {
+                navigate("/portal/profile");
+              }}
+            >
+              Dashboard
+            </button>
+            <button
+              id="registration-prompt"
+              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+              onClick={() => {
+                localStorage.clear();
+                window.location.reload();
+              }}
+            >
+              Logout
+            </button>
+          </div>
+        ) : (
+          <div className="flex flex-row space-x-6 lg:hidden mt-8 items-center justify-center lg:px-12 w-full px-16 z-10">
+            <button
+              id="registration-prompt"
+              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+              onClick={() => {
+                navigate("/auth?type=signup");
+              }}
+            >
+              Register
+            </button>
+            <button
+              id="registration-prompt"
+              className="lg:text-lg font-semibold w-full text-center flex justify-center font-poppins bg-transparent text-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-8 py-2 rounded-lg my-8 lg:mb-16 whitespace-nowrap lg:whitespace-normal"
+              onClick={() => {
+                navigate("/auth?type=login");
+              }}
+            >
+              Login
+            </button>
+          </div>
+        )}
+      </div>
 
 
 
+      <div
+        className={`flex flex-row space-x-8 lg:hidden  w-full justify-center ${consolee >= 0.75 && "invert"
+          }`}
+      >
         <div
-          className={`flex flex-row space-x-8 lg:hidden  w-full justify-center ${consolee >= 0.75 && "invert"
-            }`}
-        >
-          <div
-            className="w-16 h-auto"
-            style={{
-              background: `url(https://upload.wikimedia.org/wikipedia/en/e/eb/PSG_College_of_Technology_logo.png)`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "contain",
-            }}
-          ></div>
-          <div className=" text-sm lg:text-base w-fit  ">
-            <p className="uppercase tracking-wider font-poppins text-sm w-fit">
-              Presented By
-            </p>
-            <p className="font-semibold font-poppins  mt-2 w-fit">
-              Students Union
-            </p>
-            <p className="font-poppins text-xs  w-fit">
-              PSG College of Technology
-            </p>
-          </div>
+          className="w-16 h-auto"
+          style={{
+            background: `url(https://upload.wikimedia.org/wikipedia/en/e/eb/PSG_College_of_Technology_logo.png)`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+          }}
+        ></div>
+        <div className=" text-sm lg:text-base w-fit  ">
+          <p className="uppercase tracking-wider font-poppins text-sm w-fit">
+            Presented By
+          </p>
+          <p className="font-semibold font-poppins  mt-2 w-fit">
+            Students Union
+          </p>
+          <p className="font-poppins text-xs  w-fit">
+            PSG College of Technology
+          </p>
         </div>
+      </div>
 
 
       {isOpen && (
@@ -438,16 +449,16 @@ function Section1v2({ scrollByVH }) {
 
 
       {/* MOB SECTION */}
-      
+
 
       <video ref={videoRef} muted width='100%' className="hidden md:hidden lg:block absolute z-[0] object-cover">
 
-        <source src="/assets/kriya_logo.mp4" type="video/mp4"/>
+        <source src="/assets/kriya_logo.mp4" type="video/mp4" />
       </video>
 
       <motion.div variants={variant1} initial='initial' animate='visible' className="hidden lg:grid grid-rows-5 px-20 min-h-screen w-auto bg-transparent relative z-10">
 
-      
+
 
 
 
@@ -522,7 +533,7 @@ function Section1v2({ scrollByVH }) {
               </div>
 
               <div className="flex flex-col items-start justify-between mt-5">
-                <div className="w-full text-start text-4xl font-bold text-red">
+                <div className="w-full text-start text-4xl font-bold text-red font-poppins">
                   <h1 className="leading-10">
                     THE{" "}
                     <span className="decoration-slate-700">

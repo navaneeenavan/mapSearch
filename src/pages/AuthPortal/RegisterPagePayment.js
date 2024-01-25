@@ -100,13 +100,13 @@ const RegisterPagePayment = ({ switchPage }) => {
       {!isPSG ? (
         <p className="">
           The general registration for Kriya 2024 is{" "}
-          <b className="font-semibold">Rs. 200</b>. You can pay now and register
+          <b className="font-semibold">Rs. 250</b>. You can pay now and register
           for all the events. You are also availed of the option to pay later.
         </p>
       ) : (
         <p className="">
           The general registration for Kriya 2024 is{" "}
-          <b className="font-semibold">Rs. 150</b> for the students of PSG
+          <b className="font-semibold">Rs. 200</b> for the students of PSG
           College of Technology. You can pay now and register for all the
           events. You are also availed of the option to pay later.
         </p>
