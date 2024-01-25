@@ -104,7 +104,7 @@ const Section12 = ({ scrollYByVH }) => {
               Know more
             </p>
             <div className="flex flex-wrap justify-end space-x-4 items-center mt-4">
-              <button
+              {/* <button
                 onClick={() =>
                   window.open(
                     "https://open.spotify.com/artist/3gQ8iee3y7UsGTMuhjzEuD"
@@ -117,11 +117,11 @@ const Section12 = ({ scrollYByVH }) => {
                   alt=""
                   className="w-8 h-8"
                 />
-              </button>
+              </button> */}
               <button
                 onClick={() =>
                   window.open(
-                    "https://www.youtube.com/channel/UC27ndgSDz1uqVhTG9n_ytDA"
+                    "https://youtube.com/c/StudentsUnionPSGTech"
                   )
                 }
                 className="border-[#ff0000] border-2 rounded-lg p-4 [box-shadow:0px_0px_32px_rgba(255,0,0,0.5)] hover:[box-shadow:0px_0px_32px_rgba(255,0,0,0.9)]"
@@ -134,7 +134,7 @@ const Section12 = ({ scrollYByVH }) => {
               </button>
               <button
                 onClick={() =>
-                  window.open("https://www.instagram.com/syedsubahan/?hl=en")
+                  window.open("https://www.instagram.com/kriya_psgtech/")
                 }
                 className="border-[#C53A59] border-2 rounded-lg p-4 [box-shadow:0px_0px_32px_rgba(197,58,89,0.5)] hover:[box-shadow:0px_0px_32px_rgba(197,58,89,0.9)]"
               >

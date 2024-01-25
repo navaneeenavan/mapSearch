@@ -321,7 +321,7 @@ const NavBarForMobile = ({ consolee }) => {
         }  lg:hidden z-50 w-screen lg:w-1/4 ${!condition ? "bg-white" : "bg-black"
         } fixed lg:relative top-0 max-h-screen lg:h-screen overflow-y-scroll px-4 font-poppins shadow-md`}
     >
-      <div className="flex w-full justify-between items-center sticky top-0 h-[3.25rem]">
+      <div className="flex w-screen justify-between items-center sticky top-0 h-[3.25rem]">
         <MenuToggle isOpen={isOpen} setIsOpen={setIsOpen} />
         <button
           onClick={(e) => {
