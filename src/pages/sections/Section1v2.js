@@ -106,7 +106,7 @@ function Section1v2({ scrollByVH }) {
 
 
           <div
-            className={`w-full flex flex-col font-poppins absolute ${isOpen ? "z-20 h-[50%]" : "-z-20"
+            className={`w-5/6 flex flex-col font-poppins absolute ${isOpen ? "z-20 h-[50%]" : "-z-20"
               } transition-all ease-in-out duration-300 bg-white`}
           >
             <button
