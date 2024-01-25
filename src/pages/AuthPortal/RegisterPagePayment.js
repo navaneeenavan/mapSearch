@@ -59,7 +59,7 @@ const RegisterPagePayment = ({ switchPage }) => {
       email: formData.email,
       name: formData.name,
       kriyaId: formData.kriyaId,
-      fee: isPSG ? 150 : 200,
+      fee: isPSG ? 200 : 250,
     })
       .then((res) => {
         setTransaction(res.data);

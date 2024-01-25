@@ -75,7 +75,7 @@ const OtherPayments = ({ switchPage }) => {
       email: userDetails.email,
       name: userDetails.name,
       kriyaId: userDetails.kriyaId,
-      fee: isPSG ? 150 : 200,
+      fee: isPSG ? 200 : 250,
     })
       .then((res) => {
         setTransaction(res.data);

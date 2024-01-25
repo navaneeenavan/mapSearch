@@ -78,7 +78,7 @@ function Section1v2({ scrollByVH }) {
     <React.Fragment>
     
       <div
-        className={`lg:hidden flex flex-row w-full ${
+        className={`lg:hidden flex flex-row w-screen ${
           isOpen && "shadow-lg"
         } h-[50vh]`}
       >
@@ -94,7 +94,7 @@ function Section1v2({ scrollByVH }) {
 
 
           <div
-            className={`w-full flex flex-col font-poppins absolute bg-white ${
+            className={`w-screen flex flex-col font-poppins absolute bg-white ${
               isOpen ? "z-20 h-[50%]" : "-z-20"
             } transition-all ease-in-out duration-300`}
           >
@@ -105,7 +105,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Events
             </button>
@@ -116,7 +116,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Paper Presentations
             </button>
@@ -127,7 +127,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Workshops
             </button>
@@ -138,7 +138,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Sponsors
             </button>
@@ -149,7 +149,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Our Team
             </button>
@@ -160,7 +160,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               FAQs
             </button>
@@ -171,7 +171,7 @@ function Section1v2({ scrollByVH }) {
                 element.scrollIntoView({ behavior: "smooth" });
               }}
               id="nav-button"
-              className={`w-full text-gray-600 text-left text-base py-2`}
+              className={`w-screen text-gray-600 text-left text-base py-2`}
             >
               Contact Us
             </button>

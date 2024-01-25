@@ -82,6 +82,7 @@ const Landing = () => {
       {/* <div className="bg-white p-4 hiddn rounded-lg fixed top-10 left-10 z-50">
         {consolee}
       </div> */}
+      <div className="overflow-hidden">
       <NavBar consolee={consolee} />
       <NavBarForMobile consolee={consolee} />
 
@@ -142,6 +143,7 @@ const Landing = () => {
         <Section8 />
         <Section9 />
       </main>
+      </div>
     </React.Fragment>
   );
 };
@@ -356,10 +358,10 @@ const NavBarForMobile = ({ consolee }) => {
 
       <div
         className={`divide-y divide-gray-600 ${isOpen ? "h-fit" : "h-0 overflow-hidden"
-          } transition-all ease-in-out duration-300`}
+          } transition-all w-screen ease-in-out duration-300`}
         id="landingNavOpen"
       >
-        <div className="py-8 pl-4 w-full flex flex-col"
+        <div className="py-8 pl-4 w-screen flex flex-col"
           id="landingNavElements"
         >
           <button
@@ -368,7 +370,7 @@ const NavBarForMobile = ({ consolee }) => {
               const element = document.getElementById("section3");
               element.scrollIntoView({ behavior: "smooth" });
             }}
-            className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+            className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
               } text-left text-base py-2`}
             id="landingNavElements"
           >
@@ -380,7 +382,7 @@ const NavBarForMobile = ({ consolee }) => {
               const element = document.getElementById("section4");
               element.scrollIntoView({ behavior: "smooth" });
             }}
-            className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+            className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
               } text-left text-base py-2`}
             id="landingNavElements"
           >
@@ -392,7 +394,7 @@ const NavBarForMobile = ({ consolee }) => {
               const element = document.getElementById("section5");
               element.scrollIntoView({ behavior: "smooth" });
             }}
-            className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+            className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
               } text-left text-base py-2`}
             id="landingNavElements"
           >
@@ -404,7 +406,7 @@ const NavBarForMobile = ({ consolee }) => {
               const element = document.getElementById("section6");
               element.scrollIntoView({ behavior: "smooth" });
             }}
-            className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+            className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
               } text-left text-base py-2`}
             id="landingNavElements"
           >
@@ -416,7 +418,7 @@ const NavBarForMobile = ({ consolee }) => {
               const element = document.getElementById("section7");
               element.scrollIntoView({ behavior: "smooth" });
             }}
-            className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+            className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
               } text-left text-base py-2`}
             id="landingNavElements"
           >
@@ -428,7 +430,7 @@ const NavBarForMobile = ({ consolee }) => {
               const element = document.getElementById("section8");
               element.scrollIntoView({ behavior: "smooth" });
             }}
-            className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+            className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
               } text-left text-base py-2`}
             id="landingNavElements"
           >
@@ -440,7 +442,7 @@ const NavBarForMobile = ({ consolee }) => {
               const element = document.getElementById("section9");
               element.scrollIntoView({ behavior: "smooth" });
             }}
-            className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+            className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
               } text-left text-base py-2`}
             id="landingNavElements"
           >
@@ -453,7 +455,7 @@ const NavBarForMobile = ({ consolee }) => {
                   setIsOpen(!isOpen);
                   navigate("/portal/profile");
                 }}
-                className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+                className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
                   } text-left text-base py-2`}
               >
                 Dashboard
@@ -464,7 +466,7 @@ const NavBarForMobile = ({ consolee }) => {
                   localStorage.clear();
                   window.location.reload();
                 }}
-                className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+                className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
                   } text-left text-base py-2`}
               >
                 Logout
@@ -476,7 +478,7 @@ const NavBarForMobile = ({ consolee }) => {
                 setIsOpen(!isOpen);
                 navigate("/auth?type=signup");
               }}
-              className={`w-full ${condition ? "text-gray-200" : "text-gray-600"
+              className={`w-screen ${condition ? "text-gray-200" : "text-gray-600"
                 } text-left text-base py-2`}
             >
               Register / Login

@@ -195,7 +195,7 @@ const Workshop = () => {
         <div className="bg-white w-full lg:w-2/3 lg:rounded-3xl lg:p-12 relative py-12 px-8">
           <div className="text-4xl font-bold mb-8 text-[#3c4043]">Agenda</div>
 
-          {workshopDetail.agenda.length > 0 && (
+          {workshopDetail?.agenda.length > 0 && (
             <div>
               <div className="flex flex-row items-center gap-4 mb-8">
                 <p className="text-6xl lg:text-6xl font-semibold tracking-wide text-[#3c4043]">
@@ -210,7 +210,7 @@ const Workshop = () => {
                   </p>
                 </div>
               </div>
-              {workshopDetail.agenda[0]?.map((item, index) => (
+              {workshopDetail?.agenda[0]?.map((item, index) => (
                 <div className="ml-8">
                   <div className="flex flex-row gap-4 items-center">
                     <div className="w-6 h-6 z-10 rounded-full bg-[#3c4043]"></div>
@@ -235,7 +235,7 @@ const Workshop = () => {
             onClick={() => {
               console.log("paymentDetails:", paymentDetails);
               console.log("currentCount:", currentCount);
-              console.log("workshopDetail.maxCount:", workshopDetail.maxCount);
+              console.log("workshopDetail.maxCount:", workshopDetail?.maxCount);
 
               // Rest of your code...
 
@@ -256,15 +256,15 @@ const Workshop = () => {
                   )
                   .find((i) => i.eventId === id) ? (
                   "Registered"
-                ) : currentCount / workshopDetail.maxCount >= 0.5 &&
-                  currentCount < workshopDetail.maxCount ? (
+                ) : currentCount / workshopDetail?.maxCount >= 0.5 &&
+                  currentCount < workshopDetail?.maxCount ? (
                   <div>
                     Registrations Closing Soon!<br></br>
                     <span className="whitespace-nowrap text-sm font-normal bg-clip-text [-webkit-text-fill-color:transparent] bg-white lg:bg-[#3c4043]">
                       Limited Seats Available. Hurry Up!
                     </span>
                   </div>
-                ) : currentCount >= workshopDetail.maxCount ? (
+                ) : currentCount >= workshopDetail?.maxCount ? (
                   "Registrations Closed!"
                 ) : (
                   "Register Here!"
@@ -381,7 +381,7 @@ const Workshop = () => {
           </div>
         </div>
       </div>
-      {workshopDetail.prerequisites && (
+      {workshopDetail.prerequisites ? (
         <div className="flex flex-row gap-4 w-full my-4 lg:px-0">
           <div className="bg-[#ffffff] w-full lg:rounded-3xl p-8 lg:p-12 space-y-4">
             <p className="text-3xl font-semibold tracking-wider text-[#3c4043]">
@@ -389,8 +389,8 @@ const Workshop = () => {
             </p>
             <p className = "mt-5"> - {workshopDetail.prerequisites}</p>
           </div>
-        </div>
-      )}
+      </div>
+      ):(<></>)}
     </section>
   );
 };

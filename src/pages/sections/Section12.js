@@ -51,7 +51,7 @@ const Section12 = ({ scrollYByVH }) => {
       >
 
         <img src={bgUrl} className="hidden lg:block w-full  h-full " alt="Syed Subahan"/>
-        <img src={mobBgUrl} className=" mt-20 w-full lg:hidden" alt="Syed Subahan"/>
+        <img src={mobBgUrl} className="mt-20 w-screen lg:hidden" alt="Syed Subahan"/>
 
         <div className=" lg:hidden flex-1 h-full flex flex-col items-center lg:items-end justify-center px-12 lg:pl-0">
           <h1
