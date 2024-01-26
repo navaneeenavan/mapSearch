@@ -59,7 +59,7 @@ const Section6 = () => {
                       className={`w-full h-full`}
                     ></div>
                   </div>
-                  <p className="uppercase text-base lg:text-lg text-[#181818] tracking-wider text-center">
+                  <p className="uppercase text-base font-bold lg:text-lg text-[#181818] tracking-wider text-center">
                     {"KLA"}
                   </p>
                 </div>
@@ -86,7 +86,7 @@ const Section6 = () => {
                         className={`flex justify-center items-center w-full h-full bg-white`}
                       ><img src="https://www.societegenerale.com/sites/default/files/image/logo/logo-en.svg" /></div>
                     </div>
-                    <p className="uppercase text-base lg:text-lg text-[#181818] tracking-wider text-center">
+                    <p className="uppercase text-base font-bold lg:text-lg text-[#181818] tracking-wider text-center">
                       {"Societe Generale"}
                     </p>
                   </div>
@@ -112,7 +112,7 @@ const Section6 = () => {
                         className={`flex justify-center items-center w-full h-full bg-white`}
                       ><img src="https://skyx.co.in/wp-content/uploads/2022/04/SkyX_Color.png"/></div>
                     </div>
-                    <p className="uppercase text-base lg:text-lg text-[#181818] tracking-wider text-center">
+                    <p className="uppercase font-bold text-base lg:text-lg text-[#181818] tracking-wider text-center">
                       {"SKYX AEROSPACE"}
                     </p>
                   </div>
