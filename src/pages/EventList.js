@@ -121,7 +121,7 @@ const particlesLoaded = (container) => {
           className={`text-3xl lg:text-4xl font-semibold text-center pt-8`}
           id="brainiac"
         >
-          <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#8f3ccf] to-[#df51ad]">
+          <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#e8567c] to-[#f48555]">
             Brainiac
           </span>
         </h1>
@@ -129,8 +129,8 @@ const particlesLoaded = (container) => {
           imgurl={
             "/assets/EventGrid/circuit.jpg"
           }
-          arrowCircleStart="from-[#980283]"
-          arrowCircleEnd="to-[#500d23]"
+          arrowCircleStart="from-[#e8567c]"
+          arrowCircleEnd="to-[#f48555]"
           obj={events.filter((i) => i.category === "Brainiac")}
           topCurve="bg-[#770658]"
           rightCurve="bg-[#630a3d]"
@@ -146,7 +146,7 @@ const particlesLoaded = (container) => {
           className={`text-3xl lg:text-4xl font-semibold text-center pt-8`}
           id="amuse"
         >
-          <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#e8567c] to-[#f48555]">
+          <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#8f3ccf] to-[#df51ad]">
             Amuse
           </span>
         </h1>
@@ -154,8 +154,8 @@ const particlesLoaded = (container) => {
           imgurl={
              "/assets/EventGrid/brainiac.jpg"
           }
-          arrowCircleStart="from-[#c74517]"
-          arrowCircleEnd="to-[#5c330f]"
+          arrowCircleStart="from-[#8f3ccf]"
+          arrowCircleEnd="to-[#df51ad]"
           obj={events.filter((i) => i.category === "Amuse")}
           topCurve="bg-[#e04918]"
           rightCurve="bg-[#e04918]"

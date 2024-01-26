@@ -76,9 +76,8 @@ const Section5 = () => {
         >
           <div className="w-[50%] h-full flex flex-col justify-center p-24">
             <h1 className={`text-5xl font-poppins font-semibold workshop-text opacity-0 px-8 lg:p-0 pt-8`}>
-              Join the
               <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6]">
-                {" masterclass workshops "}
+                {" Masterclass workshops "}
               </span>{" "}
               from innovation leaders and <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6]">industry experts</span>
             </h1>
@@ -125,9 +124,8 @@ const Section5 = () => {
 
         <div className="lg:hidden w-full p-8 pt-20 flex flex-col items-center">
           <h1 className={`text-4xl font-poppins font-semibold workshop-text opacity-0 text-center`}>
-            Join the
             <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6]">
-              {" masterclass workshops "}
+              {" Masterclass workshops "}
             </span>{" "}
             from innovation leaders and industry experts.
           </h1>

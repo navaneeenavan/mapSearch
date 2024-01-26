@@ -14,7 +14,7 @@ const variant1 = {
   visible: {
     opacity: 1,
     transition: {
-      delay: 7.1,
+      delay: 7,
       duration: 0.5,
     },
   },

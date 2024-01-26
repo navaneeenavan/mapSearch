@@ -58,13 +58,13 @@ const Section4 = ({ scrollYByVH }) => {
 
         <div className="lg:w-[30%] w-full h-fit lg:h-full flex flex-col lg:justify-center ">
           <h1
-            className={`text-4xl lg:text-7xl font-poppins font-semibold ${condition} workshop-text opacity-0 px-8 lg:p-0 text-center lg:text-right`}
+            className={`text-4xl lg:text-6xl font-poppins font-semibold ${condition} workshop-text opacity-0 px-8 lg:p-0 text-center lg:text-left`}
           >
-            Engineering.
+          Research<br/>
             <span className="bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6]">
-              {" Researching. "}
+              {" Paper Presentations"}
             </span>{" "}
-            Solutions.
+            
           </h1>
         </div>
         <div className="block lg:hidden w-full lg:w-[60%] h-full overflow-x-auto mt-8">

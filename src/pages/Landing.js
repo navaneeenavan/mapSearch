@@ -205,7 +205,20 @@ const NavBar = ({ consolee }) => {
       >
         Sponsors
       </button>
-      {condition && (<div className="w-[4.5rem] h-[3rem]"></div>)}
+      {condition && (<div className="w-[4.5rem] h-[3rem]"style={{
+          background: `url(/assets/Logo/Kriya Logo 2024 white.png)`,
+          backgroundPosition: "center",
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <button
+          className="w-full h-full"
+          onClick={(e) => {
+            const element = document.getElementById("section1");
+            element.scrollIntoView({ behavior: "smooth" });
+          }}
+        ></button></div>)}
       <div
         className={`w-[4.5rem] h-[3rem] ${condition && "hidden"}`}
         style={{

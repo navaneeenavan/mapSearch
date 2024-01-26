@@ -302,7 +302,7 @@ const particlesLoaded = (container) => {
                   <div className="flex items-center justify-between text-xs">
                     <p className="">Event ID: {event.eventId}</p>
                     <p className="">
-                      Mar {events.find((i) => i.id === event.eventId).date}
+                      Feb {events.find((i) => i.id === event.eventId).date}
                     </p>
                   </div>
                   <div className="flex items-center justify-between space-x-4">
@@ -352,7 +352,7 @@ const particlesLoaded = (container) => {
                   <div className="">
                     <div className="flex items-center justify-between text-xs">
                       <p className="">Workshop ID: {workshop.eventId}</p>
-                      <p className="">Mar {workshops.find((i) => i.wid === workshop.eventId).date}</p>
+                      <p className="">Feb {workshops.find((i) => i.wid === workshop.eventId).date}</p>
                     </div>
                     <div className="flex items-center justify-between space-x-4">
                       <Link
@@ -400,7 +400,7 @@ const particlesLoaded = (container) => {
                   <div className="flex items-center justify-between text-xs">
                     <p className="">Paper Presentation ID: {paper.paperId}</p>
                     <p className="">
-                      Mar {papers.find((i) => i.ppid === paper.paperId).date}
+                      Feb {papers.find((i) => i.ppid === paper.paperId).date}
                     </p>
                   </div>
                   <div className="flex items-center justify-between space-x-4">
