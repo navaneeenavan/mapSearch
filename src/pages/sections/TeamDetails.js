@@ -213,7 +213,7 @@ const TeamDetails = [
     name: "Ranjith R K",
     vertical: "App and Web Development",
     position: "",
-    image_url: "/assets/Team/Web/ranjith.jpeg",
+    image_url: "/assets/Team/Web/ranjith.png",
   },
   {
     name: "Navaneetha Krishnan K S",

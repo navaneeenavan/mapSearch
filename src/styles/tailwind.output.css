@@ -2013,24 +2013,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(18 26 67 / 0));
 }
 
-.from-\[\#8f3ccf\] {
-  --tw-gradient-from: #8f3ccf;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(143 60 207 / 0));
-}
-
-.from-\[\#980283\] {
-  --tw-gradient-from: #980283;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(152 2 131 / 0));
-}
-
 .from-\[\#e8567c\] {
   --tw-gradient-from: #e8567c;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(232 86 124 / 0));
 }
 
-.from-\[\#c74517\] {
-  --tw-gradient-from: #c74517;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(199 69 23 / 0));
+.from-\[\#8f3ccf\] {
+  --tw-gradient-from: #8f3ccf;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(143 60 207 / 0));
 }
 
 .from-\[\#dc4fab\] {
@@ -2125,20 +2115,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #a21cd9;
 }
 
-.to-\[\#df51ad\] {
-  --tw-gradient-to: #df51ad;
-}
-
-.to-\[\#500d23\] {
-  --tw-gradient-to: #500d23;
-}
-
 .to-\[\#f48555\] {
   --tw-gradient-to: #f48555;
 }
 
-.to-\[\#5c330f\] {
-  --tw-gradient-to: #5c330f;
+.to-\[\#df51ad\] {
+  --tw-gradient-to: #df51ad;
 }
 
 .to-\[\#eb587b\] {
@@ -2605,11 +2587,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[30vh\] {
   font-size: 30vh;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .font-bold {
