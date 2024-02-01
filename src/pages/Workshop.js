@@ -19,6 +19,7 @@ const Workshop = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [paymentDetails, setPaymentDetails] = useState(null);
   const [currentCount, setCurrentCount] = useState(0);
+  const [earlyBird, setEarlyBird] = useState(1);
 
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
@@ -67,6 +68,14 @@ const Workshop = () => {
     });
   }, [id]);
 
+  useEffect(() => {
+    if (currentCount >= workshopDetail?.maxCount) {
+      setEarlyBird(0);
+    }
+  }, [currentCount]);
+
+  console.log(currentCount + "this is the current count");
+
   const handleRegister = () => {
     if (!isLoggedIn) {
       navigate("/auth?type=login");
@@ -92,28 +101,36 @@ const Workshop = () => {
         width="100vh"
         options={particleOptions}
       />
-      <div className="flex w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] overflow-x-hidden space-x-6 whitespace-nowrap py-2 mb-12 text-white bg-gradient-to-r from-[#C80067] to-[#5451B6] -mx-16">
-        <div className="animate-marquee [will-change:transform] whitespace-nowrap flex space-x-6">
-          <p className="">
-            ✨ Early Bird Offer ! ✨ For first 20% registrations on all workshops
-          </p>
-          <p className="">
-            ✨ Early Bird Offer ! ✨ For first 20% registrations on all workshops
-          </p>
-          <p className="">
-            ✨ Early Bird Offer ! ✨ For first 20% registrations on all workshops
-          </p>
-          <p className="">
-            ✨ Early Bird Offer ! ✨ For first 20% registrations on all workshops
-          </p>
-          <p className="">
-            ✨ Early Bird Offer ! ✨ For first 20% registrations on all workshops
-          </p>
-          <p className="">
-            ✨ Early Bird Offer ! ✨ For first 20% registrations on all workshops
-          </p>
+      {earlyBird && (
+        <div className="flex w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] overflow-x-hidden space-x-6 whitespace-nowrap py-2 mb-12 text-white bg-gradient-to-r from-[#C80067] to-[#5451B6] -mx-16">
+          <div className="animate-marquee [will-change:transform] whitespace-nowrap flex space-x-6">
+            <p className="">
+              ✨ Early Bird Offer ! ✨ For first 20% registrations on all
+              workshops
+            </p>
+            <p className="">
+              ✨ Early Bird Offer ! ✨ For first 20% registrations on all
+              workshops
+            </p>
+            <p className="">
+              ✨ Early Bird Offer ! ✨ For first 20% registrations on all
+              workshops
+            </p>
+            <p className="">
+              ✨ Early Bird Offer ! ✨ For first 20% registrations on all
+              workshops
+            </p>
+            <p className="">
+              ✨ Early Bird Offer ! ✨ For first 20% registrations on all
+              workshops
+            </p>
+            <p className="">
+              ✨ Early Bird Offer ! ✨ For first 20% registrations on all
+              workshops
+            </p>
+          </div>
         </div>
-      </div>
+      )}
       <div className="w-fit">
         <h1 className="text-3xl text-white font-semibold px-8 lg:px-0">
           {workshopDetail.workName}
@@ -237,15 +254,30 @@ const Workshop = () => {
                 <BiRupee />
               </p>
               <div className="flex flex-col pl-2">
-                {workshopDetail.fee ? (
+                {console.log(earlyBird + "this is the early bird ")}
+                {earlyBird ? (
                   <React.Fragment>
                     <p className="text-lg lg:text-2xl font-semibold tracking-wide text-[#3c4043]">
-                      Rs. {workshopDetail.fee}*
+                      Rs. {workshopDetail.alteredFee}*
                       <span className="line-through text-sm ml-2 font-normal">
-                        Rs. {workshopDetail.alteredFee}
+                        Rs. {workshopDetail.actualFee}
                       </span>
                     </p>
                     <p className="text-xs">* Early bird offer</p>
+                    {/* <p className="text-xs mt-1">
+                      {" "}
+                      <span className="font-bold">
+                        {" "}
+                        {Number.isNaN(
+                          Number((workshopDetail?.maxCount / 100) * 20)
+                        )
+                          ? 0
+                          : Number((workshopDetail?.maxCount / 100) * 20) -
+                            currentCount}
+                      </span>{" "}
+                      seats left 
+                    </p> */}
+                    {console.log()}
                   </React.Fragment>
                 ) : (
                   <React.Fragment>
@@ -335,10 +367,12 @@ const Workshop = () => {
             <p className="text-3xl font-semibold tracking-wider text-[#3c4043]">
               Prerequisites
             </p>
-            <p className = "mt-5"> - {workshopDetail.prerequisites}</p>
+            <p className="mt-5"> - {workshopDetail.prerequisites}</p>
           </div>
-      </div>
-      ):(<></>)}
+        </div>
+      ) : (
+        <></>
+      )}
     </section>
   );
 };
