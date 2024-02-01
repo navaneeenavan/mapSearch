@@ -1,7 +1,7 @@
 [
   {
     "ppid": "PRPN0003",
-    "image": "/assets/Paper/prezenta.png",
+    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/cc6e4349517f3c6a208178012da4ab90/detailed",
     "eventName": "COMPUTER APPLICATION'S PAPER PRESENTATION",
     "contact1": ["Raj Kumar B", 9842216369],
     "contact2": ["Kavin Rathinam ", 8870834420],
@@ -16,7 +16,7 @@
   },
   {
     "ppid": "PRPN0002",
-    "image": "/assets/Paper/textrivia.png",
+    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/076f99da0b4f7714202dd440f78205a9/detailed",
     "eventName": "GREEN GALA",
     "contact1": ["Lokeshwaran P R ", 8903715578],
     "contact2": ["Sree Ram", 8870565017],
@@ -31,7 +31,7 @@
   },
   {
     "ppid": "PRPN0001",
-    "image": "/assets/Paper/technoration.png",
+    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/bd48a20f8c319174c0505a5d37de6c2b/detailed",
     "eventName": "TECHNORATION",
     "contact1": ["Pradeep P", 9944831339],
     "contact2": ["Priyanka S", 8072651148],
@@ -46,7 +46,7 @@
   },
   {
     "ppid": "PRPN0004",
-    "image": "/assets/Paper/tamil.png",
+    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/f9f38796982f9efa601bb6b2d9126fb8/detailed",
     "eventName": "அறிந்தமிழ் கூடல்",
     "contact1": ["VVS Nitish Aravindh", 8838294094],
     "contact2": ["Vetrivelan", 9360098414],

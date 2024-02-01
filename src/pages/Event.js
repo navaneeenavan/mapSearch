@@ -328,6 +328,7 @@ const particlesLoaded = (container) => {
               {eventDetail.eventRules.split("\n").map((rule, index) => (
                 <div>
                   {
+
                     rule.startsWith("->") ? (
                       <li key={index} className="ml-4">{rule.substring(2)}</li>
                     ) : (

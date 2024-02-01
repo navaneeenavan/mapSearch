@@ -112,7 +112,7 @@ const Section3v3 = () => {
               </div>
             </div>
 
-            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[30%] lg:left-[70%] p-4 space-y-2 events-text opacity-0 delay-100">
+            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[30%] lg:left-[70%] p-4 space-y-2 events-text opacity-0 delay-100 hover:shadow-lg">
               <Link
                 className="flex lg:justify-center items-center space-x-4"
                 to="/portal/event?ctg=brainiac"
@@ -153,7 +153,7 @@ const Section3v3 = () => {
               </div>
             </div>
 
-            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[70%] lg:left-[70%] p-4 space-y-2 events-text opacity-0 delay-500">
+            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[70%] lg:left-[70%] p-4 space-y-2 events-text opacity-0 delay-500 hover:shadow-lg">
               <Link
                 className="flex items-center space-x-4 lg:justify-cente"
                 to="/portal/event?ctg=coding"
@@ -194,7 +194,7 @@ const Section3v3 = () => {
               </div>
             </div>
 
-            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[80%] lg:left-[40%] p-4 space-y-2 events-text opacity-0 delay-500">
+            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[80%] lg:left-[40%] p-4 space-y-2 events-text opacity-0 delay-500 hover:shadow-lg">
               <Link
                 className="flex lg:justify-center items-center space-x-4"
                 to="/portal/event?ctg=circuit"
@@ -235,7 +235,7 @@ const Section3v3 = () => {
               </div>
             </div>
 
-            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[70%] lg:left-[10%] p-4 space-y-2 events-text opacity-0 delay-700">
+            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[70%] lg:left-[10%] p-4 space-y-2 events-text opacity-0 delay-700 hover:shadow-lg">
               <Link
                 className="flex lg:justify-center items-center space-x-4"
                 to="/portal/event?ctg=core"
@@ -275,7 +275,7 @@ const Section3v3 = () => {
               </div>
             </div>
 
-            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[30%] lg:left-[10%] p-4 space-y-2 events-text opacity-0 delay-700">
+            <div className="lg:w-[20rem] lg:justify-center lg:absolute lg:top-[30%] lg:left-[10%] p-4 space-y-2 events-text opacity-0 delay-700 hover:shadow-lg">
               <Link
                 className="flex lg:justify-center items-center space-x-4"
                 to="/portal/event?ctg=management"

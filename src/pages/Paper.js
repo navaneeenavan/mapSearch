@@ -187,7 +187,6 @@ const particlesLoaded = (container) => {
               </p>
               <ul className="list-disc text-base text-white lg:text-[#3c4043] pl-4 space-y-2">
                 <li>For teams, only <b className="font-semibold">one</b> team member needs to pay the general registration fee. (This is applicable only for paper presentations.)</li>
-                <li>If the abstract is accepted, a team must pay the event registration fee of <b className="font-semibold">Rs. 200</b> to present the paper</li>
               </ul>
             </div>
           </div>
@@ -251,7 +250,7 @@ const particlesLoaded = (container) => {
 
 
 
-          <div className="lg:bg-[#ffffff] w-full h-max lg:rounded-3xl p-8 space-y-5">
+          <div className="lg:bg-[#ffffff] w-full max-h-0 lg:rounded-3xl p-8 space-y-5">
             <p className="text-3xl lg:text-3xl font-semibold tracking-wide text-white lg:text-[#3c4043]">
               Contact
             </p>
