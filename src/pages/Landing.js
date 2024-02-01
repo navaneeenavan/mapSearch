@@ -19,8 +19,6 @@ import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiGmail, SiYoutube } from "react-icons/si";
 import Section12 from "./sections/Section12";
 import { IoMdClose } from "react-icons/io";
-import Section3v2 from "./sections/Section3v2";
-import Section3v3 from "./sections/Section3v3";
 import Section3v4 from "./sections/Section3v4";
 import Section1v2 from "./sections/Section1v2";
 
