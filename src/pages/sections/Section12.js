@@ -63,6 +63,8 @@ const Section12 = ({ scrollYByVH }) => {
             </span>
             with general registration!
           </h1>
+
+
           {localStorage.getItem("email") ? (
             <div>
               {paid ? (
