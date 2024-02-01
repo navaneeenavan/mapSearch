@@ -72,7 +72,7 @@ const Section10 = ({ scrollYByVH }) => {
                         : ""
                 } relative`}
               style={{
-                background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/896d872d323ad5b1a2a7aa96ce7a3e3b/detailed)",
+                background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/speed_drift')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -117,7 +117,7 @@ const Section10 = ({ scrollYByVH }) => {
                           : ""
                 } relative`}
               style={{
-                background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/8a96e457bb21ac82cbd2c18f2c5425d1/detailed)",
+                background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/openquiz')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -162,7 +162,7 @@ const Section10 = ({ scrollYByVH }) => {
                           : ""
                 } relative`}
               style={{
-                background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/6d678bd9beac040a04b83577ae93f118/detailed)",
+                background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/nextech')",
                 backgroundSize: "cover",
                 backgroundPosition: "50% 10%",
                 backgroundRepeat: "no-repeat",
@@ -207,7 +207,7 @@ const Section10 = ({ scrollYByVH }) => {
                           : ""
                 } relative`}
               style={{
-                background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/753ec7657191734a237f6e7274627772/detailed)",
+                background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Aqua%20jet')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -252,7 +252,7 @@ const Section10 = ({ scrollYByVH }) => {
                           : ""
                 } relative`}
               style={{
-                background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/0f13c852f6ae5b95f92d2416f594b7a3/detailed)",
+                background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/robot')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -297,7 +297,7 @@ const Section10 = ({ scrollYByVH }) => {
                           : ""
                 } relative`}
               style={{
-                background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/aee702e56a25a1b5bef1e707a2ed102c/detailed)",
+                background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/robo_prix')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -326,7 +326,7 @@ const Section10 = ({ scrollYByVH }) => {
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
             to="/portal/event/EVNT0034"
             style={{
-              background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/896d872d323ad5b1a2a7aa96ce7a3e3b/detailed)",
+              background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/speed_drift')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -347,7 +347,7 @@ const Section10 = ({ scrollYByVH }) => {
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
             to="/portal/event/EVNT0020"
             style={{
-              background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/8a96e457bb21ac82cbd2c18f2c5425d1/detailed)",
+              background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/openquiz')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -368,7 +368,7 @@ const Section10 = ({ scrollYByVH }) => {
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
             to="/portal/event/EVNT0026"
             style={{
-              background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/6d678bd9beac040a04b83577ae93f118/detailed)",
+              background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/nextech')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -389,7 +389,7 @@ const Section10 = ({ scrollYByVH }) => {
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
             to="/portal/event/EVNT0001"
             style={{
-              background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/753ec7657191734a237f6e7274627772/detailed)",
+              background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Aqua%20jet')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -410,7 +410,7 @@ const Section10 = ({ scrollYByVH }) => {
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
             to="/portal/event/EVNT0030"
             style={{
-              background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/0f13c852f6ae5b95f92d2416f594b7a3/detailed)",
+              background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/robot')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -431,7 +431,7 @@ const Section10 = ({ scrollYByVH }) => {
             className="flex flex-col justify-center items-center h-32 rounded-xl w-full"
             to="/portal/event/EVNT0031"
             style={{
-              background: "url(https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/aee702e56a25a1b5bef1e707a2ed102c/detailed)",
+              background: "url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/robo_prix')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",

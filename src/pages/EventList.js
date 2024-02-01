@@ -103,7 +103,7 @@ const particlesLoaded = (container) => {
         </h1>
         <EventsGrid
           imgurl={
-            "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/79a7be681c8416c5b7645b8f371e0c95/detailed"
+            "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/1"
           }
           arrowCircleStart="from-[#121a43]"
           arrowCircleEnd="to-[#a21cd9]"
@@ -127,7 +127,7 @@ const particlesLoaded = (container) => {
         </h1>
         <EventsGrid
           imgurl={
-            "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/c37324dfd7e0cd9a542b5be681763d3a/detailed"
+            "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/circuit"
           }
           arrowCircleStart="from-[#e8567c]"
           arrowCircleEnd="to-[#f48555]"
@@ -152,7 +152,7 @@ const particlesLoaded = (container) => {
         </h1>
         <EventsGrid
           imgurl={
-             "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/4fdd0a818472cafe48ad9d6491faf4a0/detailed"
+             "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/brainiac"
           }
           arrowCircleStart="from-[#8f3ccf]"
           arrowCircleEnd="to-[#df51ad]"
@@ -174,7 +174,7 @@ const particlesLoaded = (container) => {
         </h1>
         <EventsGrid
           imgurl={
-            "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/db016dcdc55b3073b2bf4d8cc7140927/detailed"
+            "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/coding"
           }
           arrowCircleStart="from-[#c61b59]"
           arrowCircleEnd="to-[#371243]"
@@ -196,7 +196,7 @@ const particlesLoaded = (container) => {
         </h1>
         <EventsGrid
           imgurl={
-            "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/c66bc9c954ec6b1196d927316e9cfc2c/detailed"
+            "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/core"
           }
           arrowCircleStart="from-[#029893]"
           arrowCircleEnd="to-[#0d2e50]"
@@ -218,7 +218,7 @@ const particlesLoaded = (container) => {
         </h1>
         <EventsGrid
           imgurl={
-            "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/01cac9604b814f0b12a3084fe6c59b79/detailed"
+            "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/management"
           }
           arrowCircleStart="from-[#2696d9]"
           arrowCircleEnd="to-[#152e60]"

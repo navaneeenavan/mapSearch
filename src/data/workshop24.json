@@ -1,7 +1,7 @@
 [
   {
     "wid": "WKSP0011",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/8d25bb377985be61ca142528ff1841c6/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop11",
     "alteredFee": 699,
     "actualFee": 849,
     "assnName": "American Society of Mechanical Engineers",
@@ -38,7 +38,7 @@
   },
   {
     "wid": "WKSP0001",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/10d1d41e9bf9666e6441d45c304483f3/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop1",
     "alteredFee": 299,
     "actualFee": 399,
     "assnName": "IEEE EMBS Students Branch",
@@ -79,7 +79,7 @@
   },
   {
     "wid": "WKSP0005",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/bd6603fb688ffd42f0bbc6b3908ee561/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop5",
     "alteredFee": 500,
     "actualFee": 600,
     "assnName": "Institute of Electrical & Electronics Engg. (IEEE) (Students Chapter)",
@@ -118,7 +118,7 @@
   },
   {
     "wid": "WKSP0002",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/3b414d92d8aa11e2a12b33f8e306a5c1/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop2",
     "alteredFee": 400,
     "actualFee": 500,
     "assnName": "Biotechnology Association",
@@ -159,7 +159,7 @@
   },
   {
     "wid": "WKSP0009",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/4215e4bd160de1876b9fa5c8a1132ad9/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop9",
     "alteredFee": 501,
     "actualFee": 601,
     "assnName": "Information Technology Association",
@@ -188,7 +188,7 @@
   },
   {
     "wid": "WKSP0007",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/b0e6a1ece526cefb861cf46ee1cd0df5/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop7",
     "alteredFee": 399,
     "actualFee": 499,
     "assnName": "Indian Institution of Industrial Engineering (Students Chapter)",
@@ -226,7 +226,7 @@
   },
   {
     "wid": "WKSP0004",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/3039d875be0f934497c13087d617248e/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop4",
     "alteredFee": 349,
     "actualFee": 449,
     "assnName": "COMPUTER APPLICATIONS ASSOCIATION",
@@ -260,7 +260,7 @@
 
   {
     "wid": "WKSP0003",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/8d7b62be270d5fe454553296369522bb/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop3",
     "alteredFee": 250,
     "actualFee": 350,
     "assnName": "Industrial(Alumni) Interaction Forum",
@@ -290,7 +290,7 @@
   },
   {
     "wid": "WKSP0006",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/e5daa6483111c7e2f83863316d773ad6/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop6",
     "alteredFee": 499,
     "actualFee": 599,
     "assnName": "Fashion Technology",
@@ -319,7 +319,7 @@
   },  
   {
     "wid": "WKSP0008",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/c3804e445d820489bdea3e4136c494cb/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop8",
     "alteredFee": 350,
     "actualFee": 450,
     "assnName": "Astronomy Club",
@@ -354,7 +354,7 @@
   },
   {
     "wid": "WKSP0010",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/4215e4bd160de1876b9fa5c8a1132ad9/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop10",
     "alteredFee": 300,
     "actualFee": 400,
     "assnName": "Metallurgical Engineering Association",
@@ -384,7 +384,7 @@
   },
   {
     "wid":"WKSP0012",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/5e0e145f1b2501201fe845c99472a585/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop12",
     "alteredFee": 401,
     "actualFee": 501,
     "assnName": "Society of Manufacturing Engineers - Students' chapter",
@@ -417,7 +417,7 @@
   },
   {
     "wid":"WKSP0013",
-    "image": "https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/ff4bf6c925fdac9dcfd930299aa3ae21/detailed",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop13",
     "alteredFee": 550,
     "actualFee": 650,
     "assnName": "Artificial Intelligence and Robotics Club",

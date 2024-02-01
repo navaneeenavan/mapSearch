@@ -1,6 +1,6 @@
 module.exports = {
   mode: "jit",
-  purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
+  purge: ["./public/*/.html", "./src/*/.{js,jsx,ts,tsx,vue}"],
   theme: {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
@@ -10,11 +10,11 @@ module.exports = {
     },
     extend:{
       backgroundImage:{
-        '1':"url('../../public/assets/images/Event_Cards/1.png')",
-        '2':"url('../../public/assets/images/Event_Cards/2.png')",
-        '3':"url('../../public/assets/images/Event_Cards/3.png')",
-        '4':"url('../../public/assets/images/Event_Cards/4.png')",
-        '5':"url('../../public/assets/images/Event_Cards/5.png')",
+        '1':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/1v2')",
+        '2':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/2')",
+        '3':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/3')",
+        '4':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/4')",
+        '5':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/5')",
         'register':"url('../../public/assets/images/Event_Cards/register.png')"
       },
       zIndex: {

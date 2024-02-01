@@ -110,7 +110,7 @@ const Section6 = () => {
                           backgroundSize: "contain",
                         }}
                         className={`flex justify-center items-center w-full h-full bg-white`}
-                      ><img src="https://res-console.cloudinary.com/dvxgjje9e/media_explorer_thumbnails/a395b9fcd4bdcd13a7e4bce2b3496fe2/detailed"/></div>
+                      ><img src="https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/vites"/></div>
                     </div>
                     <p className="uppercase font-bold text-base lg:text-lg text-[#181818] tracking-wider text-center">
                       {"VITES TECHNOLOGIES"}
