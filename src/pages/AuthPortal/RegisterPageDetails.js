@@ -247,7 +247,7 @@ const RegisterPageDetails = ({ switchPage }) => {
             (val) => setFormData({ ...formData, phone: val }),
           ]}
         />
-        <TextInput
+        {/* <TextInput
           title="Referral Code (Optional)"
           // isDisabled={refDisable}
           className=""
@@ -256,7 +256,7 @@ const RegisterPageDetails = ({ switchPage }) => {
             formData.referral,
             (val) => setFormData({ ...formData, referral: val }),
           ]}
-        />
+        /> */}
         <div className="">
           <label className="text-blue text-sm z-30 bg-white p-2">
             College/University
@@ -295,7 +295,7 @@ const RegisterPageDetails = ({ switchPage }) => {
             valueState={[otherCollege, setOtherCollege]}
           />
         )}
-        {formData.college !== PSG_COLLEGE && (
+        {/* {formData.college !== PSG_COLLEGE && (
           <Dropdown
             valueState={[
               formData.accomodation,
@@ -306,7 +306,7 @@ const RegisterPageDetails = ({ switchPage }) => {
             placeholder="Select an option"
             options={["No", "Yes"]}
           />
-        )}
+        )} */}
         <div className="flex flex-col lg:flex-row items-start space-y-6 lg:space-y-0 lg:space-x-2 w-full">
           {/* <Dropdown
             valueState={[
@@ -321,7 +321,7 @@ const RegisterPageDetails = ({ switchPage }) => {
           <div className="w-full lg:w-2/3">
             <div className="">
               <label className="text-blue text-sm z-30 bg-white p-2">
-                Department
+                Branch
               </label>
 
               <Select
