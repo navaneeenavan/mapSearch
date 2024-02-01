@@ -85,6 +85,12 @@ const FAQContent = [
     answer:
       "Yes, we have to pay separately for each workshop. The general registration fee doesn’t cover workshop participation.",
   },
+  {
+    question:
+      "Will registration fees be refunded?",
+    answer:
+      "No , we follow a non refund policy at any cost",
+  },
 ];
 
 export default Section8;
