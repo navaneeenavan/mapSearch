@@ -351,7 +351,7 @@ const RegisterPageDetails = ({ switchPage }) => {
             </div>
             {formData.department === "Other" && (
               <TextInput
-                title="Department Name"
+                title="Branch Name"
                 placeholder="Enter your department name"
                 className="pt-2"
                 valueState={[otherDept, setOtherDept]}
