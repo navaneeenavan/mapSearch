@@ -54,7 +54,7 @@ const Section2 = ({ scrollYByVH }) => {
   };
 
   const getDeadTime = () => {
-    let deadline = new Date("2024-02-22");
+    let deadline = new Date("2024-02-23");
     return deadline;
   };
 
@@ -189,7 +189,7 @@ const NumberAndTag = ({ number, tag, fadeInAnimate }) => {
   // const condition = `${parseFloat(consolee) < 0.50 || parseFloat(consolee)>2.50 ? "text-[#181818]" : "text-white"}`;
   // const gradientCondition = `${parseFloat(consolee) < 0.75 ? "from-[rgba(18,18,18,0.3)] to-[rgba(18,18,18,0.6)]" : "from-[rgba(255,255,255,0.3)] to-[rgba(255,255,255,0.6)]"}`;
   const condition = "text-white";
-  const gradientCondition = "from-[rgba(255,255,255,0.3)] to-[rgba(255,255,255,0.6)]";
+  const gradientCondition = "from-[rgba(255,255,255,0.3)] to-[rgba(255,255,255,0.6)]"; 
 
   return (
     <div className="relative w-[40ch] number-tag">

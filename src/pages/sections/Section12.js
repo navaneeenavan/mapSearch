@@ -30,8 +30,8 @@ const Section12 = ({ scrollYByVH }) => {
 
   const bgUrl = `${
     parseFloat(consolee) < 0.40
-      ? "/assets/Design/PC.jpg"
-      : "/assets/Design/PC.jpg"
+      ? "/assets/Design/proshow2.jpeg"
+      : "/assets/Design/proshow2.jpeg"
   }`;
 
   const mobBgUrl = "/assets/Design/MOB.jpg";

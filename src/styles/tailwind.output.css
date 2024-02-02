@@ -1965,6 +1965,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/5');
 }
 
+.bg-home {
+  background-image: url('../../src/pages/sections/Website.png');
+}
+
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }

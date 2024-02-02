@@ -6,7 +6,7 @@ import { CgScrollV } from "react-icons/cg";
 import { useSpring, animated } from "react-spring";
 import { useNavigate } from "react-router-dom";
 import { motion } from 'framer-motion';
-
+import BgPlate from "./Website.png";
 const variant1 = {
   initial: {
     opacity: 0
@@ -23,28 +23,7 @@ const variant1 = {
 function Section1v2({ scrollByVH }) {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-
-    const hasVideoPlayed = localStorage.getItem('hasVideoPlayed');
-    console.log('Has video played: ' + hasVideoPlayed);
-    if (hasVideoPlayed === 'false') {
-      console.log("Hello");
-      videoRef.current.play();
-      localStorage.setItem('hasVideoPlayed', 'true');
-    }
-
-    const handleBeforeUnload = () => {
-      localStorage.setItem('hasVideoPlayed', 'false');
-    };
-
-    window.addEventListener('beforeunload', handleBeforeUnload);
-
-    return () => {
-      window.removeEventListener('beforeunload', handleBeforeUnload);
-    };
-  }, []);
+ 
 
   function Number({ n }) {
     const [animate, setAnimate] = useState(true);
@@ -92,7 +71,7 @@ function Section1v2({ scrollByVH }) {
     <React.Fragment>
 
       <div
-        className={`lg:hidden pt-12 bg-white flex flex-row w-screen ${isOpen && "shadow-lg"
+        className={`lg:hidden pt-12 flex flex-row w-screen ${isOpen && "shadow-lg"
           } h-auto absolute`}
       >
         <div className={`px-4 ${isOpen ? "h-full pb-[110%]" : "h-fit"} z-40 bg-white`}>
@@ -456,12 +435,13 @@ function Section1v2({ scrollByVH }) {
       {/* MOB SECTION */}
 
 
-      <video ref={videoRef} muted width='100%' className="hidden md:hidden lg:block absolute z-[0] object-cover">
+   
 
-        <source src="/assets/website.webm" type="video/webm" />
-      </video>
+{/* <img className="hidden md:hidden lg:block absolute -z-20 object-cover" src={BgPlate} alt=""/> */}
+ 
+        
 
-      <motion.div variants={variant1} initial='initial' animate='visible' className="hidden lg:grid grid-rows-5 px-20 min-h-screen w-auto bg-transparent relative z-10">
+      <div className="hidden lg:grid grid-rows-5 px-20 min-h-screen w-auto bg-home relative z-10">
 
 
 
@@ -711,7 +691,7 @@ function Section1v2({ scrollByVH }) {
             </div>
           </div>
         </div>
-      </motion.div>
+      </div>
     </React.Fragment>
   );
 }
