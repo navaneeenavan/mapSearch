@@ -1,5 +1,17 @@
 const TeamDetails = [
   {
+    name: "Lindsey R Macedo",
+    vertical: "Ambience and Creativity",
+    position: "Team Lead",
+    image_url: "/assets/Team/Ambience/Lindsey.png",
+  },
+  {
+    name: "Sai Pravin",
+    vertical: "Ambience and Creativity",
+    position: "Team Lead",
+    image_url: "/assets/Team/Ambience/Sai_Pravin.png",
+  },
+  {
     name: "Camisha Shiny V",
     vertical: "Ambience and Creativity",
     position: "",
@@ -12,11 +24,12 @@ const TeamDetails = [
     image_url: "/assets/Team/Ambience/Keshnee_21c111.png",
   },
   {
-    name: "Lindsey R Macedo",
+    name: "Kishore",
     vertical: "Ambience and Creativity",
     position: "",
-    image_url: "/assets/Team/Ambience/Lindsey.png",
+    image_url: "/assets/Team/Ambience/Kishore.png",
   },
+  
   {
     name: "Abina Sree",
     vertical: "Ambience and Creativity",
@@ -77,18 +90,8 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Ambience/K.C._Amirdavarshini_22s019.png",
   },
-  {
-    name: "Lindsey R Macedo",
-    vertical: "Ambience and Creativity",
-    position: "",
-    image_url: "/assets/Team/Ambience/Lindsey.png",
-  },
-  {
-    name: "Kishore",
-    vertical: "Ambience and Creativity",
-    position: "",
-    image_url: "/assets/Team/Ambience/Kishore.png",
-  },
+
+  
   {
     name: "Krishna Priya",
     vertical: "Ambience and Creativity",
@@ -137,12 +140,7 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Ambience/S_Ramya_22m147.png",
   },
-  {
-    name: "Sai Pravin",
-    vertical: "Ambience and Creativity",
-    position: "",
-    image_url: "/assets/Team/Ambience/Sai_Pravin.png",
-  },
+  
   {
     name: "Sakthi",
     vertical: "Ambience and Creativity",
@@ -222,6 +220,78 @@ const TeamDetails = [
     image_url: "/assets/Team/Web/navanee.jpeg",
   },
   {
+    name: "Thiyagarajan",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Thiyagarajan.png",
+  },
+  {
+    name: "Akash S",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Aakash.png",
+  },
+  {
+    name: "Likkeeth Kumar.S.B",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Likkeeth.png",
+  },
+  {
+    name: "Harisree",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Harisree.png",
+  },
+  {
+    name: "Prethvish Mo",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Prethvish.png",
+  },
+  {
+    name: "Praveen Venkit P",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Praveen_Venkit.png",
+  },
+  {
+    name: "Jeevan G K",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Jeevan.png",
+  },
+  {
+    name: "Aswin Balamuragan",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Aswin.png",
+  },
+  {
+    name: "Aakash M",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Aakash_20M601.png",
+  },
+  {
+    name: "Kavya V.I",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Kavya_DESIGN.png",
+  },
+  {
+    name: "Gokul",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Gokul.png",
+  },
+  {
+    name: "Kavinkumar S",
+    vertical: "Design & Photography",
+    position: "",
+    image_url: "/assets/Team/Design/Kavin_21Y114.png",
+  },
+  {
     name: "Balapravena A S",
     vertical: "Design & Photography",
     position: "",
@@ -245,66 +315,20 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Design/Aniruth_22A205.png",
   },
-  {
-    name: "Aswin Balamuragan",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Aswin.png",
-  },
-  {
-    name: "Likkeeth Kumar.S.B",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Likkeeth.png",
-  },
-  {
-    name: "Prethvish Mo",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Prethvish.png",
-  },
-  {
-    name: "Praveen Venkit P",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Praveen_Venkit.png",
-  },
-  {
-    name: "Jeevan G K",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Jeevan.png",
-  },
-  {
-    name: "Akash S",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Aakash.png",
-  },
-  {
-    name: "Aakash M",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Aakash_20M601.png",
-  },
-  {
-    name: "Kavya V.I",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Kavya_DESIGN.png",
-  },
+  
+  
+ 
+  
+ 
+ 
+  
   {
     name: "Pradeep",
     vertical: "Design & Photography",
     position: "",
     image_url: "/assets/Team/Design/Pradeep.png",
   },
-  {
-    name: "Kavinkumar S",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Kavin_21Y114.png",
-  },
+
   {
     name: "Chandrakanth",
     vertical: "Design & Photography",
@@ -341,18 +365,8 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Design/Giri_Prassath_S_22z323.png",
   },
-  {
-    name: "Gokul",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Gokul.png",
-  },
-  {
-    name: "Harisree",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Harisree.png",
-  },
+  
+ 
   {
     name: "Harrdik Krishna",
     vertical: "Design & Photography",
@@ -371,12 +385,7 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Design/Jacin_wesly_K_21E404.png",
   },
-  {
-    name: "Manoj Varun",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Manoj_varun.png",
-  },
+  
   {
     name: "Mugundan K",
     vertical: "Design & Photography",
@@ -431,12 +440,7 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Design/Thaarugeshwari_KS_22i270.png",
   },
-  {
-    name: "Thiyagarajan",
-    vertical: "Design & Photography",
-    position: "",
-    image_url: "/assets/Team/Design/Thiyagarajan.png",
-  },
+
   {
     name: "Vijeyasri T",
     vertical: "Design & Photography",
@@ -456,24 +460,6 @@ const TeamDetails = [
     image_url: "/assets/Team/Events/19M620.jpg",
   },
   {
-    name: "Arulkumara B R",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Arulkumara_B_R_22Z310.png",
-  },
-  {
-    name: "Ashok Kumar",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Ashok_Kumar_22Y104.png",
-  },
-  {
-    name: "Ashwin Ravichandran",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Ashwin_Ravichandran_21p602.png",
-  },
-  {
     name: "Sevathal S",
     vertical: "Events Resource Management",
     position: "",
@@ -486,16 +472,106 @@ const TeamDetails = [
     image_url: "/assets/Team/Events/Elakkiya_ERM.png",
   },
   {
-    name: "Lalith Kumar B V",
+    name: "Gowthaman",
     vertical: "Events Resource Management",
     position: "",
-    image_url: "/assets/Team/Events/B.V.Lalith_Kumar_22i210.png",
+    image_url: "/assets/Team/Events/Gowthaman.png",
   },
   {
-    name: "Catherine Mary J",
+    name: "Abdeali  Morudwala",
     vertical: "Events Resource Management",
     position: "",
-    image_url: "/assets/Team/Events/Catherine_Mary_J_22N211.png",
+    image_url: "/assets/Team/Events/Abdeali_Morudwala.png",
+  },
+  {
+    name: "Ganesh Ram",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Ganesh_Ram_M.png",
+  },
+  {
+    name: "Thirugnana Sampathan S",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Thirugnana_Sampanthan_S.png",
+  },
+  {
+    name: "Selvakumar T",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Selvakumar.png",
+  },
+  {
+    name: "Arunaa S",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Aruna.png",
+  },
+  {
+    name: "Nina Charles J",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Nina_Charles.png",
+  },
+  {
+    name: "NaveenKumar",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/NaveenKumar_2_e619.png",
+  },
+  {
+    name: "Akshaya K",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Akshaya.png",
+  },
+  {
+    name: "Mullainathan V H",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Mullainathan.png",
+  },
+  {
+    name: "Lakshman Raghav",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Lakshman_Raghav_.21p618JPG.png",
+  },
+  {
+    name: "Ashwin Ravichandran",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Ashwin_Ravichandran_21p602.png",
+  },
+  {
+    name: "Ashok Kumar",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Ashok_Kumar_22Y104.png",
+  },
+  {
+    name: "Sudharsan",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Sudharsan_22Y217.png",
+  },
+  {
+    name: "Nivetha",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Nivetha.png",
+  },
+  {
+    name: "Mahimaa U",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/U_Mahimaa_22z371.png",
+  },
+  {
+    name: "Kavya Subramani",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Kavya_Subramani_22z334.png",
   },
   {
     name: "Theetchana",
@@ -504,17 +580,54 @@ const TeamDetails = [
     image_url: "/assets/Team/Events/DSC_0012.png",
   },
   {
+    name: "Catherine Mary J",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Catherine_Mary_J_22N211.png",
+  },
+  {
+    name: "Lalith Kumar B V",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/B.V.Lalith_Kumar_22i210.png",
+  },
+  {
+    name: "Nandikka R",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Nandikka_R_22i236.png",
+  },
+  {
+    name: "Mithun",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Mithun.png",
+  },
+  {
+    name: "Lokesh",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Lokesh.png",
+  },
+  {
+    name: "Arulkumara B R",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Arulkumara_B_R_22Z310.png",
+  },
+  
+ 
+  
+  
+ 
+  
+  {
     name: "Gokul B",
     vertical: "Events Resource Management",
     position: "",
     image_url: "/assets/Team/Events/Gokul_B_22c107.png",
   },
-  {
-    name: "Gowthaman",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Gowthaman.png",
-  },
+ 
   {
     name: "Harini M",
     vertical: "Events Resource Management",
@@ -527,90 +640,30 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Events/Harini_RC_22u217.png",
   },
-  {
-    name: "Kavya Subramani",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Kavya_Subramani_22z334.png",
-  },
-  {
-    name: "Lakshman Raghav",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Lakshman_Raghav_.21p618JPG.png",
-  },
-  {
-    name: "Nina Charles J",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Nina_Charles.png",
-  },
-  {
-    name: "Akshaya K",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Akshaya.png",
-  },
-  {
-    name: "Arunaa S",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Aruna.png",
-  },
-  {
-    name: "Selvakumar T",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Selvakumar.png",
-  },
-  {
-    name: "Mullainathan V H",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Mullainathan.png",
-  },
-  {
-    name: "Lokesh",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Lokesh.png",
-  },
-  {
-    name: "Mithun",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Mithun.png",
-  },
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
   {
     name: "Shuki",
     vertical: "Events Resource Management",
     position: "",
     image_url: "/assets/Team/Events/Shuki_21x042.png",
   },
-  {
-    name: "Nandikka R",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Nandikka_R_22i236.png",
-  },
-  {
-    name: "NaveenKumar",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/NaveenKumar_2_e619.png",
-  },
+  
+  
   {
     name: "Nitharsana",
     vertical: "Events Resource Management",
     position: "",
     image_url: "/assets/Team/Events/Nitharsana_21b228.png",
   },
-  {
-    name: "Nivetha",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Nivetha.png",
-  },
+  
   {
     name: "Rhakshitha S",
     vertical: "Events Resource Management",
@@ -636,18 +689,8 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Events/Simritha_22z364.png",
   },
-  {
-    name: "Sudharsan",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/Sudharsan_22Y217.png",
-  },
-  {
-    name: "Mahimaa U",
-    vertical: "Events Resource Management",
-    position: "",
-    image_url: "/assets/Team/Events/U_Mahimaa_22z371.png",
-  },
+  
+  
   {
     name: "R Kailesh Prabhu",
     vertical: "Overall Coordinators",

@@ -40,7 +40,7 @@ const Workshop = () => {
   };
 
   const { id } = useParams();
-
+    
   const [workshopDetail, setWorkshopDetail] = useState(null);
 
   useEffect(() => {
@@ -69,8 +69,11 @@ const Workshop = () => {
   }, [id]);
 
   useEffect(() => {
-    if (currentCount >= workshopDetail?.maxCount) {
+    if (currentCount >= Number((workshopDetail?.maxCount / 100)  * 20)) {
       setEarlyBird(0);
+    }
+    else{
+      setEarlyBird(1);
     }
   }, [currentCount]);
 
@@ -195,7 +198,148 @@ const Workshop = () => {
         </div>
 
         <div className="w-full lg:w-1/3 space-y-4 flex flex-col justify-between">
-          <button
+          {
+            id === "WKSP0006" ? (
+              <>
+                   <button
+              className="lg:bg-white lg:rounded-3xl p-8 lg:p-12 space-y-4 text-center lg:text-left flex justify-center lg:justify-start"
+              onClick={() => {
+                console.log("paymentDetails:", paymentDetails);
+                console.log("currentCount:", currentCount);
+                console.log("workshopDetail.maxCount:", workshopDetail?.maxCount);
+  
+                // Rest of your code...
+  
+                !paymentDetails
+                  ?.filter((w) => w.type === "WORKSHOP" && w.status === "SUCCESS")
+                  .find((i) => i.eventId === id) &&
+                  // currentCount < workshopDetail.maxCount &&
+                  (window.confirm("Are you sure you want to register ?")
+                    ? handleRegister()
+                    : console.log("Cancelled"));
+              }}
+            >
+              {paymentDetails && (
+                <span className="text-3xl lg:text-3xl font-semibold tracking-wide bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6]">
+                  {paymentDetails
+                    ?.filter(
+                      (w) => w.type === "WORKSHOP" && w.status === "SUCCESS"
+                    )
+                    .find((i) => i.eventId === id) ? (
+                    "Registered"
+                  ) : currentCount / workshopDetail?.maxCount >= 0.5 &&
+                    currentCount < workshopDetail?.maxCount ? (
+                    <div>
+                      Registrations Closing Soon!<br></br>
+                      <span className="whitespace-nowrap text-sm font-normal bg-clip-text [-webkit-text-fill-color:transparent] bg-white lg:bg-[#3c4043]">
+                        Limited Seats Available. Hurry Up!
+                      </span>
+                    </div>
+                  ) : currentCount >= workshopDetail?.maxCount ? (
+                    "Registrations Closed!"
+                  ) : (
+                    "Register Here for Session 1 !"
+                  )}
+                </span>
+              )}
+            </button>
+            <button
+              className="lg:bg-white lg:rounded-3xl p-8 lg:p-12 space-y-4 text-center lg:text-left flex justify-center lg:justify-start"
+              onClick={() => {
+                console.log("paymentDetails:", paymentDetails);
+                console.log("currentCount:", currentCount);
+                console.log("workshopDetail.maxCount:", workshopDetail?.maxCount);
+  
+                // Rest of your code...
+  
+                !paymentDetails
+                  ?.filter((w) => w.type === "WORKSHOP" && w.status === "SUCCESS")
+                  .find((i) => i.eventId === id) &&
+                  // currentCount < workshopDetail.maxCount &&
+                  (window.confirm("Are you sure you want to register ?")
+                    ? handleRegister()
+                    : console.log("Cancelled"));
+              }}
+            >
+              {paymentDetails && (
+                <span className="text-3xl lg:text-3xl font-semibold tracking-wide bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6]">
+                  {paymentDetails
+                    ?.filter(
+                      (w) => w.type === "WORKSHOP" && w.status === "SUCCESS"
+                    )
+                    .find((i) => i.eventId === id) ? (
+                    "Registered"
+                  ) : currentCount / workshopDetail?.maxCount >= 0.5 &&
+                    currentCount < workshopDetail?.maxCount ? (
+                    <div>
+                      Registrations Closing Soon!<br></br>
+                      <span className="whitespace-nowrap text-sm font-normal bg-clip-text [-webkit-text-fill-color:transparent] bg-white lg:bg-[#3c4043]">
+                        Limited Seats Available. Hurry Up!
+                      </span>
+                    </div>
+                  ) : currentCount >= workshopDetail?.maxCount ? (
+                    "Registrations Closed!"
+                  ) : (
+                    "Register Here for Session 2!"
+                  )}
+                </span>
+              )}
+            </button>
+              </>
+             
+            
+            
+
+
+            
+            ) : (
+              <button
+              className="lg:bg-white lg:rounded-3xl p-8 lg:p-12 space-y-4 text-center lg:text-left flex justify-center lg:justify-start"
+              onClick={() => {
+                console.log("paymentDetails:", paymentDetails);
+                console.log("currentCount:", currentCount);
+                console.log("workshopDetail.maxCount:", workshopDetail?.maxCount);
+  
+                // Rest of your code...
+  
+                !paymentDetails
+                  ?.filter((w) => w.type === "WORKSHOP" && w.status === "SUCCESS")
+                  .find((i) => i.eventId === id) &&
+                  // currentCount < workshopDetail.maxCount &&
+                  (window.confirm("Are you sure you want to register ?")
+                    ? handleRegister()
+                    : console.log("Cancelled"));
+              }}
+            >
+              {paymentDetails && (
+                <span className="text-3xl lg:text-3xl font-semibold tracking-wide bg-clip-text [-webkit-text-fill-color:transparent] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6]">
+                  {paymentDetails
+                    ?.filter(
+                      (w) => w.type === "WORKSHOP" && w.status === "SUCCESS"
+                    )
+                    .find((i) => i.eventId === id) ? (
+                    "Registered"
+                  ) : currentCount / workshopDetail?.maxCount >= 0.5 &&
+                    currentCount < workshopDetail?.maxCount ? (
+                    <div>
+                      Registrations Closing Soon!<br></br>
+                      <span className="whitespace-nowrap text-sm font-normal bg-clip-text [-webkit-text-fill-color:transparent] bg-white lg:bg-[#3c4043]">
+                        Limited Seats Available. Hurry Up!
+                      </span>
+                    </div>
+                  ) : currentCount >= workshopDetail?.maxCount ? (
+                    "Registrations Closed!"
+                  ) : (
+                    "Register Here!"
+                  )}
+                </span>
+              )}
+            </button>
+            )
+          }
+
+
+          {/* <button
             className="lg:bg-white lg:rounded-3xl p-8 lg:p-12 space-y-4 text-center lg:text-left flex justify-center lg:justify-start"
             onClick={() => {
               console.log("paymentDetails:", paymentDetails);
@@ -236,7 +380,9 @@ const Workshop = () => {
                 )}
               </span>
             )}
-          </button>
+          </button> */}
+
+
 
           <div className="flex flex-col bg-[#ffffff] lg:rounded-3xl p-8 space-y-2 justify-center">
             <div className="flex flex-row items-center gap-4">
