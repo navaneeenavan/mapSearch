@@ -664,10 +664,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 70;
 }
 
-.z-\[0\] {
-  z-index: 0;
-}
-
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -803,12 +799,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-24 {
@@ -969,11 +965,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0px;
 }
 
-.h-max {
-  height: -webkit-max-content;
-  height: max-content;
-}
-
 .h-28 {
   height: 7rem;
 }
@@ -1052,6 +1043,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-h-screen {
   max-height: 100vh;
+}
+
+.max-h-0 {
+  max-height: 0px;
 }
 
 .max-h-\[40vh\] {
@@ -1965,10 +1960,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/5');
 }
 
-.bg-home {
-  background-image: url('../../src/pages/sections/Website.png');
-}
-
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -2206,10 +2197,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.object-cover {
-  object-fit: cover;
 }
 
 .p-16 {
@@ -3145,9 +3132,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:shadow-2xl:hover {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+.hover\:shadow-\[-3px_-7px_36px_19px_\#7F268365\]:hover {
+  --tw-shadow: -3px -7px 36px 19px #7F268365;
+  --tw-shadow-colored: -3px -7px 36px 19px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -3273,34 +3260,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:top-\[75\%\] {
     top: 75%;
-  }
-
-  .lg\:top-\[7\%\] {
-    top: 7%;
-  }
-
-  .lg\:left-\[40\%\] {
-    left: 40%;
-  }
-
-  .lg\:top-\[30\%\] {
-    top: 30%;
-  }
-
-  .lg\:left-\[70\%\] {
-    left: 70%;
-  }
-
-  .lg\:top-\[70\%\] {
-    top: 70%;
-  }
-
-  .lg\:top-\[80\%\] {
-    top: 80%;
-  }
-
-  .lg\:left-\[10\%\] {
-    left: 10%;
   }
 
   .lg\:z-20 {
@@ -3509,14 +3468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 50vw;
   }
 
-  .lg\:w-\[25vw\] {
-    width: 25vw;
-  }
-
-  .lg\:w-\[20rem\] {
-    width: 20rem;
-  }
-
   .lg\:w-auto {
     width: auto;
   }
@@ -3643,10 +3594,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 2.5rem;
   }
 
-  .lg\:gap-20 {
-    gap: 5rem;
-  }
-
   .lg\:gap-y-12 {
     row-gap: 3rem;
   }
@@ -3749,10 +3696,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:p-16 {
     padding: 4rem;
-  }
-
-  .lg\:p-52 {
-    padding: 13rem;
   }
 
   .lg\:p-24 {
@@ -3959,10 +3902,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-8xl {
     font-size: 6rem;
     line-height: 1;
-  }
-
-  .lg\:font-semibold {
-    font-weight: 600;
   }
 
   .lg\:leading-\[4rem\] {

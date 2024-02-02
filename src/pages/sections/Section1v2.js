@@ -437,12 +437,13 @@ function Section1v2({ scrollByVH }) {
 
    
 
-{/* <img className="hidden md:hidden lg:block absolute -z-20 object-cover" src={BgPlate} alt=""/> */}
+  
  
         
 
-      <div className="hidden lg:grid grid-rows-5 px-20 min-h-screen w-auto bg-home relative z-10">
+      <div className="hidden lg:grid grid-rows-5 px-20 min-h-screen w-auto bg-transparent relative z-10">
 
+      <img className="hidden md:hidden lg:block absolute -z-10 h-full w-full" src={BgPlate} alt=""/>
 
 
 

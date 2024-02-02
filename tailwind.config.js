@@ -1,6 +1,6 @@
 module.exports = {
   mode: "jit",
-  purge: ["./public/*/.html", "./src/*/.{js,jsx,ts,tsx,vue}"],
+  purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
@@ -15,8 +15,7 @@ module.exports = {
         '3':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/3')",
         '4':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/4')",
         '5':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/5')",
-        'register':"url('../../public/assets/images/Event_Cards/register.png')",
-        'home':"url('../../src/pages/sections/Website.png')",
+        'register':"url('../../public/assets/images/Event_Cards/register.png')"
       },
       zIndex: {
         '60': 60,
@@ -25,6 +24,9 @@ module.exports = {
         '90': 90,
         '100': 100,
       },
+      boxShadow:{
+        custom:'-3px -7px 36px 19px rgba(127, 38, 131, 0.65)'
+      }
     },
     
   },
