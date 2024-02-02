@@ -22,7 +22,7 @@ const PortalWrapper = ({ children }) => {
   }, []);
   return (
     <main className="w-screen h-screen overflow-x-hidden flex items-center bg-[#181818] ">
-      <div className="w-4 bg-[#181818] h-screen hidden lg:block"></div>
+      
       <NavBarForDesktop />
       <NavBarForMobile />
       <Outlet />

@@ -1128,10 +1128,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 80%;
 }
 
-.w-4 {
-  width: 1rem;
-}
-
 .w-48 {
   width: 12rem;
 }
@@ -1142,6 +1138,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[calc\(100\%\+4rem\)\] {
   width: calc(100% + 4rem);
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .w-96 {
@@ -3132,9 +3132,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:shadow-\[-3px_-7px_36px_19px_\#7F268365\]:hover {
-  --tw-shadow: -3px -7px 36px 19px #7F268365;
-  --tw-shadow-colored: -3px -7px 36px 19px var(--tw-shadow-color);
+.hover\:shadow-2xl:hover {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
