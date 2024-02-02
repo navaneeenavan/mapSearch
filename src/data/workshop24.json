@@ -51,7 +51,7 @@
     "c2Name": "Abina Sree S J",
     "c2Num": "9514230992",
     "maxCount": "50",
-    "desc": "The theme of the workshop is to enlighten participants with knowledge on perception, stacks and devices, particularly in the context of autonomous navigation, with special emphasis on Atman series robots. Atman series robots offer effortless material handling and transportation with fully automated intelligence systems that deliver high efficiency in terms of productivity. These robots are compact, durable, and safe, featuring various payload capacities and security features. They are optimized in various ways, making them very affordable. The platform is easily integrable with various open-source robots and modules available globally. It can function as an industrial robot as well as an educational research platform, providing a great learning experience and knowledge in any of the platforms such as ROS, OpenCV, Nvidia Jetson Nano, and Arduino, including 2D and 3D AI-based stereo vision systems. During the workshop, participants will be educated on the above-mentioned topics by a demonstration using a mobile robot brought by the speaker in real-time and will get a chance to work with mobile robot lively. use.",
+    "desc": "Dive into the future with our IMMERSIVE REALITY - AR workshop! Explore augmented reality technologies, learn hands-on development, and gain insights into its applications. Engage in this informative session and leave empowered to create captivating AR experience. Unleash your creativity in this dynamic learning environment",
     "agenda": [
       [
       {
@@ -124,7 +124,7 @@
     "assnName": "Biotechnology Association",
     "workName": "Digital Forensics",
     "date": "25",
-    "hall": "CC Lab (E-Block 4th Floor)",
+    "hall": "CC Lab (E-Block 3th Floor)",
     "time": "9.30 AM - 04.30 PM",
     "c1Name": "Janani PS",
     "c1Num": "8870314034",
@@ -135,23 +135,23 @@
     "agenda": [
       [
       {
-        "time": "9:00 AM - 10:30 AM",
-        "description": ["SESSION 1 – Bioinformatics introduction and DNA Structure"]
+        "time": "9:30 AM - 10:30 AM",
+        "description": ["SESSION 1 –  Introduction to Digital ForensicsImportance, Current Trends, and Challenges"]
       },
       {
         "time": "10:45 AM - 12:00 PM",
-        "description": ["SESSION 2 - Understanding Sequencing Techniques, Bioinformatic tools and techniques,NGS"]
+        "description": ["SESSION 2 - Understanding Digital evidence Collection, Preservation, and Analysis of Digital Evidence"]
       },
       {
         "time": "1:00 PM - 3:20 PM",
         "description": [
-          "SESSION 3 - Bioinformatics with Python"
+          "SESSION 3 - Introduction and Demonstration of forensic tools and techniques"
         ]
       },
       {
         "time": "3:30 PM - 4:30 PM",
         "description": [
-          "SESSION 4 - Rosalind - Tips and Tricks"
+          "SESSION 4 - Hands-on exercises on real-world case studies Q&A session"
         ]
       }
     ]
@@ -197,7 +197,7 @@
     "hall": "G-Block (G-405)",
     "time": "9.30 AM - 04.30 PM",
     "c1Name": "Subash C",
-    "c1Num": "8046508335",
+    "c1Num": "8056408335",
     "c2Name": "Sriganesan G C ",
     "c2Num": "8838307678",
     "maxCount": "50",
@@ -325,14 +325,14 @@
     "assnName": "Astronomy Club",
     "workName": "Orionize",
     "date": "24",
-    "hall": "Y-201, Y-202",
+    "hall": "Y-301, Y-302",
     "time": "9.30 AM - 04.30 PM & 6.00 PM - 8.00 PM",
     "c1Name": "Dharun V S",
     "c1Num": "8778630200",
     "c2Name": "Sreevana T P",
     "c2Num": "6380588041",
     "maxCount": "100",
-    "desc": "The workshop commences with an intriguing 'Cloud Chamber Experiment,' immersing participants in the exploration of the unseen world of sub-atomic particles. They observe the trails left by charged particles in a cloud chamber, unraveling the mysteries of cosmic rays. Following this engaging start, the session shifts to an introduction to exoplanets, featuring a hands-on 'Exoplanet Physics' segment that guides participants through the physics of planets beyond our solar system and the methods astronomers use for their study. In the interactive segment that follows, the focus turns to SAOImage DS9 (SAODS9) software, providing participants with a comprehensive understanding of its diverse functionalities for astronomical image analysis and manipulation. The goal is to equip attendees with practical skills to maximize the software's potential in interpreting astronomical data. Later in the workshop, Obuli Chandran Sir engages participants with an enlightening lecture on 'Recent Advancements in Astronomy,' unraveling the latest discoveries and technological breakthroughs from space exploration missions. Nearing its conclusion, participants are invited to a skywatch, allowing them to marvel at the celestial wonders of the night sky. An open exhibition beckons everyone on a visual odyssey, showcasing the universe's timeline and various astronomy-related masterpieces.",
+    "desc": "Embark on a cosmic exploration in our workshop, Orionize. Immerse yourself in the intrigue of the Diffusion Cloud Chamber experiment and delve into the art of simulating exoplanet physics. Engage in astronomical data analysis using SAOImage DS9, and be enlightened by a captivating lecture from Obuli Chandran, CEO of Mango Foundation. Adventure beneath the night sky with a Skywatch experience, blending experiments, cutting-edge technology, and the timeless wisdom of astronomical discovery. Join us for a celestial journey that expands the horizons of cosmic understanding",
     "prerequisites": "Laptops has to be brought by the participants",
     "agenda": 
     [
@@ -358,9 +358,9 @@
     "alteredFee": 300,
     "actualFee": 400,
     "assnName": "Metallurgical Engineering Association",
-    "workName": "Physical Simulation of Manufacturing procedures and Welding Simulations",
+    "workName": "Thermo-Mechanical simulations for manufacturing processes",
     "date": "24",
-    "hall": "Centre of Excellence in Welding",
+    "hall": " G-503, Centre of Excellence in Welding",
     "time": "10:00 AM - 4:00 PM",
     "c1Name": "Kavya Maha Lakshmi S ",
     "c1Num": "6379532308",

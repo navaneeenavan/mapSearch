@@ -250,7 +250,7 @@ const particlesLoaded = (container) => {
 
 
 
-          <div className="lg:bg-[#ffffff] w-full max-h-0 lg:rounded-3xl p-8 space-y-5">
+          <div className="lg:bg-[#ffffff] w-full h-max lg:rounded-3xl p-8 space-y-5">
             <p className="text-3xl lg:text-3xl font-semibold tracking-wide text-white lg:text-[#3c4043]">
               Contact
             </p>
