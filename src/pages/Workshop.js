@@ -145,7 +145,7 @@ const Workshop = () => {
       </h2> */}
       {id === "WKSP0009" ? (
         <div className="flex flex-col lg:flex-row gap-4 w-full items-center">
-          <p className="text-white text-justify lg:text-left mt-8 text-base w-full lg:w-3/4 lg:pb-12 px-8 lg:px-0">
+          <p className="text-white whitespace-pre-line text-justify lg:text-left mt-8 text-base w-full lg:w-3/4 lg:pb-12 px-8 lg:px-0">
             {workshopDetail.desc}
           </p>
           <img
@@ -155,7 +155,7 @@ const Workshop = () => {
           />
         </div>
       ) : (
-        <p className="text-white text-justify mt-8 text-base w-full lg:w-[90%] pb-12 px-8 lg:px-0">
+        <p className="text-white whitespace-pre-line text-justify mt-8 text-base w-full lg:w-[90%] pb-12 px-8 lg:px-0">
           {workshopDetail.desc}
         </p>
       )}

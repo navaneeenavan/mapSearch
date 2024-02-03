@@ -1582,6 +1582,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   white-space: nowrap;
 }
 
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -2406,6 +2410,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 2.5rem;
 }
 
+.pl-8 {
+  padding-left: 2rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2492,14 +2500,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-6 {
   padding-bottom: 1.5rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
 }
 
 .text-left {
