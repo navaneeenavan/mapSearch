@@ -94,6 +94,15 @@ const particlesLoaded = (container) => {
             <p className="text-2xl text-left pl-10 font-semibold tracking-wider text-[#3c4043] lg:text-[#3c4043]">
               Theme
             </p>
+            <p className=" list-disc text-left pl-10 lg:text-lg text-[#3c4043] lg:text-[#3c4043] text-lg space-y-2 lg:pr-16">
+              {paperDetail.theme}
+            </p>
+          </div>
+
+          <div className="bg-white text-[#3c4043] lg:rounded-3xl lg:px-0 space-y-8 relative py-8 px-8 h-full">
+            <p className="text-2xl text-left pl-10 font-semibold tracking-wider text-[#3c4043] lg:text-[#3c4043]">
+              Topics
+            </p>
             <ul className=" list-disc text-left pl-10 lg:text-lg text-[#3c4043] lg:text-[#3c4043]  space-y-2 lg:pr-16">
               {paperDetail.topic.split("\n").map((item, index) => (
                 <li
@@ -114,9 +123,33 @@ const particlesLoaded = (container) => {
               Rules
             </p>
             <ul className="list-disc text-base lg:text-base text-[#3c4043] pl-10 space-y-2 lg:pr-16">
-              {paperDetail.rules.split("\n").map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
+              <li>All Abstracts to be submitted ELECTRONICALLY ONLY via the tab provided below</li>
+              <li>Preferable structure for paper:
+              <ul className="list-disc pl-8 my-2">
+                <li>Title</li>
+                <li>Presenting Author (to be underlined)</li>
+                <li>Co-Author(s)</li>
+                <li>Institute</li>
+                <li>Designation</li>
+                <li>Results</li>
+                <li>Discussion</li>
+                <li>Conclusion</li>
+              </ul>
+              </li>
+              <li>All abstracts to be submitted in two pages in portrait orientation in PDF format only (Maximum up-to 20MB).</li>
+              <li>Participants shall select a topic and present the paper only from the given topics.</li>
+              <li>Hyperlinks, animation images or videos are not permitted.</li>
+              <li>Delegates who want to present a paper need to pay general registration fees. {paperDetail.ppid!=="PRPN0002"?"Maximum of 3 authors are allowed to present":"Only 1 author is allowed to present"}. If any other author is willing to attend the presentation, they must have paid the general registration fee.</li>
+              <li className={paperDetail.ppid==="PRPN0002"?"hidden":" "}>Participants of a team must be from the same college.</li>
+              <li>Abstracts of papers will be scrutinized for their presentation merit by the scientific committee. The
+committee will have the right to change the pattern of presentation (Papers) and acceptance or
+rejection on merits of the abstract.</li>
+              <li>Last date of receipt of Abstracts is 15th February 2024, (submission deadline will NOT be extended).</li>
+              <li>All presenters are mandated to register for the conference and to be physically present during the
+designated paper presentation viewing period
+</li>
+
+
             </ul>
           </div>
         </div>
