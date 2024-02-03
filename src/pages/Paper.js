@@ -144,7 +144,7 @@ const particlesLoaded = (container) => {
               <li>Abstracts of papers will be scrutinized for their presentation merit by the scientific committee. The
 committee will have the right to change the pattern of presentation (Papers) and acceptance or
 rejection on merits of the abstract.</li>
-              <li>Last date of receipt of Abstracts is 15th February 2024, (submission deadline will NOT be extended).</li>
+              <li>Last date of receipt of Abstracts is 15th February 2024.</li>
               <li>All presenters are mandated to register for the conference and to be physically present during the
 designated paper presentation viewing period
 </li>
