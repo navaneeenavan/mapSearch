@@ -493,7 +493,7 @@ const TeamDetails = [
     name: "Thirugnana Sampathan S",
     vertical: "Events Resource Management",
     position: "",
-    image_url: "/assets/Team/Events/Thirugnana_Sampanthan_S.png",
+    image_url: "/assets/Team/Events/Thirugnana_Sampanthan_S.jpg",
   },
   {
     name: "Selvakumar T",

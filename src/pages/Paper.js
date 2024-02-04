@@ -122,7 +122,8 @@ const particlesLoaded = (container) => {
             <p className="text-2xl font-semibold tracking-wider text-[#3c4043] pl-10">
               Rules
             </p>
-            <ul className="list-disc text-base lg:text-base text-[#3c4043] pl-10 space-y-2 lg:pr-16">
+            
+              {paperDetail.ppid!=="PRPN0004"?<ul className="list-disc text-base lg:text-base text-[#3c4043] pl-10 space-y-2 lg:pr-16">
               <li>All Abstracts to be submitted ELECTRONICALLY ONLY via the tab provided below</li>
               <li>Preferable structure for paper:
               <ul className="list-disc pl-8 my-2">
@@ -146,11 +147,35 @@ committee will have the right to change the pattern of presentation (Papers) and
 rejection on merits of the abstract.</li>
               <li>Last date of receipt of Abstracts is 15th February 2024.</li>
               <li>All presenters are mandated to register for the conference and to be physically present during the
-designated paper presentation viewing period
-</li>
+                designated paper presentation viewing period
+                </li></ul>:
+          <ul className="list-disc text-base lg:text-base text-[#3c4043] pl-10 space-y-2 lg:pr-16">
+          <li>கீழே கொடுக்கப்பட்டுள்ள டேப் மூலம் அனைத்து சுருக்கங்களும் மின்னணு முறையில் மட்டுமே சமர்ப்பிக்கப்பட வேண்டும்.</li>
+          <li>
+          காகிதத்திற்கான விருப்பமான அமைப்பு:
+          <ul className="list-disc pl-8 my-2">
+          <li>தலைப்பு</li>
+          <li>தலைப்பு:</li>
+          <li>இணை ஆசிரியர்(கள்)</li>
+          <li>நிறுவனம்</li>
+          <li>பதவி</li>
+          <li>அறிமுகம்</li>
+          <li>முடிவுகள்</li>
+          <li>கலந்துரையாடல்</li>
+          <li> முடிவுரை</li>
+          </ul>
+          </li>
+          <li>அனைத்து சுருக்கங்களும் இரண்டு பக்கங்களில் போர்ட்ரெய்ட் நோக்குநிலையில் PDF வடிவத்தில் மட்டுமே சமர்ப்பிக்கப்பட வேண்டும் (அதிகபட்சம் வரை 20MB)</li>
+          <li>ஹைப்பர்லிங்க்கள், அனிமேஷன் படங்கள் அல்லது வீடியோக்கள் அனுமதிக்கப்படாது</li>
+          <li>கட்டுரையை சமர்ப்பிக்க விரும்பும் பிரதிநிதிகள் பொது பதிவுக் கட்டணத்தைச் செலுத்த வேண்டும். 1 ஆசிரியர் மட்டுமே முன்வைக்க அனுமதிக்கப்படுகிறது. வேறு எந்த எழுத்தாளரும் விளக்கக்காட்சியில் கலந்து கொள்ளத் தயாராக இருந்தால், அவர்கள் பொது பதிவு கட்டணம் செலுத்தியிருக்க வேண்டும்</li>
+          <li>கட்டுரையை சமர்ப்பிக்க விரும்பும் பிரதிநிதிகள் பொது பதிவுக் கட்டணத்தைச் செலுத்த வேண்டும். 1 ஆசிரியர் மட்டுமே முன்வைக்க அனுமதிக்கப்படுகிறது. வேறு எந்த எழுத்தாளரும் விளக்கக்காட்சியில் கலந்து கொள்ளத் தயாராக இருந்தால், அவர்கள் பொது பதிவு கட்டணம் செலுத்தியிருக்க வேண்டும்</li>
+          <li>தாள்களின் சுருக்கங்கள் அறிவியல் குழுவால் அவற்றின் வழங்கல் தகுதிக்காக ஆராயப்படும். விளக்கக்காட்சி முறை (தாள்கள்) மாற்றுவதற்கு மற்றும் சுருக்கத்தின் தகுதிகளை ஏற்றுக்கொள்ளுதல் அல்லது நிராகரிபத்தார்க்கு குழுவிற்கு உரிமை உண்டு</li>
+          <li>சுருக்கங்கள் பெறுவதற்கான கடைசி தேதி 15 பிப்ரவரி 2024 ஆகும்</li>
+          <li>அனைத்து வழங்குநர்களும் மாநாட்டிற்கு பதிவு செய்ய வேண்டும் மற்றும் அதன் நியமிக்கப்பட்ட காகித விளக்கக்காட்சி பார்க்கும் காலம் போது உடல் ரீதியாக இருக்க வேண்டும்</li>
+          </ul>
+}
 
-
-            </ul>
+            
           </div>
         </div>
 
