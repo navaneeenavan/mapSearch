@@ -140,7 +140,7 @@ const particlesLoaded = (container) => {
               <li>All abstracts to be submitted in two pages in portrait orientation in PDF format only (Maximum up-to 20MB).</li>
               <li>Participants shall select a topic and present the paper only from the given topics.</li>
               <li>Hyperlinks, animation images or videos are not permitted.</li>
-              <li>Delegates who want to present a paper need to pay general registration fees. {paperDetail.ppid!=="PRPN0002"?"Maximum of 3 authors are allowed to present":"Only 1 author is allowed to present"}. If any other author is willing to attend the presentation, they must have paid the general registration fee.</li>
+              <li>Delegates who want to present a paper need to pay general registration fees. {paperDetail.ppid!=="PRPN0002"&&"Maximum of 3 authors are allowed to present"}. If any other author is willing to attend the presentation, they must have paid the general registration fee.</li>
               <li className={paperDetail.ppid==="PRPN0002"?"hidden":" "}>Participants of a team must be from the same college.</li>
               <li>Abstracts of papers will be scrutinized for their presentation merit by the scientific committee. The
 committee will have the right to change the pattern of presentation (Papers) and acceptance or
@@ -294,7 +294,7 @@ rejection on merits of the abstract.</li>
                   </p>
                 </div>
               </div>
-              <div className="flex flex-row items-center gap-4 lg:gap-6">
+              {/* <div className="flex flex-row items-center gap-4 lg:gap-6">
                 <p className="text-4xl font-semibold tracking-wide text-[#3c4043] p-3">
                   {paperDetail.teamSize !== "1" ? <AiOutlineTeam /> : <AiOutlineUser />}
                 </p>
@@ -303,12 +303,12 @@ rejection on merits of the abstract.</li>
                     {paperDetail.teamSize} Member{paperDetail.teamSize !== "1" ? "s" : ""}
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
 
 
-          <div className="lg:bg-[#ffffff] w-full h-max lg:rounded-3xl p-8 space-y-5">
+          <div className="lg:bg-[#ffffff] w-full h-auto lg:rounded-3xl p-8 space-y-5">
             <p className="text-3xl lg:text-3xl font-semibold tracking-wide text-white lg:text-[#3c4043]">
               Contact
             </p>
