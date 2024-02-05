@@ -274,7 +274,7 @@ const RegisterPageDetails = ({ switchPage }) => {
             isDisabled={isOther}
             onChange={handleCollegeChange}
           />
-          {/* <div className="flex space-x-2 pl-2 mt-2">
+          <div className="flex space-x-2 pl-2 mt-2">
             <input
               type="checkbox"
               checked={isOther}
@@ -285,7 +285,7 @@ const RegisterPageDetails = ({ switchPage }) => {
               }}
             />
             <p>My college is not listed above </p>
-          </div> */}
+          </div>
         </div>
         {formData.college === "Other" && (
           <TextInput
