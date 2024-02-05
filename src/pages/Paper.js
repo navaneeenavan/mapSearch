@@ -239,14 +239,14 @@ rejection on merits of the abstract.</li>
               </div>
             </div>
 
-            <div>
+            {/* <div>
               <p className="text-2xl font-semibold tracking-wide py-4 text-white lg:text-[#3c4043]">
                 Note
               </p>
               <ul className="list-disc text-base text-white lg:text-[#3c4043] pl-4 space-y-2">
                 <li>For teams, only <b className="font-semibold">one</b> team member needs to pay the general registration fee. (This is applicable only for paper presentations.)</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
