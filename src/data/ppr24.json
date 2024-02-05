@@ -11,9 +11,9 @@
     "rules": "Participants can form teams of 2 from the same college \nThe Participants must select a problem statement from the provided topics \nParticipants must not indulge in any plagiarism \nThe Shortlisted teams will present their paper on Campus",
     "date": "25",
     "time": "9:30 AM - 12.30 PM",
-    "deadline": "17",
+    "deadline": "15",
     "teamSize": "2",
-    "hall": "K504"
+    "hall": "K501"
   },
   {
     "ppid": "PRPN0002",
@@ -27,7 +27,7 @@
     "rules": "Students are allowed to pick any topic on the given domain for the presentation. \nIt is an individual event. \nInitial abstract should not be more than 10 pages including the title page. \nModel format shall be provided for reference. \nStudents should submit their proposals before 17th Feb 2023. \nOnly 10 participants will be selected for round 2 by scrutinizing the submitted proposals.",
     "date": "25",
     "time": "9:30 AM - 12.30 PM",
-    "deadline": "17",
+    "deadline": "15",
     "teamSize": "1",
     "hall": "G-403"
   },
@@ -43,7 +43,7 @@
     "rules": "All Abstracts to be submitted ELECTRONICALLY ONLY via the tab provided below.\n",
     "date": "24",
     "time": "9:30 AM - 12.30 PM",
-    "deadline": "17",
+    "deadline": "15",
     "teamSize": "1 - 3",
     "hall": "J-313,314"
   },
@@ -59,7 +59,7 @@
     "rules": "ஒரு அணிக்கு 1- 3 நபர் வரை பங்குப்பெறலாம் ஒரு அணி ஒரு தலைப்பு மட்டுமே தேர்வுச்செய்ய வேண்டும். \nஒவ்வொரு அணிக்கும் தலா 15 நிமிடங்கள் மட்டுமே வழங்கப்படும் உங்கள் தலைப்பின் சுருக்க உரையை (ABSTRACT) குறிப்பிட்ட நாளிற்குள் அனுப்புதல் வேண்டும் நடுவரின் தீர்ப்பே இறுதியானது.",
     "date": "24",
     "time": "9:30 AM - 12.30 PM ",
-    "deadline": "17",
+    "deadline": "15",
     "teamSize": "1 - 3",
     "hall": "J-315"
   }
