@@ -722,10 +722,10 @@ const TeamDetails = [
     image_url: "/assets/Team/OBs/5.png",
   },
   {
-    name: "Akshaiya",
+    name: "Athrukshana",
     vertical: "PR and Sponsorship",
     position: "",
-    image_url: "/assets/Team/PR/Akshaiya_PR.png",
+    image_url: "/assets/Team/PR/Athrukshana.jpg",
   },
   {
     name: "Raghan Harkesh R",
@@ -734,46 +734,16 @@ const TeamDetails = [
     image_url: "/assets/Team/PR/Raghan_Harkesh.png",
   },
   {
-    name: "Deepti",
+    name: "Akshaiya",
     vertical: "PR and Sponsorship",
     position: "",
-    image_url: "/assets/Team/PR/Deepti.png",
+    image_url: "/assets/Team/PR/Akshaiya_PR.png",
   },
   {
-    name: "Manisha C",
+    name: "Swasthika",
     vertical: "PR and Sponsorship",
     position: "",
-    image_url: "/assets/Team/PR/Manisha_C_22d229.png",
-  },
-  {
-    name: "Arunraja C",
-    vertical: "PR and Sponsorship",
-    position: "",
-    image_url: "/assets/Team/PR/Arun_Raja.png",
-  },
-  {
-    name: "Lisalini.G",
-    vertical: "PR and Sponsorship",
-    position: "",
-    image_url: "/assets/Team/PR/Lisalini_21d218.png",
-  },
-  {
-    name: "Sangamithra S",
-    vertical: "PR and Sponsorship",
-    position: "",
-    image_url: "/assets/Team/PR/Sangamithra.png",
-  },
-  {
-    name: "Madumitha M P",
-    vertical: "PR and Sponsorship",
-    position: "",
-    image_url: "/assets/Team/PR/Madumitha_21c114.png",
-  },
-  {
-    name: "Nakulan A",
-    vertical: "PR and Sponsorship",
-    position: "",
-    image_url: "/assets/Team/PR/Nakulan.png",
+    image_url: "/assets/Team/PR/Swasthika_PR.png",
   },
   {
     name: "Reddy Jayakrishna",
@@ -782,10 +752,52 @@ const TeamDetails = [
     image_url: "/assets/Team/PR/Jayakrishana_Reddy.png",
   },
   {
+    name: "Nakulan A",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Nakulan.png",
+  },
+  {
+    name: "Sakthi",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Sakthi_PR.png",
+  },
+  {
+    name: "Sangamithra S",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Sangamithra.png",
+  },
+  {
     name: "Sreenitti S",
     vertical: "PR and Sponsorship",
     position: "",
     image_url: "/assets/Team/PR/Srinithi.png",
+  },
+  {
+    name: "Lisalini.G",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Lisalini_21d218.png",
+  },
+  {
+    name: "Madumitha M P",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Madumitha_21c114.png",
+  },
+  {
+    name: "Deepti",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Deepti.png",
+  },
+  {
+    name: "Arunraja C",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Arun_Raja.png",
   },
   {
     name: "Pramodini",
@@ -800,22 +812,16 @@ const TeamDetails = [
     image_url: "/assets/Team/PR/Pranesh_22m138.png",
   },
   {
-    name: "Sakthi",
+    name: "Manisha C",
     vertical: "PR and Sponsorship",
     position: "",
-    image_url: "/assets/Team/PR/Sakthi_PR.png",
+    image_url: "/assets/Team/PR/Manisha_C_22d229.png",
   },
   {
     name: "Sharmili",
     vertical: "PR and Sponsorship",
     position: "",
     image_url: "/assets/Team/PR/Sharmili_G_22b240.png",
-  },
-  {
-    name: "Swasthika",
-    vertical: "PR and Sponsorship",
-    position: "",
-    image_url: "/assets/Team/PR/Swasthika_PR.png",
   },
 ];
 
