@@ -725,7 +725,7 @@ const TeamDetails = [
     name: "Athrukshana",
     vertical: "PR and Sponsorship",
     position: "",
-    image_url: "/assets/Team/PR/Athrukshana.jpg",
+    image_url: "/assets/Team/PR/Athrukshana.JPG",
   },
   {
     name: "Raghan Harkesh R",
