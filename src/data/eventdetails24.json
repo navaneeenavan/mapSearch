@@ -114,7 +114,7 @@
     "roll_2": "21Z362",
     "contact_mobile_2": 9843192749,
     "hall": "PROGRAMMING LAB",
-    "eventRules": "ROUND 1:\n->Task and format of Task:\n• This round will be held on a proprietary platform built in house by members of the club.\n• The participants will be given various questions riddled with bugs difficulty wise.\n• Participants are not allowed to use the internet or any other sources during this round.\n• Time Limit: 1 to 2 hours, based on our discretion.\n->Submission Guidelines:\n• The participants will have to submit the fixed code in the proprietary platform which will run the code in a series of test cases to award them with points.\n->Judging Guidelines:\n• The team with the maximum number of points will be crowned the winners of this round.\n\nROUND 2:\n->Task and format of Task:\n• This round will be held on a proprietary platform built in house by members of the club.\n• The participants will be given various puzzles with points awarded difficulty wise.\n• The participants are not allowed to use the internet unless explicitly stated by the puzzle to do so.\n• Time Limit: 1 to 2 hours, based on our discretion.\n->Submission Guidelines:\n• The participants will have to submit the answers to each puzzle in the proprietary platform which will verify whether the answer is correct.\n->Judging Guidelines:\n• The team with the maximum number of points will be crowned as the winners of this round.",
+    "eventRules": "ROUND 1:\n-> Task and format of Task:\n-> This round will be held on a proprietary platform built in house by members of the club.\n-> The participants will be given various questions riddled with bugs difficulty wise.\n-> Participants are not allowed to use the internet or any other sources during this round.\n-> Time Limit: 1 to 2 hours, based on our discretion.\n->Submission Guidelines:\n->The participants will have to submit the fixed code in the proprietary platform which will run the code in a series of test cases to award them with points.\n->Judging Guidelines:\n->The team with the maximum number of points will be crowned the winners of this round.\n ROUND 2:\n->Task and format of Task:\n-> This round will be held on a proprietary platform built in house by members of the club.\n-> The participants will be given various puzzles with points awarded difficulty wise.\n-> The participants are not allowed to use the internet unless explicitly stated by the puzzle to do so.\n-> Time Limit: 1 to 2 hours, based on our discretion.\n->Submission Guidelines:\n-> The participants will have to submit the answers to each puzzle in the proprietary platform which will verify whether the answer is correct.\n->Judging Guidelines:\n->The team with the maximum number of points will be crowned as the winners of this round.",
     "teamSize": "2-4",
     "date": "24",
     "timing": "9.30 AM - 4.30 PM",
@@ -230,7 +230,7 @@
     "hall": "G-401",
     "eventRules": "Round 1: \n->Using internet for answers is strictly prohibited.\n->Participants must complete their test within 15 minutes.\n->Participants need to wait until the results are released.\n->Participants need to have their phones within them to access the G-forms.\n\nRound 2: \n->Using internet for answers is strictly prohibited.\n->Participants must complete their test within 30 minutes.\n->Not allowed to use any compiler to debug the given code.\n->Time taken by the participant also plays a role during evaluation.",
     "teamSize": "2-4",
-    "date": "23",
+    "date": "25",
     "timing": "9.30 AM -12.30 PM"
   },
   {
@@ -274,8 +274,8 @@
     "contact_mobile_2": 6380402699,
     "hall": "G BLOCK (604,605)",
     "eventRules": "Round 1:\n->Online polling method will be used for the answering.\n->The scores obtained from the activities will be used to scrutinize the participants for the next round.\n->In case of tie in filtering the teams, the teams that complete the task in minimal time will have an added advantage.\n->Indulging in any malpractice, if found will result in the disqualification of the team.\nRound 2:\n->The fabric shall be analysed and the right structure shall be found answering the required parameters.\n->Fabric can be unraveled and analysed for the identification.\n->Once the fabric has been given it can't be changed.\n->This should be carried out only within the given time.\n->The teams with the highest score will be filtered to the next rounds; if a tie arises, the score of the answers to the parameters and their respective time of submission will also be taken into account.\n->Indulging in any malpractice, if found will result in the disqualification of the team.",
-    "teamSize": "2-3",
-    "date": "23",
+    "teamSize" :"2-3",
+    "date": "25",
     "timing": "9.30 AM -12.30 PM"
   },
   {
@@ -390,7 +390,7 @@
     "eventRules": "RULES FOR ROUND 2:\n->Set a specific time limit for each round to keep the game moving at a good pace.\n->Participants need to announce the common connection or similarity between the two pictures after observing them.\n->When the five pictures representing different parts of the world are displayed, participants should burst the balloon of the color they think corresponds to the correct answer.\n->The participant or team that bursts the correct color balloon first gets the opportunity to answer the question.\n->Have tiebreaker questions prepared in case two or more participants or teams have the same score.",
 
     "teamSize": "1-2",
-    "date": "23",
+    "date": "25",
     "timing": "9.30 AM  - 4.30 PM"
   },
   {
@@ -422,7 +422,7 @@
     "description": "Participants will be handed unique and surprise mechanisms at the event kickoff, testing their adaptability and ingenuity. Armed with these mystery components, teams must collaboratively design and construct a compelling 3D model within a specified timeframe. Immerse yourself in the thrill of quick thinking, problem-solving, and teamwork as you navigate the uncharted waters of spontaneous innovation. Let your imagination soar and bring your on-the-spot creations to life in this dynamic and exhilarating design challenge!",
     "round_title_1": "Innovation Unleashed",
     "round_desc_1": "Experience an exciting engineering challenge with surprise mechanisms using Creo Parametric 6.0. Participants design, assemble, and simulate models on dedicated systems, showcasing quick thinking and simulation skills. Expert judges assess virtual simulations, recognizing inventive and functional designs. Unleash your creativity and engineering acumen in this spontaneous journey of design excellence! Computers with pre-installed Creo software will be provided.",
-    "round_title_2": "Rapid 3D Modelling Challenge",
+    "round_title_2": "Rapid 3 D Modelling Challenge",
     "round_desc_2": "In the Rapid 3D Modelling Challenge, participants will demonstrate their expertise in spontaneous 3D modeling using Creo Parametric 6.0. This round aims to evaluate their capability to swiftly and accurately interpret engineering drawings, all while showcasing a profound understanding of real-world challenges, including material shrinkage in 3D printing.The competition promises an intense showdown as participants race against the clock to craft impeccable 3D model assemblies. Get ready for a high-octane showcase of skill and precision!",
     "eventId": "EVNT0019",
     "contact_name_1": "Tharun Balaji V S ",
@@ -615,7 +615,7 @@
     "hall": "H BLOCK (206,207)",
     "eventRules": "RULES OF ROUND 1:\n->One player has to play the task and the other to match the cards.\n->Limited time only allotted to complete the tasks.\nRULES OF ROUND 2:\n->A picture will be projected.\n->Only 5 minutes will be given for discussion.\n->One player has to give the points within two minutes.\nRULES OF ROUND 3:\n->One player has to do hand spinning and the other one for shade matching.\n->Limited time only allotted for hand spinning.\n->Based on the strength and twist of yarn, marks will be evaluated.",
     "teamSize": 2,
-    "date": "23",
+    "date": "25",
     "timing": "9.30 AM  - 4.30 PM"
   },
   {
@@ -728,7 +728,7 @@
     "hall": "J-314",
     "eventRules": "Each round starts with five formidable bots positioned at different corners of the arena.\n->Bots must remain stationary until the referee signals the start of the round.\n->Rounds are time-limited to ensure the battles are action-packed and thrilling.\n->The referee announces the start and end of the round, enforcing a strict timeframe for the bots to prove their mettle.\n->Bots can be disqualified if they:\n->Exit the arena bounds.\n->Sustain irreparable damage.\n->Fail to demonstrate any movement for an extended period (more than 30 secs).\n->No specific scoring system is applied during the rounds.\n->The focus is on survival, with the last two bots remaining being the sole criteria for qualification.\n->The qualified bots from the previous rounds are positioned strategically within the arena, ready for the ultimate battle.\n->All rules from the earlier rounds still apply here.\n->The battle continues until only one bot remains operational inside the arena, and it will be declared as the winner.\nBOT DESIGN SPECIFICATIONS:\nDIMENSIONS AND FABRICATIONS:\nSIZE:\n->The robot should be compact enough to fit within 30cm x 30cm x 20cm( L x B x H )\n->However, during a match, the robot may expand or extend its parts to any extent, allowing for maximum maneuverability and performance.\nWEIGHT:\n->Under 5kg\n->The external device used to control the robot is excluded from the weight calculation.\n->The battery is included in the measurement of the robot's dimensions and weight.\n->The mechanism used should be such that only one person will control the bot.\n->No lifting or flipper mechanism can be used.\nPOWER SUPPLY:\n->Robots must be powered solely by electricity. The use of internal combustion engines is prohibited. The powersource should be on the bot or kept outside the arena\n->Each team must prepare its own power sources.\n->Change of battery will not be allowed during the match.\n->No provision will be provided for the charging of batteries. Teams are advised to have extra, charged batteries on hand for the competition.\n->All connections should be made safe to prevent short circuits and battery fires.\nMOBILITY :\n->Mode of Transport - Land\n->Methods of mobility may include:\n->Rolling (wheels, tracks, or the whole robot).\n->Walking (linear actuated legs with no rolling).\n->Flying (using aerofoil, helium balloons, ornithopters, etc.) is not allowed.\n->Any other method of mobility which leads the robot to lose contact with the ground is not allowed.\n->The robot should not secure itself on the arena surface by using suction cups, diaphragms,sticky threads, glue, or other such devices.\nROBOT CONTROL REQUIREMENTS:\n->Dual Control Modes: Manual and Autonomous (AI/ML-based)\n->Wireless remote controls are allowed in the event.\n->Teams must pair the wireless remote with the robot before entering the arena. No extra time will be given for this once the robots are in the arena.\nWEAPON SYSTEMS:\n->Robots can have any kind of cutters, flippers, saws,lifting devices, spinning hammers, etc. as weapons with the following exceptions and limitations are not allowed:\n->Any kind of inflammable liquid / liquid projectiles (foam/ liquefied gases).\n->Smoke and light-based weapons impair the viewing of robots by entrants or judges or viewers (smoke or dust, lights such as external laser and bright strobe lights).\n->Flame-based weapons.\n->Any kind of explosive or intentionally ignited solid or potentially ignitable solid.\n->Nets, tape, glue, or any other entanglement device.\n->High-power magnets or electromagnets.\n->Radio Jamming, Tasers, Tesla coils, or any other high-voltage devices. Tethered or untethered projectiles.\nOTHERS:\nSPEED:\n->1 metre per second\n->SENSORS:\n->No Restriction on Sensor Types\n->AI & ML Integration:\n->AI and ML code can be integrated",
     "teamSize": "3-5",
-    "date": "23",
+    "date": "25",
     "timing": "9.30 AM -12.30 PM"
   },
   {
@@ -794,7 +794,7 @@
     "contact_mobile_2": 6374079771,
     "hall": "G- 601",
     "teamSize": 2,
-    "date": "23",
+    "date": "25",
     "timing": "9.30 AM  - 4.30 PM"
   },
   {
@@ -885,7 +885,7 @@
     "timing": "9.30 AM -12.30 PM"
   },
   {
-    "eventName": "Tradtitonal Games Galore",
+    "eventName": "Traditional Games Galore",
     "category": "Kriyative",
     "one_line_desc": "Beyond a game, unveiling nostalgia",
     "description": "Traditional Games Galore” event promises a dynamic celebration of both intellect and agility, bringing together the best of two worlds.The following event is dedicated to reviving the charm of games that have been cherished across generations. Participants will find themselves transported to a vibrant arena. It seamlessly blends the excitement of a technical quiz with the everlasting thrill of traditional games which will provide diverse experiences and create a memorable journey that resonates with participants from all the years.",
@@ -949,7 +949,7 @@
     "hall": "K BLOCK (501,502)",
     "eventRules": "Round 1 Rules:\n->Mobile phones are strictly prohibited.\n->No discussion among the teammates.\nRound 2 Rules:\n->No lip synching.",
     "teamSize": 2,
-    "date": "23",
+    "date": "25",
     "timing": "9.30 AM -12.30 PM"
   }
 ]
