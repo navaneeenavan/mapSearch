@@ -137,12 +137,12 @@ const particlesLoaded = (container) => {
                 <li>Conclusion</li>
               </ul>
               </li>
-              <li>All abstracts to be submitted in two pages in portrait orientation in PDF format only (Maximum up-to 20MB).</li>
+              <li>All abstracts to be submitted in two pages in portrait orientation in PDF format only.</li>
               <li>Participants shall select a topic and present the paper only from the given topics.</li>
               <li>Hyperlinks, animation images or videos are not permitted.</li>
-              <li>Delegates who want to present a paper need to pay general registration fees. {paperDetail.ppid!=="PRPN0002"&&"Maximum of 3 authors are allowed to present"}. If any other author is willing to attend the presentation, they must have paid the general registration fee.</li>
+              <li>Authors who want to present a paper need to pay general registration fees. {paperDetail.ppid!=="PRPN0002"&&"Maximum of 3 authors are allowed to present"}. If any other author is willing to attend the presentation, they must have paid the general registration fee.</li>
               <li className={paperDetail.ppid==="PRPN0002"?"hidden":" "}>Participants of a team must be from the same college.</li>
-              <li>Abstracts of papers will be scrutinized for their presentation merit by the scientific committee. The
+              <li>Abstracts of papers will be scrutinized for their presentation merit by the committee. The
 committee will have the right to change the pattern of presentation (Papers) and acceptance or
 rejection on merits of the abstract.</li>
               <li>Last date of receipt of Abstracts is 15th February 2024.</li>
@@ -150,28 +150,28 @@ rejection on merits of the abstract.</li>
                 designated paper presentation viewing period
                 </li></ul>:
           <ul className="list-disc text-base lg:text-base text-[#3c4043] pl-10 space-y-2 lg:pr-16">
-          <li>கீழே கொடுக்கப்பட்டுள்ள டேப் மூலம் அனைத்து சுருக்கங்களும் மின்னணு முறையில் மட்டுமே சமர்ப்பிக்கப்பட வேண்டும்.</li>
+          <li>கீழே கொடுக்கப்பட்டுள்ள டேப்  மூலம் அனைத்து சுருக்கங்களும் மின்னணு முறையில் மட்டுமே சமர்ப்பிக்கப்பட வேண்டும்.</li>
           <li>
-          காகிதத்திற்கான விருப்பமான அமைப்பு:
+          ஆய்வு கட்டுரைக்ககான விருப்பமான அமைப்பு:
           <ul className="list-disc pl-8 my-2">
-          <li>தலைப்பு</li>
           <li>தலைப்பு:</li>
-          <li>இணை ஆசிரியர்(கள்)</li>
-          <li>நிறுவனம்</li>
-          <li>பதவி</li>
+          <li>சமர்ப்பிக்கும் பங்கேற்பாளர்(அடிக்கோடிட வேண்டும்)</li>
+          <li>இணை பங்கேற்பாளர் (கள்)</li>
+          <li>கல்வி நிறுவனம்</li>
+          <li>பங்கேற்பாளர்களின் துறை</li>
           <li>அறிமுகம்</li>
           <li>முடிவுகள்</li>
           <li>கலந்துரையாடல்</li>
-          <li> முடிவுரை</li>
+          <li>முடிவுரை</li>
           </ul>
           </li>
-          <li>அனைத்து சுருக்கங்களும் இரண்டு பக்கங்களில் போர்ட்ரெய்ட் நோக்குநிலையில் PDF வடிவத்தில் மட்டுமே சமர்ப்பிக்கப்பட வேண்டும் (அதிகபட்சம் வரை 20MB)</li>
-          <li>ஹைப்பர்லிங்க்கள், அனிமேஷன் படங்கள் அல்லது வீடியோக்கள் அனுமதிக்கப்படாது</li>
-          <li>கட்டுரையை சமர்ப்பிக்க விரும்பும் பிரதிநிதிகள் பொது பதிவுக் கட்டணத்தைச் செலுத்த வேண்டும். 1 ஆசிரியர் மட்டுமே முன்வைக்க அனுமதிக்கப்படுகிறது. வேறு எந்த எழுத்தாளரும் விளக்கக்காட்சியில் கலந்து கொள்ளத் தயாராக இருந்தால், அவர்கள் பொது பதிவு கட்டணம் செலுத்தியிருக்க வேண்டும்</li>
-          <li>கட்டுரையை சமர்ப்பிக்க விரும்பும் பிரதிநிதிகள் பொது பதிவுக் கட்டணத்தைச் செலுத்த வேண்டும். 1 ஆசிரியர் மட்டுமே முன்வைக்க அனுமதிக்கப்படுகிறது. வேறு எந்த எழுத்தாளரும் விளக்கக்காட்சியில் கலந்து கொள்ளத் தயாராக இருந்தால், அவர்கள் பொது பதிவு கட்டணம் செலுத்தியிருக்க வேண்டும்</li>
-          <li>தாள்களின் சுருக்கங்கள் அறிவியல் குழுவால் அவற்றின் வழங்கல் தகுதிக்காக ஆராயப்படும். விளக்கக்காட்சி முறை (தாள்கள்) மாற்றுவதற்கு மற்றும் சுருக்கத்தின் தகுதிகளை ஏற்றுக்கொள்ளுதல் அல்லது நிராகரிபத்தார்க்கு குழுவிற்கு உரிமை உண்டு</li>
-          <li>சுருக்கங்கள் பெறுவதற்கான கடைசி தேதி 15 பிப்ரவரி 2024 ஆகும்</li>
-          <li>அனைத்து வழங்குநர்களும் மாநாட்டிற்கு பதிவு செய்ய வேண்டும் மற்றும் அதன் நியமிக்கப்பட்ட காகித விளக்கக்காட்சி பார்க்கும் காலம் போது உடல் ரீதியாக இருக்க வேண்டும்</li>
+          <li>அனைத்து சுருக்கங்களும் இரண்டு பக்கங்களில் போர்ட்ரெய்ட் நோக்குநிலையில் PDF வடிவத்தில் மட்டுமே சமர்ப்பிக்கப்பட வேண்டும்.(அதிகபட்சம் இரண்டு பக்கங்கள்).</li>
+          <li>ஹைப்பர்லிங்க்கள், அனிமேஷன் படங்கள் அல்லது வீடியோக்கள் அனுமதிக்கப்படமாட்டாது.</li>
+          <li>கட்டுரையை சமர்ப்பிக்க விரும்பும் பங்கேற்பாளர்கள்  பொது பதிவுக் கட்டணத்தைச் செலுத்த வேண்டும். 1 பங்கேற்பாளர் மட்டுமே முன்வைக்க அனுமதிக்கப்படுகிறது. இணை பங்கேற்பாளர்கள் விளக்கக்காட்சியில் கலந்து கொள்ளத் தயாராக இருந்தால், அவர்கள் பொது பதிவு கட்டணம் செலுத்தியிருக்க வேண்டும்.</li>
+          <li>பங்கேற்பாளர், கொடுக்கப்பட்ட தலைப்பில் இருந்து மட்டுமே தலைப்பைத் தேர்ந்தெடுத்து கட்டுரையை சமர்ப்பிக்க வேண்டும்.</li>
+          <li>தாள்களின் சுருக்கங்கள் ஆசிரியர் குழுவால் ஆராயப்படும். ஆசிரியர் குழுவின் உடைய பரிந்துரையே இறுதியானது.</li>
+          <li>கட்டுரையை சமர்ப்பிப்பதற்கான கடைசி நாள்: 15 பிப்ரவரி 2024</li>
+          <li>பங்கேற்பாளர்கள் அனைவரும் கட்டாயம் முன்பதிவு செய்திருக்க வேண்டும் மற்றும் விளக்கக் காட்சியை சமர்ப்பிக்கும் போது நேரில் வர வேண்டும்.</li>
           </ul>
 }
 
