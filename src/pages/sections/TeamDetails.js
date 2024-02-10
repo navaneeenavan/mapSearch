@@ -782,6 +782,12 @@ const TeamDetails = [
     image_url: "/assets/Team/PR/Lisalini_21d218.png",
   },
   {
+    name: "Harishma",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Harishma.jpg",
+  },
+  {
     name: "Madumitha M P",
     vertical: "PR and Sponsorship",
     position: "",
@@ -804,6 +810,18 @@ const TeamDetails = [
     vertical: "PR and Sponsorship",
     position: "",
     image_url: "/assets/Team/PR/Pramodini_22z244.png",
+  },
+  {
+    name: "Sree Vandhana",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Sree_Vandhana.jpg",
+  },
+  {
+    name: "Sukavarshini",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Sukhavarshini.jpg",
   },
   {
     name: "Pranesh",
