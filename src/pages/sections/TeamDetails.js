@@ -806,6 +806,12 @@ const TeamDetails = [
     image_url: "/assets/Team/PR/Arun_Raja.png",
   },
   {
+    name: "Anirudh",
+    vertical: "PR and Sponsorship",
+    position: "",
+    image_url: "/assets/Team/PR/Anirudh.png",
+  },
+  {
     name: "Pramodini",
     vertical: "PR and Sponsorship",
     position: "",
