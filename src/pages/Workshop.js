@@ -428,7 +428,7 @@ const Workshop = () => {
                 ) : (
                   <React.Fragment>
                     <p className="text-lg lg:text-2xl font-semibold tracking-wide text-[#3c4043]">
-                      Rs. {workshopDetail.alteredFee}
+                      Rs. {workshopDetail.actualFee}
                     </p>
                     {/* <p className="text-xs">Early bird offers closed for this workshop. Only few seats left. Hurry Up!</p> */}
                   </React.Fragment>
