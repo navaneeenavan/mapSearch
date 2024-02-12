@@ -838,6 +838,7 @@
     "roll_2": "20PT37",
     "contact_mobile_2": 9790049089,
     "hall": "SKAVA LAB ",
+    "eventRules":"Participants Requirements:\nWebd: Basic web development knowledge\nData analytics: Basic knowledge on pandas, SQL, Power BI/Tableau\nCyber Security: Basic knowledge on Cybersecurity and CTF. Personal laptop(with Linux. If not, can be installed at the venue) if the team qualifies for the second round.",
     "teamSize": "2-3",
     "date": "24",
     "timing": "9.30 AM -12.30 PM"
