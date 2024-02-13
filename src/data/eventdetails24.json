@@ -66,7 +66,7 @@
     "roll_2": "21A436",
     "contact_mobile_2": 8344299633,
     "hall": "AUTOMATIVE SIMULATION LABS AND 2+3 WHEELS LAB",
-    "eventRules": "ROUND 1 RULES:\n->The only licensed program that can be used to finish the round is Creo. \n->The only licensed program that can be used to finish the round is Creo.\n->For the round, a maximum of thirty minutes will be given.\n->No electronic devices should be brought by students to the event.\n->The top five groups will advance to the following phase.\nROUND 2 RULES:\n->Every player must carefully follow the safety instructions that were given before the round starts.\n->For safety reasons, all participants must wear leather shoes.\n->Every participant is required to use the supplied gloves.\n->There should be no missing automotive part or tool that was provided to the teams.\n->It is advisable to notify someone as soon as possible if you need any technical or safety assistance.",
+    "eventRules": "ROUND 1 RULES:\n->The only licensed program that is provided by the college's system to finish the round is Creo. \n->Participants can make their own arrangements by bringing their laptops if they are willing to use any other 3D modeling software.\n->For the round, a maximum of thirty minutes will be given.\n->No electronic devices should be brought by students to the event, like phones and smart watches.\n->The top five groups will advance to the following phase.\nROUND 2 RULES:\n->Every player must carefully follow the safety instructions that were given before the round starts.\n->For safety reasons, all participants must wear leather shoes.\n->Every participant is required to use the supplied gloves.\n->There should be no missing automotive part or tool that was provided to the teams.\n->It is advisable to notify someone as soon as possible if you need any technical or safety assistance.",
     "teamSize": 2,
     "date": "24",
     "timing": "9.30 AM -12.30 PM",
@@ -838,7 +838,7 @@
     "roll_2": "20PT37",
     "contact_mobile_2": 9790049089,
     "hall": "SKAVA LAB ",
-    "eventRules":"Participants Requirements:\nWebd: Basic web development knowledge\nData analytics: Basic knowledge on pandas, SQL, Power BI/Tableau\nCyber Security: Basic knowledge on Cybersecurity and CTF. Personal laptop(with Linux. If not, can be installed at the venue) if the team qualifies for the second round.",
+    "eventRules":"Participants Requirements:\n->Webd: Basic web development knowledge\n->Data analytics: Basic knowledge on pandas, SQL, Power BI/Tableau\n->Cyber Security: Basic knowledge on Cybersecurity and CTF. Personal laptop(with Linux. If not, can be installed at the venue) if the team qualifies for the second round.",
     "teamSize": "2-3",
     "date": "24",
     "timing": "9.30 AM -12.30 PM"

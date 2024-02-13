@@ -129,13 +129,13 @@ const NavBarForDesktop = () => {
             <HiOutlinePresentationChartBar className="text-2xl" />
             <p className="">Paper Presentations</p>
           </Link>
-          {/* <Link
+          <Link
             to="/portal/accommodation"
             className="w-full text-gray-600 text-left hover:text-black text-base py-2 flex items-center space-x-4"
           >
             <BiBuildingHouse className="text-2xl" />
             <p className="">Accommodations</p>
-          </Link> */}
+          </Link>
         </div>
         <div className="py-8">
           <div className="flex space-x-4 items-center">
@@ -335,13 +335,13 @@ const NavBarForMobile = () => {
           >
             Paper Presentations
           </Link>
-          {/* <Link
+          <Link
             to="/portal/accommodation"
             id="navElements"
             className="w-full text-gray-600 text-left hover:text-black text-base py-2"
           >
             Accommodations
-          </Link> */}
+          </Link>
         </div>
         <div className="py-8 pb-16 px-6" id="navOpen">
           <div className="flex space-x-4 items-center">

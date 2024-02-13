@@ -883,6 +883,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1914,6 +1918,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ACB8F0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(172 184 240 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E8EFFF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 239 255 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {

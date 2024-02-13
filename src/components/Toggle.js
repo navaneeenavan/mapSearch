@@ -54,14 +54,14 @@ const ToggleItem = ({
   return (
     <button
       onClick={handleSelect}
-      className={`${className} h-full relative  border-[#C80067] ${isSelected && "bg-[#fee7f3]"
+      className={`${className} h-full relative  border-[#3b82f6] ${isSelected && "bg-[#E8EFFF]"
         } border-2  rounded-lg p-4 px-6 space-y-2 flex-1 flex flex-col items-start text-left`}
         key={key}
     >
       {!noRadioButton &&
-        <div className="rounded-full h-6 w-6 aspect-square p-1 border-[#C80067] border">
+        <div className="rounded-full h-6 w-6 aspect-square p-1 border-[#3b82f6] border">
           <div
-            className={`${isSelected ? "bg-[#C80067]" : ""
+            className={`${isSelected ? "bg-[#3b82f6]" : ""
               } rounded-full h-full w-full`}
           ></div>
         </div>
@@ -72,7 +72,7 @@ const ToggleItem = ({
         {icon &&
           React.cloneElement(icon, {
             className:
-              "hidden lg:block text-[#C80067] absolute top-[50%] right-2 -translate-y-[50%] opacity-[50%]",
+              "hidden lg:block text-[#3b82f6] absolute top-[50%] right-2 -translate-y-[50%] opacity-[50%]",
             size: 64,
           })}
       </p>
