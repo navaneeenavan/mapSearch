@@ -615,12 +615,6 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Events/Arulkumara_B_R_22Z310.png",
   },
-  
- 
-  
-  
- 
-  
   {
     name: "Gokul B",
     vertical: "Events Resource Management",
@@ -640,15 +634,6 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Events/Harini_RC_22u217.png",
   },
- 
- 
-  
-  
-  
-  
-  
-  
-  
   {
     name: "Shuki",
     vertical: "Events Resource Management",
@@ -689,8 +674,12 @@ const TeamDetails = [
     position: "",
     image_url: "/assets/Team/Events/Simritha_22z364.png",
   },
-  
-  
+  {
+    name: "Jithendra",
+    vertical: "Events Resource Management",
+    position: "",
+    image_url: "/assets/Team/Events/Jithendra.jpg",
+  },
   {
     name: "R Kailesh Prabhu",
     vertical: "Overall Coordinators",
