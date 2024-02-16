@@ -1,4 +1,4 @@
-import React, { useEffect, useState,useCallback } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { AiOutlineUser } from "react-icons/ai";
 import { GrTransaction, GrWorkshop } from "react-icons/gr";
 import {
@@ -33,15 +33,15 @@ const Profile = () => {
   const [accomodationDetails, setAccomodationDetails] = useState(false);
   const navigate = useNavigate();
 
-  const particlesInit = useCallback(async engine => {
+  const particlesInit = useCallback(async (engine) => {
     console.log(engine);
- 
-    await loadSlim(engine);
-}, []);
 
-const particlesLoaded = (container) => {
-  console.log(container);
-}
+    await loadSlim(engine);
+  }, []);
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
 
   useEffect(() => {
     fetchUserByEmail(localStorage.getItem("email")).then((res) => {
@@ -77,11 +77,13 @@ const particlesLoaded = (container) => {
   }, []);
 
   useEffect(() => {
-    fetchAccomodationDetailsByEmail(localStorage.getItem("email")).then((res) => {
-      if (res.data.accommodations) {
-        setAccomodationDetails(true);
+    fetchAccomodationDetailsByEmail(localStorage.getItem("email")).then(
+      (res) => {
+        if (res.data.accommodations) {
+          setAccomodationDetails(true);
+        }
       }
-    });
+    );
   }, []);
 
   const [events, setEvents] = useState(
@@ -102,7 +104,15 @@ const particlesLoaded = (container) => {
 
   return (
     <section className="w-screen font-poppins h-screen overflow-x-hidden overflow-y-scroll pt-24 pb-8 lg:pt-0 lg:pb-24">
-        <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded} className="top-0 left-0 absolute" height="100vh" width="100vh" options={particleOptions} />
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        className="top-0 left-0 absolute"
+        height="100vh"
+        width="100vh"
+        options={particleOptions}
+      />
       <div className="hidden lg:block w-full h-36 bg-gradient-to-r from-[#C80067] to-[#5451B6]"></div>
       <div className="lg:px-16 py-12 text-white flex flex-col items-center lg:items-start">
         <div
@@ -132,9 +142,7 @@ const particlesLoaded = (container) => {
               Profile
             </h3>
           </div>
-          {
-
-          }
+          {}
           {/* <button
             onClick={() => {
               navigate(`${accomodationDetails ? "/portal/acc-registered" : "/portal/accommodation"}`);
@@ -198,9 +206,16 @@ const particlesLoaded = (container) => {
                   >
                     <div className="pr-4">
                       <p className="font-[500]">Unlock the full experience!</p>
-                      <p className="font-[500] pb-1">Pay the general registration fee and,</p>
-                      <li className="text-sm pl-4">Gain access to the pro show</li>
-                      <li className="text-sm pl-4">Plus the chance to participate in all the exciting events.</li>
+                      <p className="font-[500] pb-1">
+                        Pay the general registration fee and,
+                      </p>
+                      <li className="text-sm pl-4">
+                        Gain access to the pro show
+                      </li>
+                      <li className="text-sm pl-4">
+                        Plus the chance to participate in all the exciting
+                        events.
+                      </li>
                     </div>
                     <IoIosArrowForward
                       className="ml-1 group-hover:ml-2 transition-all"
@@ -235,10 +250,11 @@ const particlesLoaded = (container) => {
                       </div>
                     </div>
                     <div
-                      className={`${payment.status === "SUCCESS"
-                        ? "text-green-500"
-                        : "text-red-500"
-                        } flex items-center justify-between`}
+                      className={`${
+                        payment.status === "SUCCESS"
+                          ? "text-green-500"
+                          : "text-red-500"
+                      } flex items-center justify-between`}
                     >
                       <p className="lg:text-lg w-3/4">
                         {payment.eventId === "-1"
@@ -262,9 +278,13 @@ const particlesLoaded = (container) => {
               >
                 <div className="pr-4">
                   <p className="font-[500]">Unlock the full experience!</p>
-                  <p className="font-[500] pb-1">Pay the general registration fee and,</p>
+                  <p className="font-[500] pb-1">
+                    Pay the general registration fee and,
+                  </p>
                   <li className="text-sm pl-4">Gain access to the pro show</li>
-                  <li className="text-sm pl-4">Plus the chance to participate in all the exciting events.</li>
+                  <li className="text-sm pl-4">
+                    Plus the chance to participate in all the exciting events.
+                  </li>
                 </div>
                 <IoIosArrowForward
                   className="ml-1 group-hover:ml-2 transition-all"
@@ -272,6 +292,21 @@ const particlesLoaded = (container) => {
                 />
               </Link>
             )}
+
+            <div className="w-full  mt-10 lg:pr-8 flex flex-col space-y-5">
+              <p className="text-lg">
+                If you have any problems with the Transactions, Please fill out
+                this forms !{" "}
+              </p>
+              <button
+                className="w-20 h-10 bg-blue-500 text-white items-center"
+                onClick={() =>
+                  window.open("https://forms.gle/2EfHYngZePrxCcwb6")
+                }
+              >
+                Forms
+              </button>
+            </div>
           </div>
 
           <div className="w-full lg:pr-8">
@@ -330,29 +365,32 @@ const particlesLoaded = (container) => {
               {paymentDetails?.filter(
                 (w) => w.type === "WORKSHOP" && w.status === "SUCCESS"
               ).length === 0 && (
-                  <div className="space-y-4">
-                    <p className="text-lg">
-                      Uh oh! You have'nt registered for any workshops yet !
-                    </p>
-                    <Link
-                      className="bg-blue-500 text-white w-fit px-4 py-2 rounded-xl text-sm flex items-center group"
-                      to="/../?sn=section5"
-                    >
-                      <p className="">Register for workshops here !</p>
-                      <IoIosArrowForward
-                        className="ml-1 group-hover:ml-2 transition-all"
-                        size={16}
-                      />
-                    </Link>
-                  </div>
-                )}
+                <div className="space-y-4">
+                  <p className="text-lg">
+                    Uh oh! You have'nt registered for any workshops yet !
+                  </p>
+                  <Link
+                    className="bg-blue-500 text-white w-fit px-4 py-2 rounded-xl text-sm flex items-center group"
+                    to="/../?sn=section5"
+                  >
+                    <p className="">Register for workshops here !</p>
+                    <IoIosArrowForward
+                      className="ml-1 group-hover:ml-2 transition-all"
+                      size={16}
+                    />
+                  </Link>
+                </div>
+              )}
               {paymentDetails
                 ?.filter((w) => w.type === "WORKSHOP" && w.status === "SUCCESS")
                 .map((workshop) => (
                   <div className="">
                     <div className="flex items-center justify-between text-xs">
                       <p className="">Workshop ID: {workshop.eventId}</p>
-                      <p className="">Feb {workshops.find((i) => i.wid === workshop.eventId).date}</p>
+                      <p className="">
+                        Feb{" "}
+                        {workshops.find((i) => i.wid === workshop.eventId).date}
+                      </p>
                     </div>
                     <div className="flex items-center justify-between space-x-4">
                       <Link
@@ -381,7 +419,8 @@ const particlesLoaded = (container) => {
               {paperDetails?.length === 0 && (
                 <div className="space-y-4">
                   <p className="text-lg">
-                    Uh oh! You have'nt registered for any paper presentations yet !
+                    Uh oh! You have'nt registered for any paper presentations
+                    yet !
                   </p>
                   <Link
                     className="bg-blue-500 text-white w-fit px-4 py-2 rounded-xl text-sm flex items-center group"
