@@ -77,7 +77,7 @@ const Workshop = () => {
     }
   }, [currentCount]);
 
-  console.log(currentCount + "this is the current count");
+
 
   const handleRegister = () => {
     if (!isLoggedIn) {
