@@ -21,6 +21,7 @@ import Section12 from "./sections/Section12";
 import { IoMdClose } from "react-icons/io";
 import Section3v4 from "./sections/Section3v4";
 import Section1v2 from "./sections/Section1v2";
+import Section13 from "./sections/Section13";
 
 const Landing = () => {
   const [consolee, setConsolee] = useState(0);
@@ -137,6 +138,7 @@ const Landing = () => {
         <Section4 scrollYByVH={consolee} />
         <Section5 scrollYByVH={consolee} />
         <Section6 scrollYByVH={consolee} />
+        <Section13/>
         <Section7 scrollYByVH={consolee} />
         <Section8 />
         <Section9 />

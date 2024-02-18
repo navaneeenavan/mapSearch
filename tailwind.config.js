@@ -15,7 +15,8 @@ module.exports = {
         '3':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/3')",
         '4':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/4')",
         '5':"url('https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/5')",
-        'register':"url('../../public/assets/images/Event_Cards/register.png')"
+        'register':"url('../../public/assets/images/Event_Cards/register.png')",
+        'sponsor':"url('../../public/assets/sponsor_event.jpg')"
       },
       zIndex: {
         '60': 60,
