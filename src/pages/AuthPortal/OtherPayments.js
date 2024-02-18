@@ -5,6 +5,7 @@ import {
   fetchPayWorkshop,
   fetchUserByEmail,
   fetchWorkshopById,
+  fetchWorkshopStats,
 } from "../../API/call";
 import TextInput from "../../components/TextInput";
 import Dropdown from "../../components/Dropdown";
@@ -23,9 +24,12 @@ const OtherPayments = ({ switchPage }) => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [userDetails, setUserDetails] = useState(null);
   const [workshopDetails, setWorkshopDetails] = useState(null);
+  const [currentCount , setCurrentCount] =useState(null);
 
   const navigate = useNavigate();
 
+
+ 
   useEffect(() => {
     fetchUserByEmail(localStorage.getItem("email"))
       .then((res) => {
@@ -64,6 +68,14 @@ const OtherPayments = ({ switchPage }) => {
     };
   }, []);
 
+  const id = searchParams.get("eventId")
+  useEffect(() => {
+    fetchWorkshopStats().then((res) => {
+      setCurrentCount(
+        res.data?.workshopWiseCount.find((i) => i._id === id)?.count
+      );
+    });
+  }, [id]);
   const handlePayNowForGeneral = () => {
     if (!userDetails || !userDetails.email) {
       toast("Please login to continue");
@@ -89,7 +101,7 @@ const OtherPayments = ({ switchPage }) => {
       email: localStorage.getItem("email"),
       name: userDetails.name,
       kriyaId: userDetails.kriyaId,
-      fee: workshopDetails.fee ? workshopDetails.fee : workshopDetails.alteredFee,
+      fee: currentCount > (workshopDetails.maxCount/100)*20   ? workshopDetails?.actualFee : workshopDetails?.alteredFee
     })
       .then((res) => {
         setTransaction(res.data);
@@ -113,6 +125,11 @@ const OtherPayments = ({ switchPage }) => {
     if (!searchParams.get("eventId")) return;
     setWorkshopDetails(fetchWorkshopById(searchParams.get("eventId")));
   }, []);
+
+
+
+ 
+ 
 
   return (
     <section className="h-screen w-screen flex  items-center bg-gray-100 font-poppins">
@@ -146,7 +163,11 @@ const OtherPayments = ({ switchPage }) => {
               The registration for workshop -{" "}
               <b className="font-semibold"> {workshopDetails.workName} </b> in{" "}
               Kriya 2024 is{" "}
-              <b className="font-semibold">Rs. {workshopDetails.fee ? workshopDetails.fee : workshopDetails.alteredFee}.00</b>. You
+              {console.log(workshopDetails?.actualFee + "this is the fee details")}
+              {console.log("current count is " + currentCount)}
+              {console.log( (workshopDetails.maxCount/100)*20 )}
+              {console.log(workshopDetails?.maxCount + "this is the max count ")}
+              <b className="font-semibold">Rs. {currentCount > (workshopDetails.maxCount/100)*20   ? workshopDetails?.actualFee : workshopDetails?.alteredFee}.00</b>. You
               will be redirected to our payment gateway and an email will be
               sent as a confirmation.
             </p>

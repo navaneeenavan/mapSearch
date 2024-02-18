@@ -299,16 +299,19 @@ const Workshop = () => {
                 console.log("paymentDetails:", paymentDetails);
                 console.log("currentCount:", currentCount);
                 console.log("workshopDetail.maxCount:", workshopDetail?.maxCount);
-  
-                // Rest of your code...
-  
-                !paymentDetails
-                  ?.filter((w) => w.type === "WORKSHOP" && w.status === "SUCCESS")
-                  .find((i) => i.eventId === id) &&
-                  // currentCount < workshopDetail.maxCount &&
-                  (window.confirm("Are you sure you want to register ?")
-                    ? handleRegister()
-                    : console.log("Cancelled"));
+              
+                if (
+                  currentCount >= workshopDetail?.maxCount ||
+                  paymentDetails?.filter((w) => w.type === "WORKSHOP" && w.status === "SUCCESS").find((i) => i.eventId === id)
+                ) {
+                  console.log("Registration not allowed due to max count reached or already registered.");
+                } else {
+                  if (window.confirm("Are you sure you want to register?")) {
+                    handleRegister();
+                  } else {
+                    console.log("Cancelled");
+                  }
+                }
               }}
             >
               {paymentDetails && (
