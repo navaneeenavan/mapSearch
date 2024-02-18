@@ -268,22 +268,27 @@ const EventsGrid = ({
   return (
     <div className="flex-wrap flex gap-8 py-12 justify-center">
       {obj.map((i) => {
-        return (
-          <EventGrid
-            title={toTitleCase(i.name)}
-            description={i.desc}
-            date={i.date}
-            time={i.time}
-            iconImg={iconImg}
-            imgurl={imgurl}
-            arrowCircleStart={arrowCircleStart}
-            arrowCircleEnd={arrowCircleEnd}
-            topCurve={topCurve}
-            rightCurve={rightCurve}
-            to={`/portal/event/${i.id}`}
-          />
-        );
-      })}
+  return (
+    i.eventId === 'EVNT0043' ? (
+      <React.Fragment key={i.id}></React.Fragment>
+    ) : (
+      <EventGrid
+        key={i.id}
+        title={toTitleCase(i.name)}
+        description={i.desc}
+        date={i.date}
+        time={i.time}
+        iconImg={iconImg}
+        imgurl={imgurl}
+        arrowCircleStart={arrowCircleStart}
+        arrowCircleEnd={arrowCircleEnd}
+        topCurve={topCurve}
+        rightCurve={rightCurve}
+        to={`/portal/event/${i.id}`}
+      />
+    )
+  );
+})}
     </div>
   );
 };

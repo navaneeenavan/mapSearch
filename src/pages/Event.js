@@ -112,38 +112,68 @@ const particlesLoaded = (container) => {
 
       <div className="flex flex-col lg:flex-row gap-4 w-full lg:px-0 my-4 text-black">
         <div className="bg-white w-full lg:w-2/3 lg:rounded-3xl lg:p-12 space-y-12 relative py-8 px-8">
-          <RoundDescription
-            roundNumber={1}
-            title={eventDetail.round_title_1}
-            description={eventDetail.round_desc_1}
-          />
+        {eventDetail.eventId === "EVNT0043" ? (
+  <div className="flex w-full">
+    <div className="space-y-2 z-30 flex-1">
+      <p className="text-base lg:text-base text-justify text-[#3c4043] pt-4 lg:pt-0">
+          <div>
+            <p>Are you passionate about getting your dream IT job and don’t know how? Join us for a FREE "IT Career Guidance and Placement Assistance" workshop! This power-packed session will equip you with:
+            <br/>
+            <br/>
+            <ul className="list-disc text-base text-[#3c4043] pl-4 space-y-2">
 
-          {eventDetail?.round_title_2?.length > 0 &&
-            eventDetail?.round_desc_2?.length > 0 && (
-              <RoundDescription
-                roundNumber={2}
-                title={eventDetail.round_title_2}
-                description={eventDetail.round_desc_2}
-              />
-            )}
+            <li>Expert insights into in-demand IT skills and career paths.</li>
+            <li>Insider tips on crafting a winning resume and acing interviews.</li>
+            <li>Exclusive guidance on navigating the placement process.</li>
+            <li>Direct interaction with industry professionals from Vites Technologies.</li>
+            <li>Networking opportunities with fellow tech enthusiasts</li>
+            <li>Gain a competitive edge in the job market.</li>
 
-          {eventDetail?.round_title_3?.length > 0 &&
-            eventDetail?.round_desc_3?.length > 0 && (
-              <RoundDescription
-                roundNumber={3}
-                title={eventDetail?.round_title_3}
-                description={eventDetail?.round_desc_3}
-              />
-            )}
 
-          {eventDetail?.round_title_4?.length > 0 &&
-            eventDetail?.round_desc_4?.length > 0 && (
-              <RoundDescription
-                roundNumber={4}
-                title={eventDetail.round_title_4}
-                description={eventDetail.round_desc_4}
-              />
-            )}
+            </ul>
+
+            </p>
+            <br />
+          </div>
+      </p>
+    </div>
+  </div>
+) : (
+  <>
+    <RoundDescription
+      roundNumber={1}
+      title={eventDetail.round_title_1}
+      description={eventDetail.round_desc_1}
+    />
+
+    {eventDetail?.round_title_2?.length > 0 &&
+      eventDetail?.round_desc_2?.length > 0 && (
+        <RoundDescription
+          roundNumber={2}
+          title={eventDetail.round_title_2}
+          description={eventDetail.round_desc_2}
+        />
+      )}
+
+    {eventDetail?.round_title_3?.length > 0 &&
+      eventDetail?.round_desc_3?.length > 0 && (
+        <RoundDescription
+          roundNumber={3}
+          title={eventDetail?.round_title_3}
+          description={eventDetail?.round_desc_3}
+        />
+      )}
+
+    {eventDetail?.round_title_4?.length > 0 &&
+      eventDetail?.round_desc_4?.length > 0 && (
+        <RoundDescription
+          roundNumber={4}
+          title={eventDetail.round_title_4}
+          description={eventDetail.round_desc_4}
+        />
+      )}
+  </>
+)}
         </div>
         <div className="w-full lg:w-1/3 space-y-4 flex flex-col justify-between">
           {eventDetail.closed ? (
@@ -222,7 +252,7 @@ const particlesLoaded = (container) => {
               <div className="pl-2 flex flex-col">
                 <p className="text-base lg:text-lg font-semibold tracking-wide text-[#3c4043]">
                   {eventDetail.teamSize} Member
-                  {eventDetail.teamSize !== "1" ? "s" : ""}
+                  {eventDetail.teamSize !== 1 ? "s" : ""}
                 </p>
               </div>
             </div>
@@ -277,7 +307,7 @@ const particlesLoaded = (container) => {
               </div>
             </div>
 
-            <div className="flex flex-row items-center justify-between lg:px-12">
+            {eventDetail.eventId==="EVNT0043"?<></>:<div className="flex flex-row items-center justify-between lg:px-12">
               <div className="w-1/2 lg:w-1/2">
                 <p className="text-base lg:text-base font-semibold tracking-wide text-white lg:text-[#3c4043]">
                   {toTitleCase(eventDetail.contact_name_2)}
@@ -304,7 +334,7 @@ const particlesLoaded = (container) => {
                   <IoLogoWhatsapp className="text-white hover:text-gray-200 lg:text-[#3c4043] lg:hover:text-[#5f6164] text-3xl" />
                 </button>
               </div>
-            </div>
+            </div>}
 
             <div
               className=" hidden lg:block flex-1  rounded-b-3xl"

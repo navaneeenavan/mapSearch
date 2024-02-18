@@ -73,14 +73,14 @@ const Section13 = ({ scrollYByVH }) => {
           ) : (
             
           )} */}
-          {/* <button
+          <button
               className="lg:text-lg font-semibold w-fit text-center flex justify-center font-poppins text-white bg-[#C80067] border-2 border-[#C80067] shadow-lg hover:scale-110 transition-all px-6 py-2 rounded-lg mt-16 whitespace-nowrap lg:whitespace-normal"
               onClick={() => {
-                    navigate("/portal/workshop/WKSP0014")
+                    navigate("/portal/event/EVNT0043")
                   }}
             >
               Register Now!
-            </button> */}
+            </button>
           {/* <div className="mt-8 lg:mt-16">
             <p className={`text-whitetransition-colors duration-300 ease-in-out font-poppins text-lg text-center lg:text-right`}>
               Know more

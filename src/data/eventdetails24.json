@@ -952,5 +952,21 @@
     "teamSize": 2,
     "date": "23",
     "timing": "9.30 AM -12.30 PM"
+  },
+  {
+    "eventName": "IT Career Forge",
+    "category": "Sponsor",
+    "one_line_desc": "Launch Your Dream IT Career with guidance from Vites Technologies, a leading IT Training Institute in Tamil Nadu!!",
+    "description": "Launch Your Dream IT Career with guidance from Vites Technologies, a leading IT Training Institute in Tamil Nadu!!",
+    "round_title_1": "VerboVibe",
+    "round_desc_1": "Team consisting of 2 members chooses one chit, which contains two alphabets in which each member chooses one alphabet. The total duration is 5 minutes. Every minute, players switch letters within a team and start writing in the switched alphabet. There is no discussion between team members. If both players write the same word, it will be counted as one. The top-scoring teams will be selected for the next round.",
+    "eventId": "EVNT0043",
+    "contact_name_1": "Nakulan",
+    "roll_1": "22MX126",
+    "contact_mobile_1": 9488964540,
+    "hall": "D BLOCK CONFERENCE HALL 1st FLOOR",
+    "teamSize": 1,
+    "date": "23",
+    "timing": "1.30 PM -2.30 PM"
   }
 ]
