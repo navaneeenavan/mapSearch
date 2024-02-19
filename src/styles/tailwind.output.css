@@ -1248,6 +1248,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 6rem;
 }
 
+.w-\[40\%\] {
+  width: 40%;
+}
+
 .max-w-\[50\%\] {
   max-width: 50%;
 }
@@ -2190,10 +2194,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-size: cover;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-clip-padding {
   background-clip: padding-box;
 }
@@ -2385,20 +2385,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.pl-2 {
-  padding-left: 0.5rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pl-4 {
   padding-left: 1rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pt-24 {
@@ -3338,10 +3338,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 4rem;
   }
 
-  .lg\:mt-80 {
-    margin-top: 20rem;
-  }
-
   .lg\:-mt-16 {
     margin-top: -4rem;
   }
@@ -3602,6 +3598,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-between;
   }
 
+  .lg\:justify-around {
+    justify-content: space-around;
+  }
+
   .lg\:justify-evenly {
     justify-content: space-evenly;
   }
@@ -3798,12 +3798,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 3rem;
   }
 
-  .lg\:pb-0 {
-    padding-bottom: 0px;
-  }
-
   .lg\:pt-0 {
     padding-top: 0px;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .lg\:pr-16 {
@@ -3846,10 +3846,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 0px;
   }
 
-  .lg\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
   .lg\:pl-\[calc\(100vw\/12\)\] {
     padding-left: calc(100vw / 12);
   }
@@ -3870,6 +3866,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     text-align: right;
   }
 
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -3878,11 +3879,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .lg\:text-lg {
@@ -3930,6 +3926,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-8xl {
     font-size: 6rem;
     line-height: 1;
+  }
+
+  .lg\:font-semibold {
+    font-weight: 600;
   }
 
   .lg\:leading-\[4rem\] {
