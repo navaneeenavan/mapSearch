@@ -19,7 +19,7 @@ const Workshop = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [paymentDetails, setPaymentDetails] = useState(null);
   const [currentCount, setCurrentCount] = useState(0);
-  const [earlyBird, setEarlyBird] = useState(1);
+  const [earlyBird, setEarlyBird] = useState(null);
 
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
@@ -68,11 +68,17 @@ const Workshop = () => {
     });
   }, [id]);
 
+
+  console.log(id);
+  
   useEffect(() => {
     if (currentCount >= Number((workshopDetail?.maxCount / 100)  * 20)) {
       setEarlyBird(0);
     }
-    else{
+    else if(id === "WKSP0014"){
+        setEarlyBird(0);
+    }
+    else {
       setEarlyBird(1);
     }
   }, [currentCount]);
@@ -402,41 +408,48 @@ const Workshop = () => {
               <p className="text-4xl lg:text-4xl font-semibold tracking-wide text-[#3c4043] p-3">
                 <BiRupee />
               </p>
-              <div className="flex flex-col pl-2">
-                {console.log(earlyBird + "this is the early bird ")}
-                {earlyBird ? (
-                  <React.Fragment>
-                    <p className="text-lg lg:text-2xl font-semibold tracking-wide text-[#3c4043]">
-                      Rs. {workshopDetail.alteredFee}*
-                      <span className="line-through text-sm ml-2 font-normal">
-                        Rs. {workshopDetail.actualFee}
-                      </span>
-                    </p>
-                    <p className="text-xs">* Early bird offer</p>
-                    {/* <p className="text-xs mt-1">
-                      {" "}
-                      <span className="font-bold">
+
+              {
+                (workshopDetail?.alteredFee && workshopDetail?.actualFee) && 
+                (
+                  <div className="flex flex-col pl-2">
+                  {console.log(earlyBird + "this is the early bird ")}
+                  {earlyBird ? (
+                    <React.Fragment>
+                      <p className="text-lg lg:text-2xl font-semibold tracking-wide text-[#3c4043]">
+                        Rs. {workshopDetail?.alteredFee}*
+                        <span className="line-through text-sm ml-2 font-normal">
+                          Rs. {workshopDetail?.actualFee}
+                        </span>
+                      </p>
+                      <p className="text-xs">* Early bird offer</p>
+                      {/* <p className="text-xs mt-1">
                         {" "}
-                        {Number.isNaN(
-                          Number((workshopDetail?.maxCount / 100) * 20)
-                        )
-                          ? 0
-                          : Number((workshopDetail?.maxCount / 100) * 20) -
-                            currentCount}
-                      </span>{" "}
-                      seats left 
-                    </p> */}
-                    {console.log()}
-                  </React.Fragment>
-                ) : (
-                  <React.Fragment>
-                    <p className="text-lg lg:text-2xl font-semibold tracking-wide text-[#3c4043]">
-                      Rs. {workshopDetail.actualFee}
-                    </p>
-                    {/* <p className="text-xs">Early bird offers closed for this workshop. Only few seats left. Hurry Up!</p> */}
-                  </React.Fragment>
-                )}
-              </div>
+                        <span className="font-bold">
+                          {" "}
+                          {Number.isNaN(
+                            Number((workshopDetail?.maxCount / 100) * 20)
+                          )
+                            ? 0
+                            : Number((workshopDetail?.maxCount / 100) * 20) -
+                              currentCount}
+                        </span>{" "}
+                        seats left 
+                      </p> */}
+                      {console.log()}
+                    </React.Fragment>
+                  ) : (
+                    <React.Fragment>
+                      <p className="text-lg lg:text-2xl font-semibold tracking-wide text-[#3c4043]">
+                        Rs. {workshopDetail.actualFee}
+                      </p>
+                      {/* <p className="text-xs">Early bird offers closed for this workshop. Only few seats left. Hurry Up!</p> */}
+                    </React.Fragment>
+                  )}
+                </div>
+                )
+              }
+             
             </div>
           </div>
 
