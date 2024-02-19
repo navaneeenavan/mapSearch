@@ -418,10 +418,10 @@
   {
     "wid":"WKSP0013",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop13",
-    "alteredFee": 550,
-    "actualFee": 650,
+    "alteredFee": 480,
+    "actualFee": 480,
     "assnName": "Artificial Intelligence and Robotics Club",
-    "workName": "Reality Technologies",
+    "workName": "Mixed Reality",
     "date": "25",
     "hall": "Y - 202",
     "time": "9:30 AM - 4:30 PM",
