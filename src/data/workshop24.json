@@ -417,9 +417,9 @@
   },
   {
     "wid":"WKSP0013",
-    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop13",
+    "image": "https://res.cloudinary.com/disd40wdk/image/upload/v1708326450/oeeisfu3i2kczlld9viz.jpg",
     "alteredFee": 480,
-    "actualFee": 480,
+    "actualFee": 680,
     "assnName": "Artificial Intelligence and Robotics Club",
     "workName": "Mixed Reality",
     "date": "25",
@@ -451,7 +451,7 @@
   },
   {
     "wid":"WKSP0014",
-    "image": "",
+    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop13",
     "assnName": "",
     "workName": "IT Career Forge",
     "date": "25",
