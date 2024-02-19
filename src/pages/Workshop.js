@@ -79,7 +79,7 @@ const Workshop = () => {
         setEarlyBird(0);
     }
     else {
-      setEarlyBird(1);
+      setEarlyBird(0);
     }
   }, [currentCount]);
 

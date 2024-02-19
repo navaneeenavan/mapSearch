@@ -385,8 +385,8 @@
   {
     "wid":"WKSP0012",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop12",
-    "alteredFee": 401,
-    "actualFee": 501,
+    "alteredFee": 409,
+    "actualFee": 509,
     "assnName": "Society of Manufacturing Engineers - Students' Chapter",
     "workName": "Transformational Manufacturing - 4.0",
     "date": "23",
@@ -397,19 +397,15 @@
     "c2Name": "Shanmugam S",
     "c2Num": "6383261299",
     "maxCount": "150",
-    "desc": "The Society of Manufacturing Engineers (SME) hosts a dynamic workshop on Transformational Manufacturing 4.0, featuring experts from leading industries such as Larsen & Toubro (L&T), BMW-Chennai, and Flipkart. This exclusive workshop is meticulously tailored for core engineering students, providing invaluable insights into cutting-edge topics, including Digital Lean Manufacturing from BMW, Digital Design from L&T, and Digital Operations Management from Flipkart.\n\n Attendees will have the unique opportunity to learn directly from industry leaders, gaining practical knowledge and a deeper understanding of the latest advancements in manufacturing technology. The workshop aims to elucidate the transformation of manufacturing and production areas into increasingly digital domains. Additionally, it strives to bridge the gap between academia and industry experts, fostering a collaborative environment that prepares students for the evolving landscape of digital manufacturing in the future era.\n\n Participants are encouraged to showcase their valuable ideas during the workshop. They are instructed to prepare their own insights on how the manufacturing field is transitioning from conventional to a digitalized area. This can be presented in the form of a flow chart or through compelling content related to the workshop. The ideas or content can be created in a poster format and printed on an A3 sheet, to be showcased in front of the industrial speakers.",
+    "desc": "The Society of Manufacturing Engineers (SME) hosts a dynamic workshop on Transformational Manufacturing 4.0, featuring experts from leading industries such as Larsen & Toubro (L&T) and Flipkart. This exclusive workshop is meticulously tailored for core engineering students, providing invaluable insights into cutting-edge topics, including  Digital Design from L&T, and Digital Operations Management from Flipkart.\n\n Attendees will have the unique opportunity to learn directly from industry leaders, gaining practical knowledge and a deeper understanding of the latest advancements in manufacturing technology. The workshop aims to elucidate the transformation of manufacturing and production areas into increasingly digital domains. Additionally, it strives to bridge the gap between academia and industry experts, fostering a collaborative environment that prepares students for the evolving landscape of digital manufacturing in the future era.\n\n Participants are encouraged to showcase their valuable ideas during the workshop. They are instructed to prepare their own insights on how the manufacturing field is transitioning from conventional to a digitalized area. This can be presented in the form of a flow chart or through compelling content related to the workshop. The ideas or content can be created in a poster format and printed on an A3 sheet, to be showcased in front of the industrial speakers.",
     "agenda": [
       [
       {
-        "time": "10.30 AM - 12.30 PM",
-        "description": ["Digital Lean Manufacturing. In this initiative, the BMW Chennai industry is set to explore how to implement Lean principles in the manufacturing area, transitioning from conventional methods to digital processes."]
-      },
-      {
-        "time": "1.30 PM - 2.45 PM",
+        "time": "10.30 PM - 12:30 PM",
         "description": ["Digital Design in Manufacturing. The industry expert from L&T is going to demonstrate how the design field in all manufacturing sectors is getting updated through digitalization, aiming to make the work smarter."]
       },
       {
-        "time": "3.20 PM - 4.30 PM",
+        "time": "1.30 PM - 3:00 PM",
         "description": ["Digital Operations Management. In this session, the speaker from Flipkart-Bangalore is going to explain operations management and how it can be transitioned into the digital realm. This may bridge the gap in problem-solving skills within digital operations management, thereby linking it to Production and Operations Management (POM)."]
       }
     ]
@@ -419,7 +415,7 @@
     "wid":"WKSP0013",
     "image": "https://res.cloudinary.com/disd40wdk/image/upload/v1708326450/oeeisfu3i2kczlld9viz.jpg",
     "alteredFee": 480,
-    "actualFee": 680,
+    "actualFee": 480,
     "assnName": "Artificial Intelligence and Robotics Club",
     "workName": "Mixed Reality",
     "date": "25",
