@@ -448,37 +448,6 @@
       }
     ]
   ]
-  },
-  {
-    "wid":"WKSP0014",
-    "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop13",
-    "assnName": "",
-    "workName": "IT Career Forge",
-    "date": "25",
-    "hall": "Y - 202",
-    "time": "9:30 AM - 4:30 PM",
-    "c1Name": "Aswin C",
-    "c1Num": "7200052823",
-    "c2Name": "Mahizha N S",
-    "c2Num": "9629666039",
-    "maxCount": "75",
-    "desc": "Launch Your Dream IT Career with guidance from Vites Technologies, a leading IT Training Institute in Tamil Nadu!",
-    "agenda": [
-      [
-      {
-        "time": "9.30 AM - 11.00 AM",
-        "description": ["Introduction to Reality technologies (Augmented Reality, Virtual Reality, Mixed Reality)"]
-      },
-      {
-        "time": "11.00 AM - 1.30 PM",
-        "description": ["Real-world usages of AR, VR technologies in various industries and Development Stages"]
-      },
-      {
-        "time": "1.30 PM - 3.45 PM",
-        "description": ["AR App development"]
-      }
-    ]
-  ]
   }
 ]
   
