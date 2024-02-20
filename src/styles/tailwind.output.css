@@ -1400,10 +1400,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-items: start;
 }
 
-.justify-items-stretch {
-  justify-items: stretch;
-}
-
 .gap-4 {
   gap: 1rem;
 }
