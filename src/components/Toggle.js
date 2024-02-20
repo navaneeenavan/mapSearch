@@ -21,7 +21,7 @@ const Toggle = ({
     <div className={`${className}`}>
       <p className="font-poppins text-[#181818] mb-2">{title}</p>
       <p className="font-poppins text-[#181818] text-sm mb-4">{subtext}</p>
-      <div className="grid grid-cols-2 gap-4 lg:flex lg:space-x-4 min-h-24 justify-items-stretch">
+      <div className="grid grid-cols-2 gap-4 lg:flex lg:space-x-4 min-h-24 justify-items-start">
         {options.map((item, idx) => (
           <ToggleItem
           key={idx}
