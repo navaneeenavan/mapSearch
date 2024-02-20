@@ -414,6 +414,7 @@ const Accomodation = () => {
                       Girls Accomodation
                     </h1>
                     <div className="flex flex-col lg:flex-row gap-6">
+                      <div className=" flex flex-col">
                       <Toggle
                         title="Room Type"
                         valueState={[
@@ -431,6 +432,7 @@ const Accomodation = () => {
                         className="w-full lg:w-2/3"
                       />
                       <h1>*Accommodation will be provided at PSG IMSR</h1>
+                      </div>
                       <div className="flex flex-col w-full lg:w-1/3 justify-center">
                         <Dropdown
                           title="From"
