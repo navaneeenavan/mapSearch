@@ -873,7 +873,7 @@ const Accomodation = () => {
 
                 <p className="mt-16 text-sm">
                   For accommodation related queries, contact:<br />
-                  <b className="font-semibold">KAILESH PRABHU - <a href="tel:9442699720">9442699720</a></b><br />
+                  <b className="font-semibold">MITHUN P- <a href="tel:6380348811">6380348811</a></b><br />
                   <b className="font-semibold">AKSHAYAA MAHESH - <a href="tel:9042301353">9042301353</a></b><br />
                 </p>
               </section>
