@@ -599,7 +599,7 @@ const Accomodation = () => {
                       <li>Pillow + Pillow cover</li>
                       <li>Bedsheet</li>
                     </ul>
-                    <h1 className={"mt-1 text-sm "+formData.gender==="Male"?"":"hidden"}>Cost for amenities: 150 per day</h1>
+                    <h1 className={"mt-1 text-sm "+formData.gender==="Male"?"relative":"hidden"}>Cost for amenities: 150 per day</h1>
                     {formData.gender==='Male'?(<Toggle
                       title="Amenities Required"
                       valueState={[
@@ -718,7 +718,7 @@ const Accomodation = () => {
               toDates.indexOf(formData.to) -
               fromDates.indexOf(formData.from) + 2
             ))===2?
-          125 *
+          150 *
           (formData.from === "22nd February Night" ?
             (
               toDates.indexOf(formData.to) -
@@ -737,7 +737,7 @@ const Accomodation = () => {
               toDates.indexOf(formData.to) -
               fromDates.indexOf(formData.from) + 2
             ))===3?
-          100 *
+          150 *
           (formData.from === "22nd February Night" ?
             (
               toDates.indexOf(formData.to) -
@@ -764,7 +764,7 @@ const Accomodation = () => {
                             fromDates.indexOf(formData.from) + 2
                           )
                         ) * roomCost[formData.roomType]) + (formData.amenities === "No"?0:
-                          (formData.amenities === "Yes" &&
+                          (formData.amenities === "Yes" && formData.gender==="Male"
                           (formData.from === "22nd February Night" ?
             (
               toDates.indexOf(formData.to) -
@@ -792,7 +792,7 @@ const Accomodation = () => {
               toDates.indexOf(formData.to) -
               fromDates.indexOf(formData.from) + 2
             ))===2?
-          125 *
+          150 *
           (formData.from === "22nd February Night" ?
             (
               toDates.indexOf(formData.to) -
@@ -811,7 +811,7 @@ const Accomodation = () => {
               toDates.indexOf(formData.to) -
               fromDates.indexOf(formData.from) + 2
             ))===3?
-          100 *
+          150 *
           (formData.from === "22nd February Night" ?
             (
               toDates.indexOf(formData.to) -
