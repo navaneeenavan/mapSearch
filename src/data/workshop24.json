@@ -2,7 +2,7 @@
   {
     "wid": "WKSP0011",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop11",
-    "alteredFee": 699,
+    "alteredFee": 849,
     "actualFee": 849,
     "assnName": "American Society of Mechanical Engineers",
     "workName": "Sensor Interface and Integration",
@@ -39,7 +39,7 @@
   {
     "wid": "WKSP0001",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop1",
-    "alteredFee": 299,
+    "alteredFee": 399,
     "actualFee": 399,
     "assnName": "IEEE EMBS Students Branch",
     "workName": "Immersive Reality - AR",
@@ -80,7 +80,7 @@
   {
     "wid": "WKSP0005",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop5",
-    "alteredFee": 500,
+    "alteredFee": 600,
     "actualFee": 600,
     "assnName": "Institute of Electrical & Electronics Engg. (IEEE) (Students Chapter)",
     "workName": "Spatial AI in Mobile Robotics",
@@ -119,7 +119,7 @@
   {
     "wid": "WKSP0002",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop2",
-    "alteredFee": 400,
+    "alteredFee": 500,
     "actualFee": 500,
     "assnName": "Biotechnology Association",
     "workName": "Digital Forensics",
@@ -160,7 +160,7 @@
   {
     "wid": "WKSP0009",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop9",
-    "alteredFee": 501,
+    "alteredFee": 601,
     "actualFee": 601,
     "assnName": "Information Technology Association",
     "workName": "Bitflow Fiesta",
@@ -189,7 +189,7 @@
   {
     "wid": "WKSP0007",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop7",
-    "alteredFee": 399,
+    "alteredFee": 499,
     "actualFee": 499,
     "assnName": "Indian Institution of Industrial Engineering (Students Chapter)",
     "workName": "IOT for Mechanical Applications",
@@ -227,7 +227,7 @@
   {
     "wid": "WKSP0004",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop4",
-    "alteredFee": 349,
+    "alteredFee": 449,
     "actualFee": 449,
     "assnName": "COMPUTER APPLICATIONS ASSOCIATION",
     "workName": "Data Analytics using R",
@@ -261,7 +261,7 @@
   {
     "wid": "WKSP0003",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop3",
-    "alteredFee": 250,
+    "alteredFee": 350,
     "actualFee": 350,
     "assnName": "Industrial(Alumni) Interaction Forum",
     "workName": "5G Wireless Technologies for various applications",
@@ -291,7 +291,7 @@
   {
     "wid": "WKSP0006",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop6",
-    "alteredFee": 499,
+    "alteredFee": 599,
     "actualFee": 599,
     "assnName": "Fashion Technology",
     "workName": "Fashion Communication",
@@ -320,7 +320,7 @@
   {
     "wid": "WKSP0008",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop8",
-    "alteredFee": 350,
+    "alteredFee": 450,
     "actualFee": 450,
     "assnName": "Astronomy Club",
     "workName": "Orionize",
@@ -355,7 +355,7 @@
   {
     "wid": "WKSP0010",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop10",
-    "alteredFee": 300,
+    "alteredFee": 400,
     "actualFee": 400,
     "assnName": "Metallurgical Engineering Association",
     "workName": "Thermo-Mechanical simulations for manufacturing processes",
@@ -385,7 +385,7 @@
   {
     "wid":"WKSP0012",
     "image": "https://res.cloudinary.com/dvxgjje9e/image/upload/f_auto,q_auto/Workshop12",
-    "alteredFee": 409,
+    "alteredFee": 509,
     "actualFee": 509,
     "assnName": "Society of Manufacturing Engineers - Students' Chapter",
     "workName": "Transformational Manufacturing - 4.0",
@@ -414,7 +414,7 @@
   {
     "wid":"WKSP0013",
     "image": "https://res.cloudinary.com/disd40wdk/image/upload/v1708326450/oeeisfu3i2kczlld9viz.jpg",
-    "alteredFee": 549,
+    "alteredFee": 649,
     "actualFee": 649,
     "assnName": "Artificial Intelligence and Robotics Club",
     "workName": "Mixed Reality",
@@ -447,3 +447,4 @@
   }
 ]
   
+

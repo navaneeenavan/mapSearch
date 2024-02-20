@@ -101,8 +101,13 @@ const OtherPayments = ({ switchPage }) => {
       email: localStorage.getItem("email"),
       name: userDetails.name,
       kriyaId: userDetails.kriyaId,
-      fee: currentCount > (workshopDetails.maxCount/100)*20   ? workshopDetails?.actualFee : workshopDetails?.alteredFee
+      fee: workshopDetails?.actualFee, 
     })
+
+   console.log(workshopDetails.actualFee+"actual fee")
+
+
+    
       .then((res) => {
         setTransaction(res.data);
         console.log(res.data);
