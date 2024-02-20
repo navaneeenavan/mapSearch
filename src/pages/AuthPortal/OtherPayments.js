@@ -101,16 +101,12 @@ const OtherPayments = ({ switchPage }) => {
       email: localStorage.getItem("email"),
       name: userDetails.name,
       kriyaId: userDetails.kriyaId,
-      fee: workshopDetails?.actualFee, 
-    })
-
-   console.log(workshopDetails.actualFee+"actual fee")
-
-
-    
+      fee: workshopDetails.actualFee, 
+    })    
       .then((res) => {
+
         setTransaction(res.data);
-        console.log(res.data);
+        console.log(res.data)
       })
       .catch((err) => console.log(err));
   };
