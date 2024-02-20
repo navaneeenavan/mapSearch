@@ -422,12 +422,15 @@ const Accomodation = () => {
                         ]}
                         // options={femaleCurrent >= femaleMax ? ["2 Sharing with common bathroom", "2 Sharing with attached bathroom"] : [
                         //   "Common Free Hall", "2 Sharing with common bathroom", "2 Sharing with attached bathroom",]}
-                          options={femaleCurrent >= femaleMax ? ["Two Sharing with common bathroom"] : [
-                           "Two Sharing with common bathroom",]}
-                        amount={femaleCurrent >= femaleMax ? ["₹ 150", "₹ 600"] : ["₹ 250"]}
+                        //   options={femaleCurrent >= femaleMax ? ["Two Sharing with common bathroom"] : [
+                        //    "Two Sharing with common bathroom",]}
+                        // amount={femaleCurrent >= femaleMax ? ["₹ 150", "₹ 600"] : ["₹ 250"]}
+                        options={["Two Sharing with common bathroom"]}
+                        amount={["₹ 250"]}
                         // amount={femaleCurrent >= femaleMax ? ["₹ 150", "₹ 600"] : ["Free", "₹ 250", "₹ 600"]}
                         className="w-full lg:w-2/3"
                       />
+                      <h1>*Accommodation will be provided at PSG IMSR</h1>
                       <div className="flex flex-col w-full lg:w-1/3 justify-center">
                         <Dropdown
                           title="From"
