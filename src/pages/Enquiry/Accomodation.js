@@ -414,7 +414,7 @@ const Accomodation = () => {
                       Girls Accomodation
                     </h1>
                     <div className="flex flex-col lg:flex-row gap-6">
-                      <div className=" flex flex-col">
+                      <div className="flex flex-col lg:w-2/3">
                       <Toggle
                         title="Room Type"
                         valueState={[
