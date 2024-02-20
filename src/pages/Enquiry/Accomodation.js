@@ -763,8 +763,8 @@ const Accomodation = () => {
                             toDates.indexOf(formData.to) -
                             fromDates.indexOf(formData.from) + 2
                           )
-                        ) * roomCost[formData.roomType]) + (formData.amenities === "No"?0:
-                          (formData.amenities === "Yes" && formData.gender==="Male"
+                        ) * roomCost[formData.roomType]) + (formData.amenities === "No"?0:formData.gender==="Male"?0:
+                          (formData.amenities === "Yes" &&
                           (formData.from === "22nd February Night" ?
             (
               toDates.indexOf(formData.to) -
