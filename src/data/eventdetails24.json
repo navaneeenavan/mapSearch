@@ -1,6 +1,6 @@
 [
   {
-    "eventName": "Aquajet",
+    "evenName": "Aquajet",
     "category": "Gold",
     "one_line_desc": "Crafting Soars, Creativity Roars!",
     "description": "Take on the exhilarating Aqua Jet challenge, where competitors effortlessly combine a fundamental understanding of aerodynamics with their innovations and manufacturing talents. The goal is to build a high-performance rocket out of plastic bottles that will shoot water up a stunning vertical ascension using pressurized air. Boost your participation by combining creativity with basic aerodynamics concepts in this thrilling tournament.",
@@ -815,7 +815,7 @@
     "contact_name_2": "Rithisri R",
     "roll_2": "22E913",
     "contact_mobile_2": 9384563020,
-    "hall": "G BLOCK (408,409)",
+    "hall": "S1 - G BLOCK (408,409) S2 - E BLOCK, GROUND FLOOR",
     "eventRules": "ROUND1:\n->Use of the internet is not allowed.\n->Participants should follow the given time for completing the round.\nROUND2:\n->Use of the internet is not allowed.\n->Participants should follow the given time for completing the round.\nROUND3:\n->Participants can have laptops with them.\n->Participants should complete preparation and presentation within the given time.",
     "teamSize": 2,
     "date": "23",
