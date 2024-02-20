@@ -599,7 +599,7 @@ const Accomodation = () => {
                       <li>Pillow + Pillow cover</li>
                       <li>Bedsheet</li>
                     </ul>
-                    <h1 className="mt-1 text-sm">Cost for amenities: 150 per day</h1>
+                    <h1 className={"mt-1 text-sm "+formData.gender==="Male"?"":"hidden"}>Cost for amenities: 150 per day</h1>
                     {formData.gender==='Male'?(<Toggle
                       title="Amenities Required"
                       valueState={[
