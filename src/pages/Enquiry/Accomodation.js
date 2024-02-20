@@ -167,7 +167,7 @@ const Accomodation = () => {
         toDates.indexOf(formData.to) -
         fromDates.indexOf(formData.from) + 2
         ))===2?
-        125 *
+        150 *
         (formData.from === "22nd February Night" ?
         (
         toDates.indexOf(formData.to) -
@@ -186,7 +186,7 @@ const Accomodation = () => {
         toDates.indexOf(formData.to) -
         fromDates.indexOf(formData.from) + 2
         ))===3?
-        100 *
+        150 *
         (formData.from === "22nd February Night" ?
         (
         toDates.indexOf(formData.to) -
@@ -599,12 +599,7 @@ const Accomodation = () => {
                       <li>Pillow + Pillow cover</li>
                       <li>Bedsheet</li>
                     </ul>
-                    <h1 className="mt-1 text-sm">Cost for amenities</h1>
-                    <ul className="mt-1 text-sm list-disc pl-4">
-                        <li>1 Day - 150</li>
-                        <li>2 Days - 250</li>
-                        <li>3 Days - 300</li>
-                      </ul>
+                    <h1 className="mt-1 text-sm">Cost for amenities: 150 per day</h1>
                     {formData.gender==='Male'?(<Toggle
                       title="Amenities Required"
                       valueState={[
