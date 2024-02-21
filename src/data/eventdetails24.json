@@ -209,7 +209,8 @@
     "eventRules": "Round 1: \n->Using internet for answers is strictly prohibited.\n->Participants must complete their test within 15 minutes.\n->Participants need to wait until the results are released.\n->Participants need to have their phones within them to access the G-forms.\nRound 2: \n->Using internet for answers is strictly prohibited.\n->Participants must complete their test within 30 minutes.\n->Not allowed to use any compiler to debug the given code.\n->Time taken by the participant also plays a role during evaluation.",
     "teamSize": 1,
     "date": "24",
-    "timing": "9:30 AM - 12:30 PM"
+    "timing": "9:30 AM - 12:30 PM",
+    "closed":true
   },
   {
     "eventName": "Critical Thinker",
