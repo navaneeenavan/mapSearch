@@ -555,9 +555,9 @@ const Accomodation = () => {
                   </div>
 
                   <div className="w-full lg:w-1/2">
-                    <h1 className="mt-1 text-lg font-semibold">Amenities</h1>
                     {formData.gender==='Male'?(<></>):
                     (<div>
+                      <h1 className="mt-1 text-lg font-semibold">Amenities</h1>
                       <h1 className="mt-1 text-sm">
                     Enjoy inclusive amenities during your stay.
                     </h1>
