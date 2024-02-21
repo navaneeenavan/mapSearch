@@ -104,7 +104,6 @@ const OtherPayments = ({ switchPage }) => {
       fee: workshopDetails.actualFee, 
     })    
       .then((res) => {
-
         setTransaction(res.data);
         console.log(res.data)
       })
