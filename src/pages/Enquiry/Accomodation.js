@@ -471,7 +471,7 @@ const Accomodation = () => {
                 )}
 
                 <div className="flex flex-col lg:flex-row w-full mt-16 space-y-8 lg:space-y-0">
-                  {/* <div className={"w-full lg:w-1/2 "+(formData.gender==="Male"?"inline":"hidden")}>
+                  <div className={"w-full lg:w-1/2 "+(formData.gender==="Male"?"inline":"hidden")}>
                     <h1 className="mt-1 text-lg font-semibold">Meals</h1>
                     <h1 className="mt-1 text-sm">
                       Amount - <b className="font-semibold">Rs.50</b> per meal
@@ -583,7 +583,7 @@ const Accomodation = () => {
                       <div className="w-1/3 flex justify-center">
                       </div>
                     </div>
-                  </div> */}
+                  </div>
 
                   <div className="w-full lg:w-1/2">
                     <h1 className="mt-1 text-lg font-semibold">Amenities</h1>
@@ -648,7 +648,7 @@ const Accomodation = () => {
                           roomCost[formData.roomType]}
                       </p>
                     </div>
-                    {/* {formData.gender==='Male'?(
+                    {formData.gender==='Male'?(
                       <div className="flex flex-row w-full items-center">
                       <p className="w-1/2">
                         Meals x{" "}
@@ -670,7 +670,7 @@ const Accomodation = () => {
                             formData.dinner3)}
                       </p>
                     </div>
-                    ):<></>} */}
+                    ):<></>}
                     {formData.gender==='Male'?(
                       <div className="flex flex-row w-full items-center">
                       <div className="w-1/2">
