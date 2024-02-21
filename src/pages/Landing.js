@@ -22,7 +22,8 @@ import { IoMdClose } from "react-icons/io";
 import Section3v4 from "./sections/Section3v4";
 import Section1v2 from "./sections/Section1v2";
 import Section13 from "./sections/Section13";
-
+import MapSearch from "../Map/components/MapSearch";
+import MapApp from "../Map/MapApp";  
 const Landing = () => {
   const [consolee, setConsolee] = useState(0);
   const [searchParams, setSearchParams] = useSearchParams();
@@ -141,6 +142,11 @@ const Landing = () => {
         <Section6 scrollYByVH={consolee} />
         <Section7 scrollYByVH={consolee} />
         <Section8 />
+        <div className="z-100">
+
+                    <MapApp/>
+        </div>
+        
         <Section9 />
       </main>
       </div>
