@@ -33,10 +33,8 @@ const Accomodation = () => {
     lunch1:false,
     lunch2:false,
     lunch3:false,
-    lunch4:false,
     dinner1: false,
     dinner2: false,
-    dinner3: false,
     amenities: "No",
     days: 0,
     amount: 0,
@@ -140,13 +138,11 @@ const Accomodation = () => {
         (formData.breakfast1 +
           formData.breakfast2 +
           formData.breakfast3 +
-          formData.lunch1 +
+          formData.lunch1+
           formData.lunch2+
           formData.lunch3+
-          formData.lunch4+
           formData.dinner1 +
-          formData.dinner2 +
-          formData.dinner3) +
+          formData.dinner2) +
         (formData.amenities === "No"?0:
         (formData.from === "22nd February Night" ?
         (
@@ -493,39 +489,6 @@ const Accomodation = () => {
                       <p className="w-1/3 flex justify-center">Dinner</p>
                     </div>
                     <div className="flex flex-row mt-4 w-full items-center">
-                      <p className="w-1/3">22nd February</p>
-                      <div className="w-1/3 flex justify-center">
-                      </div>
-                      <div className="w-1/3 flex justify-center">
-                        <button
-                          className={`${formData.lunch1 && "bg-[#3b82f6]"
-                            } border-2 border-[#3b82f6] text-white rounded-lg font-poppins flex items-center`}
-                          onClick={() => {
-                            setFormData({
-                              ...formData,
-                              lunch1: !formData.lunch1,
-                            });
-                          }}
-                        >
-                          <FiCheck className="w-8 h-8" />
-                        </button>
-                      </div>
-                      <div className="w-1/3 flex justify-center">
-                        <button
-                          className={`${formData.dinner1 && "bg-[#3b82f6]"
-                            } border-2 border-[#3b82f6] text-white rounded-lg font-poppins flex items-center`}
-                          onClick={() => {
-                            setFormData({
-                              ...formData,
-                              dinner1: !formData.dinner1,
-                            });
-                          }}
-                        >
-                          <FiCheck className="w-8 h-8" />
-                        </button>
-                      </div>
-                    </div>
-                    <div className="flex flex-row mt-4 w-full items-center">
                       <p className="w-1/3">23rd February</p>
                       <div className="w-1/3 flex justify-center">
                         <button
@@ -544,12 +507,12 @@ const Accomodation = () => {
                       </div>
                       <div className="w-1/3 flex justify-center">
                         <button
-                          className={`${formData.lunch2 && "bg-[#3b82f6]"
+                          className={`${formData.lunch1 && "bg-[#3b82f6]"
                             } border-2 border-[#3b82f6] text-white rounded-lg font-poppins flex items-center`}
                           onClick={() => {
                             setFormData({
                               ...formData,
-                              lunch2: !formData.lunch2,
+                              lunch1: !formData.lunch1,
                             });
                           }}
                         >
@@ -559,12 +522,12 @@ const Accomodation = () => {
                       </div>
                       <div className="w-1/3 flex justify-center">
                         <button
-                          className={`${formData.dinner2 && "bg-[#3b82f6]"
+                          className={`${formData.dinner1 && "bg-[#3b82f6]"
                             } border-2 border-[#3b82f6] text-white rounded-lg font-poppins flex items-center`}
                           onClick={() => {
                             setFormData({
                               ...formData,
-                              dinner2: !formData.dinner2,
+                              dinner1: !formData.dinner1,
                             });
                           }}
                         >
@@ -590,12 +553,12 @@ const Accomodation = () => {
                       </div>
                       <div className="w-1/3 flex justify-center">
                         <button
-                          className={`${formData.lunch3 && "bg-[#3b82f6]"
+                          className={`${formData.lunch2 && "bg-[#3b82f6]"
                             } border-2 border-[#3b82f6] text-white rounded-lg font-poppins flex items-center`}
                           onClick={() => {
                             setFormData({
                               ...formData,
-                              lunch3: !formData.lunch3,
+                              lunch2: !formData.lunch2,
                             });
                           }}
                         >
@@ -604,12 +567,12 @@ const Accomodation = () => {
                       </div>
                       <div className="w-1/3 flex justify-center">
                         <button
-                          className={`${formData.dinner3 && "bg-[#3b82f6]"
+                          className={`${formData.dinner2 && "bg-[#3b82f6]"
                             } border-2 border-[#3b82f6] text-white rounded-lg font-poppins flex items-center`}
                           onClick={() => {
                             setFormData({
                               ...formData,
-                              dinner3: !formData.dinner3,
+                              dinner2: !formData.dinner2,
                             });
                           }}
                         >
@@ -635,12 +598,12 @@ const Accomodation = () => {
                       </div>
                       <div className="w-1/3 flex justify-center">
                         <button
-                          className={`${formData.lunch4 && "bg-[#3b82f6]"
+                          className={`${formData.lunch3 && "bg-[#3b82f6]"
                             } border-2 border-[#3b82f6] text-white rounded-lg font-poppins flex items-center`}
                           onClick={() => {
                             setFormData({
                               ...formData,
-                              lunch4: !formData.lunch4,
+                              lunch3: !formData.lunch3,
                             });
                           }}
                         >
@@ -722,13 +685,11 @@ const Accomodation = () => {
                         {formData.breakfast1 +
                           formData.breakfast2 +
                           formData.breakfast3 +
-                          formData.lunch1 +
+                          formData.lunch1+
                           formData.lunch2+
                           formData.lunch3+
-                          formData.lunch4+
                           formData.dinner1 +
-                          formData.dinner2 +
-                          formData.dinner3}
+                          formData.dinner2}
                       </p>
                       <p className="text-lg font-semibold w-1/2 flex justify-end">
                         ₹{" "}
@@ -736,13 +697,11 @@ const Accomodation = () => {
                           (formData.breakfast1 +
                           formData.breakfast2 +
                           formData.breakfast3 +
-                          formData.lunch1 +
+                          formData.lunch1+
                           formData.lunch2+
                           formData.lunch3+
-                          formData.lunch4+
                           formData.dinner1 +
-                          formData.dinner2 +
-                          formData.dinner3)}
+                          formData.dinner2)}
                       </p>
                     </div>
                     ):<></>}
@@ -900,13 +859,11 @@ const Accomodation = () => {
                           (formData.breakfast1 +
                           formData.breakfast2 +
                           formData.breakfast3 +
-                          formData.lunch1 +
+                          formData.lunch1+
                           formData.lunch2+
                           formData.lunch3+
-                          formData.lunch4+
                           formData.dinner1 +
-                          formData.dinner2 +
-                          formData.dinner3):0)} 
+                          formData.dinner2):0)} 
                       </p>
                     </div>
                   </div>
