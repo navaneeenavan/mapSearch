@@ -22,7 +22,7 @@
     "teamSize": "2-3",
     "date": "24",
     "timing": "9.30 AM - 4.30 PM",
-    "closed": false
+    "closed": true
   },
   {
     "eventName": "Asimo Bot ",
