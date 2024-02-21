@@ -122,8 +122,8 @@ const AccRegistered = () => {
               </div>
               <p className="mt-16 text-sm">
                 For accommodation related queries, contact:<br />
-                <b className="font-semibold">KAILESH PRABHU R  - <a href="tel:94426 99720">94426 99720</a></b><br />
-                <b className="font-semibold">AKSHAYAA MAHESH - <a href="tel:90423 01353">90423 01353</a></b><br />
+                <b className="font-semibold">MITHUN  - <a href="tel:63803 48811">63803 48811</a></b><br />
+                <b className="font-semibold">LISALINI - <a href="tel:87544 16195">87544 16195</a></b><br />
               </p>
             </div>
           ) : (
