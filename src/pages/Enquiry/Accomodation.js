@@ -35,7 +35,6 @@ const Accomodation = () => {
     lunch3:false,
     dinner1: false,
     dinner2: false,
-    amenities: "No",
     days: 0,
     amount: 0,
   });
@@ -142,67 +141,7 @@ const Accomodation = () => {
           formData.lunch2+
           formData.lunch3+
           formData.dinner1 +
-          formData.dinner2) +
-        (formData.amenities === "No"?0:
-        (formData.from === "22nd February Night" ?
-        (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 1
-        ) : (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 2
-        ))===1?
-        150 *
-        (formData.from === "22nd February Night" ?
-        (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 1
-        ) : (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 2
-        )
-        )
-        :
-        (formData.from === "22nd February Night" ?
-        (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 1
-        ) : (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 2
-        ))===2?
-        150 *
-        (formData.from === "22nd February Night" ?
-        (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 1
-        ) : (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 2
-        )
-        )
-        :
-        (formData.from === "22nd February Night" ?
-        (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 1
-        ) : (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 2
-        ))===3?
-        150 *
-        (formData.from === "22nd February Night" ?
-        (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 1
-        ) : (
-        toDates.indexOf(formData.to) -
-        fromDates.indexOf(formData.from) + 2
-        )
-        )
-        :150
-          
-          )
+          formData.dinner2) 
     };
 
     toast.promise(fetchAccomodationRegister(newFormData), {
@@ -617,28 +556,22 @@ const Accomodation = () => {
 
                   <div className="w-full lg:w-1/2">
                     <h1 className="mt-1 text-lg font-semibold">Amenities</h1>
-                    {formData.gender==='Male'?(<h1 className="mt-1 text-sm">
-                      Amenities which includes all
-                    </h1>):
-                    (<h1 className="mt-1 text-sm">
+                    {formData.gender==='Male'?(<></>):
+                    (<div>
+                      <h1 className="mt-1 text-sm">
                     Enjoy inclusive amenities during your stay.
-                    </h1>)
-                    }
+                    </h1>
                     <ul className="mt-1 text-sm list-disc pl-4">
                       <li>Bed + Bed cover</li>
                       <li>Pillow + Pillow cover</li>
                       <li>Bedsheet</li>
                     </ul>
-                    <h1 className={"mt-1 text-sm "+formData.gender==="Male"?"relative":"hidden"}>Cost for amenities: 150 per day</h1>
-                    {formData.gender==='Male'?(<Toggle
-                      title="Amenities Required"
-                      valueState={[
-                        formData.amenities,
-                        (val) => setFormData({ ...formData, amenities: val }),
-                      ]}
-                      options={["Yes", "No"]}
-                      className="w-full mt-4"
-                    />):(<></>)}
+                    </div>
+                    )
+                    }
+                    
+                    
+                   
                   </div>
                 </div>
 
@@ -705,86 +638,7 @@ const Accomodation = () => {
                       </p>
                     </div>
                     ):<></>}
-                    {formData.gender==='Male'?(
-                      <div className="flex flex-row w-full items-center">
-                      <div className="w-1/2">
-                        <p className="">Amenities</p>
-                        <p className="text-sm">
-                          {(formData.from === "22nd February Night" ?
-                            (
-                              toDates.indexOf(formData.to) -
-                              fromDates.indexOf(formData.from) + 1
-                            ) : (
-                              toDates.indexOf(formData.to) -
-                              fromDates.indexOf(formData.from) + 2
-                            )
-                          )}{" "}
-                          Days
-                        </p>
-                      </div>
-                      <p className="text-lg font-semibold w-1/2 flex justify-end">
-                        ₹{" "}
-                        {formData.amenities === "No"?0:
-                          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            ))===1?
-          150 *
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            )
-          )
-          :
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            ))===2?
-          150 *
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            )
-          )
-          :
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            ))===3?
-          150 *
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            )
-          )
-          :150}
-                      </p>
-                    </div>
-                    ):<></>}
+                    
                     <div className="flex flex-row w-full items-center border-t border-black pt-2">
                       <p className="w-1/2 text-lg">Total</p>
                       <p className="text-xl font-semibold w-1/2 flex justify-end">
@@ -797,65 +651,7 @@ const Accomodation = () => {
                             toDates.indexOf(formData.to) -
                             fromDates.indexOf(formData.from) + 2
                           )
-                        ) * roomCost[formData.roomType]) + (formData.amenities === "No"?0:formData.gender==="Female"?0:
-                          (formData.amenities === "Yes" &&
-                          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            ))===1?
-          150 *
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            )
-          )
-          :
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            ))===2?
-          150 *
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            )
-          )
-          :
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            ))===3?
-          150 *
-          (formData.from === "22nd February Night" ?
-            (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 1
-            ) : (
-              toDates.indexOf(formData.to) -
-              fromDates.indexOf(formData.from) + 2
-            )
-          )
-          :150))+ (formData.gender=='Male'?50 *
+                        ) * roomCost[formData.roomType]) + (formData.gender=='Male'?50 *
                           (formData.breakfast1 +
                           formData.breakfast2 +
                           formData.breakfast3 +
